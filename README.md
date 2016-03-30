@@ -1,7 +1,7 @@
 # PublicSDK
 Public Android and iOS SDK's for the goTenna
 
-First read “goTennaSDKIntro.pdf”
+First read [goTennaSDKIntro.pdf](goTennaSDKIntro.pdf)
 
 Contents
 - Android-Public-SDK - SDK for Android
