@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="button_margin">4dp</dimen>
+    <dimen name="text_view_margin">4dp</dimen>
+    <dimen name="switch_padding">8dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+
+    <!-- Chat Cell Dimens -->
+    <dimen name="cell_bubble_padding">12dp</dimen>
+    <dimen name="cell_min_height">42dp</dimen>
+    <dimen name="cell_chat_text_size">17sp</dimen>
+    <dimen name="cell_info_text_size">11sp</dimen>
+    <dimen name="cell_bottom_padding">12dp</dimen>
+</resources>

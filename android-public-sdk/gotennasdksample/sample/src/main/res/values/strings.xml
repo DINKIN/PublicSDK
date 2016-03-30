@@ -1,0 +1,90 @@
+<resources>
+    <!-- General Strings -->
+    <string name="app_name">GoTennaSDKSample</string>
+    <string name="error_occurred">An Error Occurred</string>
+    <string name="error_occurred_param">An Error Occurred: %1$s</string>
+    <string name="invalid_input">Invalid Input!</string>
+    <string name="gotenna_disconnected">goTenna is Disconnected!</string>
+    <string name="none">NONE</string>
+    <string name="must_choose_user_toast_text">You need to select a user first!</string>
+    <string name="error_sending_message">There was an error sending your message. Please try again!</string>
+    <string name="placeholder_text">Placeholder Text</string>
+    <string name="chat_cell_info">%1$s on %2$s</string>
+    <string name="invited_to_group_toast_text">You were invited to a group with the GID %1$d</string>
+    <string name="echo_success_toast">Echo Success</string>
+    <string name="echo_nack_toast">Echo NACK</string>
+    <string name="echo_error_toast">Echo ERROR</string>
+    <string name="firmware_is_already_updated_toast_text">Firmware is already up to date!</string>
+
+    <!-- Pairing Activity Strings -->
+    <string name="remember_gotenna_switch_text">Remember goTenna:</string>
+    <string name="search_button_text">Start scanning for a goTenna</string>
+    <string name="searching_for_gotenna">Scanning for goTenna&#8230;</string>
+    <string name="toast_could_not_find_gotenna">Could not find goTenna!</string>
+    <string name="toast_stopped_scanning">Stopped scanning!</string>
+    <string name="title_activity_permissions">PermissionsActivity</string>
+    <string name="no_bluetooth_support_message">Your Device does not support Bluetooth. This application will not work with your device!</string>
+    <string name="disabled_bluetooth_message">This app has limited functionality with Bluetooth disabled. Please enable Bluetooth!</string>
+    <string name="enabled_bluetooth_message">Bluetooth was successfully enabled!</string>
+
+    <!-- SDK Options Activity Strings -->
+    <string name="send_echo_button_text">Send Echo</string>
+    <string name="send_get_system_info_text">Send Get System Info</string>
+    <string name="set_gid_button_text">Set GID</string>
+    <string name="send_private_message_button_text">Send Private message</string>
+    <string name="send_broadcast_message_button_text">Send Broadcast message</string>
+    <string name="create_group_button_text">Create Group</string>
+    <string name="send_group_message_button_text">Send Group Message</string>
+    <string name="disconnect_button_text">Disconnect</string>
+    <string name="update_firmware_button_text">Update Firmware</string>
+
+    <!-- Set GID Activity -->
+    <string name="current_username_text">Username: %1$s</string>
+    <string name="current_gid_text">GID: %1$s</string>
+    <string name="change_user_button_text">Change User</string>
+    <string name="select_user_dialog_title">Select a User</string>
+    <string name="set_gid_success_toast_text">Set GID Successfully!</string>
+
+    <!-- Private Message GID Activity -->
+    <string name="receiver_text">Receiver: %1$s</string>
+    <string name="choose_receiver_button_text">Choose Receiver</string>
+    <string name="send_button_text">Send</string>
+    <string name="invalid_receiver_toast_text">Invalid Receiver!</string>
+
+    <!-- Create Group Activity -->
+    <string name="no_group_detected_text">No Group Detected</string>
+    <string name="group_detected_text">Group Detected</string>
+    <string name="select_group_button_text">Select Group</string>
+    <string name="your_group_gid">Your Group GID: %1$d</string>
+    <string name="group_invite_state_sending">Sending Invite&#8230;</string>
+    <string name="group_invite_state_received">Received Invite</string>
+    <string name="group_invite_state_not_received">Did Not Receive Invite</string>
+    <string name="resend_invite_button_text">Resend Invite</string>
+    <string name="select_group_dialog_title">Select a Group</string>
+
+    <!-- Send Group Message Activity -->
+    <string name="selected_group_text">Selected Group GID: %1$d</string>
+    <string name="invalid_group_toast_text">Please Select a Group!</string>
+    <string name="no_groups_toast_text">You don\'t have any groups, try creating one!</string>
+
+    <!-- Firmware Update Dialog -->
+    <string name="firmware_update_dialog_title">UPDATE FIRMWARE</string>
+    <string name="firmware_update_dialog_message">Update your goTenna\'s Firmware from %1$s to %2$s? This may take anywhere from 10&#8211;15 minutes to complete.</string>
+    <string name="firmware_update_dialog_begin_update">BEGIN UPDATE</string>
+    <string name="firmware_update_dialog_no">No</string>
+
+    <!-- Firmware Update Progress Dialog -->
+    <string name="firmware_update_progress_dialog_title">Firmware Update</string>
+    <string name="firmware_update_progress_dialog_initializing">Initializing Firmware Update&#8230;</string>
+    <string name="firmware_update_progress_dialog_writing">Updating Firmware&#8230;</string>
+    <string name="firmware_update_progress_dialog_finalizing">Finalizing Firmware Update&#8230;</string>
+    <string name="firmware_update_progress_dialog_waiting">Waiting for goTenna Reboot&#8230;</string>
+
+    <!-- Firmware Update Completed Dialog -->
+    <string name="firmware_update_completed_failure_title">Firmware Update Failed</string>
+    <string name="firmware_update_completed_failure_message">The firmware update failed. Please try again later!</string>
+    <string name="firmware_update_completed_success_title">Firmware Update Succeeded</string>
+    <string name="firmware_update_completed_success_message">The firmware update was successful. Enjoy your new firmware!</string>
+    <string name="firmware_update_completed_ok_button_text">OK</string>
+
+</resources>

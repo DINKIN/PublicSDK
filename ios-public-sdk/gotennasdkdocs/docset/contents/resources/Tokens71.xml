@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTSDKTokenVerifier.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTSDKTokenVerifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.h</DeclaredIn>
+            
+			
+			<NodeRef refid="71"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKTokenVerifier/initWithToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithToken:(NSString *)token</Declaration>
+			
+			
+			<Anchor>//api/name/initWithToken:</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKTokenVerifier/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKTokenVerifier/startTokenVerification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.h</DeclaredIn>
+			
+			<Declaration>- (void)startTokenVerification</Declaration>
+			
+			
+			<Anchor>//api/name/startTokenVerification</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKTokenVerifier/isVerified</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isVerified</Declaration>
+			
+			
+			<Anchor>//api/name/isVerified</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKTokenVerifier/setIsVerified:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.m</DeclaredIn>
+			
+			<Declaration>- (void)setIsVerified:(BOOL)isVerified</Declaration>
+			
+			
+			<Anchor>//api/name/setIsVerified:</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKTokenVerifier/postVerification</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.m</DeclaredIn>
+			
+			<Declaration>- (void)postVerification</Declaration>
+			
+			
+			<Anchor>//api/name/postVerification</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKTokenVerifier/setToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKTokenVerifier/token</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSDKTokenVerifier/token</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *token</Declaration>
+			
+			
+			<Anchor>//api/name/token</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKTokenVerifier/setTimer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *timer</Declaration>
+			
+			
+			<Anchor>//api/name/timer</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKTokenVerifier/timer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *timer</Declaration>
+			
+			
+			<Anchor>//api/name/timer</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSDKTokenVerifier/timer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKTokenVerifier.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *timer</Declaration>
+			
+			
+			<Anchor>//api/name/timer</Anchor>
+            <NodeRef refid="71"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

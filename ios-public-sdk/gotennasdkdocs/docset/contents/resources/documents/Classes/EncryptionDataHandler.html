@@ -1,0 +1,444 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>EncryptionDataHandler Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GoTennaSDK </a></h1>
+				<a id="developerHome" href="../index.html">Your Name</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">EncryptionDataHandler Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:">&nbsp;&nbsp;&nbsp;&nbsp;+ createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:</option>
+	
+	<option value="//api/name/createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:">&nbsp;&nbsp;&nbsp;&nbsp;+ createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:</option>
+	
+	<option value="//api/name/createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:">&nbsp;&nbsp;&nbsp;&nbsp;+ createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:</option>
+	
+	<option value="//api/name/createOutgoingDataWithCRCUsingOutgoingData:">&nbsp;&nbsp;&nbsp;&nbsp;+ createOutgoingDataWithCRCUsingOutgoingData:</option>
+	
+	<option value="//api/name/createPlainMessagePayloadWithOutgoingData:">&nbsp;&nbsp;&nbsp;&nbsp;+ createPlainMessagePayloadWithOutgoingData:</option>
+	
+	<option value="//api/name/decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:">&nbsp;&nbsp;&nbsp;&nbsp;+ decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:</option>
+	
+	<option value="//api/name/decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:">&nbsp;&nbsp;&nbsp;&nbsp;+ decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:</option>
+	
+	<option value="//api/name/getGroupPublicKeyFromGroupGID:andSharedSecret:">&nbsp;&nbsp;&nbsp;&nbsp;+ getGroupPublicKeyFromGroupGID:andSharedSecret:</option>
+	
+	<option value="//api/name/parseEncryptionInfoHeaderWithMessagePayloadTLV:">&nbsp;&nbsp;&nbsp;&nbsp;+ parseEncryptionInfoHeaderWithMessagePayloadTLV:</option>
+	
+	
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:">createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:">createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:">createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createOutgoingDataWithCRCUsingOutgoingData:">createOutgoingDataWithCRCUsingOutgoingData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createPlainMessagePayloadWithOutgoingData:">createPlainMessagePayloadWithOutgoingData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:">decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:">decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getGroupPublicKeyFromGroupGID:andSharedSecret:">getGroupPublicKeyFromGroupGID:andSharedSecret:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/parseEncryptionInfoHeaderWithMessagePayloadTLV:">parseEncryptionInfoHeaderWithMessagePayloadTLV:</a></span></li>
+	
+</ul></li>
+
+
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="EncryptionDataHandler Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">EncryptionDataHandler Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">EncryptionDataHandler.h<br />EncryptionDataHandler.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:">+&nbsp;createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:">+&nbsp;createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createPlainMessagePayloadWithOutgoingData:">+&nbsp;createPlainMessagePayloadWithOutgoingData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/parseEncryptionInfoHeaderWithMessagePayloadTLV:">+&nbsp;parseEncryptionInfoHeaderWithMessagePayloadTLV:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:">+&nbsp;decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:">+&nbsp;createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createOutgoingDataWithCRCUsingOutgoingData:">+&nbsp;createOutgoingDataWithCRCUsingOutgoingData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:">+&nbsp;decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getGroupPublicKeyFromGroupGID:andSharedSecret:">+&nbsp;getGroupPublicKeyFromGroupGID:andSharedSecret:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:" title="createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:"></a>
+	<h3 class="subsubtitle method-title">createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)createGroupEncryptedMessagePayloadWithGroupGID:(NSNumber *)<em>groupGID</em> andSharedSecret:(NSData *)<em>sharedSecret</em> andOutgoingData:(NSData *)<em>outgoingData</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:" title="createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:"></a>
+	<h3 class="subsubtitle method-title">createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)createMessagePayloadWithEncryption:(BOOL)<em>isEncrypted</em> sharedSecret:(NSData *)<em>sharedSecret</em> myPublicKey:(NSData *)<em>myPublicKey</em> senderGid:(NSNumber *)<em>senderGID</em> outgoingData:(NSData *)<em>outgoingData</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:" title="createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:"></a>
+	<h3 class="subsubtitle method-title">createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)createOneToOneEncryptedMessagePayloadWithRemotePublicKey:(NSData *)<em>remotePublicKey</em> outgoingData:(NSData *)<em>outgoingData</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createOutgoingDataWithCRCUsingOutgoingData:" title="createOutgoingDataWithCRCUsingOutgoingData:"></a>
+	<h3 class="subsubtitle method-title">createOutgoingDataWithCRCUsingOutgoingData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)createOutgoingDataWithCRCUsingOutgoingData:(NSData *)<em>outgoingData</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createPlainMessagePayloadWithOutgoingData:" title="createPlainMessagePayloadWithOutgoingData:"></a>
+	<h3 class="subsubtitle method-title">createPlainMessagePayloadWithOutgoingData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)createPlainMessagePayloadWithOutgoingData:(NSData *)<em>outgoingData</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:" title="decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:"></a>
+	<h3 class="subsubtitle method-title">decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)decryptMessagePayloadDataWithMessagePayloadData:(NSData *)<em>messagePayloadData</em> senderGID:(NSNumber *)<em>senderGID</em> encryptionCounter:(int)<em>encryptionCounter</em> groupGID:(NSNumber *)<em>groupGID</em> isGroupMessage:(BOOL)<em>isGroupMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:" title="decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:"></a>
+	<h3 class="subsubtitle method-title">decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (DecryptedPayloadData *)decryptMessagePayloadWith:(EncryptionInfoHeader *)<em>encryptionInfoHeader</em> andMessagePayloadTLV:(TLVSection *)<em>messagePayloadTLV</em> andGroupGID:(NSNumber *)<em>groupGID</em> isGroupMessage:(BOOL)<em>isGroupMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getGroupPublicKeyFromGroupGID:andSharedSecret:" title="getGroupPublicKeyFromGroupGID:andSharedSecret:"></a>
+	<h3 class="subsubtitle method-title">getGroupPublicKeyFromGroupGID:andSharedSecret:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)getGroupPublicKeyFromGroupGID:(NSNumber *)<em>groupGID</em> andSharedSecret:(NSData *)<em>sharedSecret</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/parseEncryptionInfoHeaderWithMessagePayloadTLV:" title="parseEncryptionInfoHeaderWithMessagePayloadTLV:"></a>
+	<h3 class="subsubtitle method-title">parseEncryptionInfoHeaderWithMessagePayloadTLV:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (EncryptionInfoHeader *)parseEncryptionInfoHeaderWithMessagePayloadTLV:(TLVSection *)<em>messagePayloadTLV</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GTPairingHandlerProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GTPairingHandlerProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="110"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTPairingHandlerProtocol/updateState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (void)updateState:(GTConnectionState)state</Declaration>
+			
+			
+			<Anchor>//api/name/updateState:</Anchor>
+            <NodeRef refid="110"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

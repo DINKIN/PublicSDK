@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTPacket.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTPacket</TokenIdentifier>
+			<Abstract type="html">Data packet to be sent to goTenna</Abstract>
+			<DeclaredIn>GTPacket.h</DeclaredIn>
+            
+			
+			<NodeRef refid="56"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacket/setData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacket/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPacket/data</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacket/setSuccessfullySent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL successfullySent</Declaration>
+			
+			
+			<Anchor>//api/name/successfullySent</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacket/successfullySent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL successfullySent</Declaration>
+			
+			
+			<Anchor>//api/name/successfullySent</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPacket/successfullySent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacket.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL successfullySent</Declaration>
+			
+			
+			<Anchor>//api/name/successfullySent</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacket/initWithChunk:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacket.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithChunk:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/initWithChunk:</Anchor>
+            <NodeRef refid="56"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

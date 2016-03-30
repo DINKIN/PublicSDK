@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTGid.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTGid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+            
+			
+			<NodeRef refid="49"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGid/setBaseNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSNumber *baseNumber</Declaration>
+			
+			
+			<Anchor>//api/name/baseNumber</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGid/baseNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSNumber *baseNumber</Declaration>
+			
+			
+			<Anchor>//api/name/baseNumber</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTGid/baseNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSNumber *baseNumber</Declaration>
+			
+			
+			<Anchor>//api/name/baseNumber</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGid/setType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTGIDType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGid/type</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTGIDType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTGid/type</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTGIDType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTGid/initWithBase:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>+ (GTGid *)initWithBase:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/initWithBase:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTGid/initfromData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>+ (GTGid *)initfromData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/initfromData:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGid/built</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)built</Declaration>
+			
+			
+			<Anchor>//api/name/built</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGid/asData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)asData</Declaration>
+			
+			
+			<Anchor>//api/name/asData</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGid/asDataWithType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)asDataWithType</Declaration>
+			
+			
+			<Anchor>//api/name/asDataWithType</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGid/asDataWithTypeUsingMembershipByte:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)asDataWithTypeUsingMembershipByte:(NSData *)membershipByte</Declaration>
+			
+			
+			<Anchor>//api/name/asDataWithTypeUsingMembershipByte:</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGid/GIDDataByteLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGid.h</DeclaredIn>
+			
+			<Declaration>- (NSUInteger)GIDDataByteLength</Declaration>
+			
+			
+			<Anchor>//api/name/GIDDataByteLength</Anchor>
+            <NodeRef refid="49"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

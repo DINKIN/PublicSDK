@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTKeepAliveProcessor.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTKeepAliveProcessor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTKeepAliveProcessor.h</DeclaredIn>
+            
+			
+			<NodeRef refid="51"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTKeepAliveProcessor/incomingData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTKeepAliveProcessor.h</DeclaredIn>
+			
+			<Declaration>- (void)incomingData:(NSData *)keepAliveData</Declaration>
+			
+			
+			<Anchor>//api/name/incomingData:</Anchor>
+            <NodeRef refid="51"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTSDKToken.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTSDKToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.h</DeclaredIn>
+            
+			
+			<NodeRef refid="70"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/initWithApplicationToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithApplicationToken:(NSString *)applicationToken</Declaration>
+			
+			
+			<Anchor>//api/name/initWithApplicationToken:</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/isValid</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isValid</Declaration>
+			
+			
+			<Anchor>//api/name/isValid</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/setApplicationTokenData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *applicationTokenData</Declaration>
+			
+			
+			<Anchor>//api/name/applicationTokenData</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/applicationTokenData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *applicationTokenData</Declaration>
+			
+			
+			<Anchor>//api/name/applicationTokenData</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSDKToken/applicationTokenData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *applicationTokenData</Declaration>
+			
+			
+			<Anchor>//api/name/applicationTokenData</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/isReservedApplicationToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)isReservedApplicationToken</Declaration>
+			
+			
+			<Anchor>//api/name/isReservedApplicationToken</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTSDKToken/bytesToHexStringWithBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)bytesToHexStringWithBytes:(NSData *)dataBytes</Declaration>
+			
+			
+			<Anchor>//api/name/bytesToHexStringWithBytes:</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/setApplicationToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *applicationToken</Declaration>
+			
+			
+			<Anchor>//api/name/applicationToken</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/applicationToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *applicationToken</Declaration>
+			
+			
+			<Anchor>//api/name/applicationToken</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSDKToken/applicationToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *applicationToken</Declaration>
+			
+			
+			<Anchor>//api/name/applicationToken</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/setVerificationBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *verificationBytes</Declaration>
+			
+			
+			<Anchor>//api/name/verificationBytes</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/verificationBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *verificationBytes</Declaration>
+			
+			
+			<Anchor>//api/name/verificationBytes</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSDKToken/verificationBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *verificationBytes</Declaration>
+			
+			
+			<Anchor>//api/name/verificationBytes</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/setRESERVED_APP_TOKENS:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *RESERVED_APP_TOKENS</Declaration>
+			
+			
+			<Anchor>//api/name/RESERVED_APP_TOKENS</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSDKToken/RESERVED_APP_TOKENS</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *RESERVED_APP_TOKENS</Declaration>
+			
+			
+			<Anchor>//api/name/RESERVED_APP_TOKENS</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSDKToken/RESERVED_APP_TOKENS</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSDKToken.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;NSString*&gt; *RESERVED_APP_TOKENS</Declaration>
+			
+			
+			<Anchor>//api/name/RESERVED_APP_TOKENS</Anchor>
+            <NodeRef refid="70"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

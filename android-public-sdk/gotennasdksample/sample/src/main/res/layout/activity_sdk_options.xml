@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SdkOptionsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/send_echo_button_text"
+                android:onClick="onSendEchoButtonClicked"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/send_get_system_info_text"
+                android:onClick="onSendGetSystemInfoButtonClicked"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/set_gid_button_text"
+                android:onClick="onSetGidButtonClicked"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/send_private_message_button_text"
+                android:onClick="onSendPrivateButtonMessageClicked"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/send_broadcast_message_button_text"
+                android:onClick="onSendBroadcastMessageClicked"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/create_group_button_text"
+                android:onClick="onCreateGroupButtonClicked"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/send_group_message_button_text"
+                android:onClick="onSendGroupMessageButtonClicked"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/disconnect_button_text"
+                android:onClick="onDisconnectButtonClicked"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/button_margin"
+                android:text="@string/update_firmware_button_text"
+                android:onClick="onUpdateFirmwareButtonClicked"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

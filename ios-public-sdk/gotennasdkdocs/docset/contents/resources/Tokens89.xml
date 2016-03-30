@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PublicKeyResponseHelper.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PublicKeyResponseHelper</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyResponseHelper.h</DeclaredIn>
+            
+			
+			<NodeRef refid="89"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyResponseHelper/registerPublicKeyResponseUsingData:forConversationTypeCondition:receivingGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyResponseHelper.h</DeclaredIn>
+			
+			<Declaration>- (void)registerPublicKeyResponseUsingData:(NSData *)data forConversationTypeCondition:(BOOL)condition receivingGID:(NSNumber *)receivingGID</Declaration>
+			
+			
+			<Anchor>//api/name/registerPublicKeyResponseUsingData:forConversationTypeCondition:receivingGID:</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyResponseHelper/publicKeyRegistered</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyResponseHelper.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)publicKeyRegistered</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyRegistered</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyResponseHelper/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyResponseHelper.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyResponseHelper/setPublicKeyRegistered:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyResponseHelper.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL publicKeyRegistered</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyRegistered</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyResponseHelper/publicKeyRegistered</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyResponseHelper.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL publicKeyRegistered</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyRegistered</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PublicKeyResponseHelper/publicKeyRegistered</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyResponseHelper.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL publicKeyRegistered</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyRegistered</Anchor>
+            <NodeRef refid="89"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

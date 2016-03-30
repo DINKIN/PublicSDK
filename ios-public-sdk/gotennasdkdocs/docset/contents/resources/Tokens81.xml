@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GoTenna.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GoTenna</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.h</DeclaredIn>
+            
+			
+			<NodeRef refid="81"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GoTenna/setApplicationToken:</TokenIdentifier>
+			<Abstract type="html">Sets the application token for the app, this is a necessary condition
+for any goTenna operations to function thereafter</Abstract>
+			<DeclaredIn>GoTenna.h</DeclaredIn>
+			
+			<Declaration>+ (void)setApplicationToken:(NSString *)number</Declaration>
+			
+			
+			<Anchor>//api/name/setApplicationToken:</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GoTenna/applicationToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)applicationToken</Declaration>
+			
+			
+			<Anchor>//api/name/applicationToken</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GoTenna/tokenIsVerified</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)tokenIsVerified</Declaration>
+			
+			
+			<Anchor>//api/name/tokenIsVerified</Anchor>
+            <NodeRef refid="81"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

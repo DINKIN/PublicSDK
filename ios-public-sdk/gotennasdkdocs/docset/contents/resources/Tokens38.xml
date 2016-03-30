@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTEncryptionKeyBuilder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTEncryptionKeyBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="38"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/initWithSharedSecret:senderGID:senderPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithSharedSecret:(NSData *)sharedSecret senderGID:(NSNumber *)senderGID senderPublicKey:(NSData *)senderPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSharedSecret:senderGID:senderPublicKey:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/setSharedSecret:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *sharedSecret</Declaration>
+			
+			
+			<Anchor>//api/name/sharedSecret</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/sharedSecret</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *sharedSecret</Declaration>
+			
+			
+			<Anchor>//api/name/sharedSecret</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryptionKeyBuilder/sharedSecret</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *sharedSecret</Declaration>
+			
+			
+			<Anchor>//api/name/sharedSecret</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/setSenderPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *senderPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/senderPublicKey</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/senderPublicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *senderPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/senderPublicKey</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryptionKeyBuilder/senderPublicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *senderPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/senderPublicKey</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/setDateData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *dateData</Declaration>
+			
+			
+			<Anchor>//api/name/dateData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/dateData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *dateData</Declaration>
+			
+			
+			<Anchor>//api/name/dateData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryptionKeyBuilder/dateData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *dateData</Declaration>
+			
+			
+			<Anchor>//api/name/dateData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/setSenderGIDData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *senderGIDData</Declaration>
+			
+			
+			<Anchor>//api/name/senderGIDData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/senderGIDData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *senderGIDData</Declaration>
+			
+			
+			<Anchor>//api/name/senderGIDData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryptionKeyBuilder/senderGIDData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *senderGIDData</Declaration>
+			
+			
+			<Anchor>//api/name/senderGIDData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/setGlobalCounter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int globalCounter</Declaration>
+			
+			
+			<Anchor>//api/name/globalCounter</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/globalCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int globalCounter</Declaration>
+			
+			
+			<Anchor>//api/name/globalCounter</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryptionKeyBuilder/globalCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) int globalCounter</Declaration>
+			
+			
+			<Anchor>//api/name/globalCounter</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/buildLongKeyWithSubCounter:globalCounter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)buildLongKeyWithSubCounter:(int)subCounter globalCounter:(int)globalCounter</Declaration>
+			
+			
+			<Anchor>//api/name/buildLongKeyWithSubCounter:globalCounter:</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/setHardcodedData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *hardcodedData</Declaration>
+			
+			
+			<Anchor>//api/name/hardcodedData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionKeyBuilder/hardcodedData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *hardcodedData</Declaration>
+			
+			
+			<Anchor>//api/name/hardcodedData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryptionKeyBuilder/hardcodedData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionKeyBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *hardcodedData</Declaration>
+			
+			
+			<Anchor>//api/name/hardcodedData</Anchor>
+            <NodeRef refid="38"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

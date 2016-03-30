@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTResponseDispatcher.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTResponseDispatcher</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDispatcher.h</DeclaredIn>
+            
+			
+			<NodeRef refid="69"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTResponseDispatcher/processResponse:forCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDispatcher.h</DeclaredIn>
+			
+			<Declaration>- (void)processResponse:(GTResponse *)response forCommand:(GTCommand *)command</Declaration>
+			
+			
+			<Anchor>//api/name/processResponse:forCommand:</Anchor>
+            <NodeRef refid="69"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

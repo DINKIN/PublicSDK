@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/User.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/User</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+            
+			
+			<NodeRef refid="94"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setGId:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *gId</Declaration>
+			
+			
+			<Anchor>//api/name/gId</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/gId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *gId</Declaration>
+			
+			
+			<Anchor>//api/name/gId</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/gId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSNumber *gId</Declaration>
+			
+			
+			<Anchor>//api/name/gId</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setLastLocation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CLLocation *lastLocation</Declaration>
+			
+			
+			<Anchor>//api/name/lastLocation</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/lastLocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CLLocation *lastLocation</Declaration>
+			
+			
+			<Anchor>//api/name/lastLocation</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/lastLocation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CLLocation *lastLocation</Declaration>
+			
+			
+			<Anchor>//api/name/lastLocation</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setLastConnectedTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastConnectedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastConnectedTime</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/lastConnectedTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastConnectedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastConnectedTime</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/lastConnectedTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastConnectedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastConnectedTime</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setLastConnectionStartedTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastConnectionStartedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastConnectionStartedTime</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/lastConnectionStartedTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastConnectionStartedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastConnectionStartedTime</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/lastConnectionStartedTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *lastConnectionStartedTime</Declaration>
+			
+			
+			<Anchor>//api/name/lastConnectionStartedTime</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/User/initWithUsername:andGid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>+ (id)initWithUsername:(NSString *)username andGid:(NSNumber *)gId</Declaration>
+			
+			
+			<Anchor>//api/name/initWithUsername:andGid:</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/User/initWithUsername:andGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>+ (id)initWithUsername:(NSString *)name andGID:(NSNumber *)GID</Declaration>
+			
+			
+			<Anchor>//api/name/initWithUsername:andGID:</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/initials</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>- (id)initials</Declaration>
+			
+			
+			<Anchor>//api/name/initials</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/addGroupGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>- (void)addGroupGID:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/addGroupGID:</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/hasGroupGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)hasGroupGID:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/hasGroupGID:</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/deleteGroupGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteGroupGID:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/deleteGroupGID:</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/allGroupGIDs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.h</DeclaredIn>
+			
+			<Declaration>- (NSArray&lt;NSNumber*&gt; *)allGroupGIDs</Declaration>
+			
+			
+			<Anchor>//api/name/allGroupGIDs</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.m</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(NSCoder *)aCoder</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(NSCoder *)aDecoder</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/setGroupGIDs:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *groupGIDs</Declaration>
+			
+			
+			<Anchor>//api/name/groupGIDs</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/User/groupGIDs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *groupGIDs</Declaration>
+			
+			
+			<Anchor>//api/name/groupGIDs</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/User/groupGIDs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>User.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *groupGIDs</Declaration>
+			
+			
+			<Anchor>//api/name/groupGIDs</Anchor>
+            <NodeRef refid="94"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

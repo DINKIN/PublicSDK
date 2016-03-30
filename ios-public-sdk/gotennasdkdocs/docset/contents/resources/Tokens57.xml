@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTPacketBuilder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTPacketBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacketBuilder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="57"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacketBuilder/generatePackets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacketBuilder.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)generatePackets:(GTCommand *)theCommand</Declaration>
+			
+			
+			<Anchor>//api/name/generatePackets:</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacketBuilder/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacketBuilder.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacketBuilder/setPacketPreparer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacketBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id packetPreparer</Declaration>
+			
+			
+			<Anchor>//api/name/packetPreparer</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacketBuilder/packetPreparer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacketBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id packetPreparer</Declaration>
+			
+			
+			<Anchor>//api/name/packetPreparer</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPacketBuilder/packetPreparer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacketBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id packetPreparer</Declaration>
+			
+			
+			<Anchor>//api/name/packetPreparer</Anchor>
+            <NodeRef refid="57"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

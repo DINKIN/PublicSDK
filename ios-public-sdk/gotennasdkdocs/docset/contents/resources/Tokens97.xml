@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSData+ByteOperation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSData(ByteOperation)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+ByteOperation.h</DeclaredIn>
+            
+			
+			<NodeRef refid="97"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/bytesFromZeroToNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+ByteOperation.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)bytesFromZeroToNumber:(NSUInteger)maxBound</Declaration>
+			
+			
+			<Anchor>//api/name/bytesFromZeroToNumber:</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/byteAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+ByteOperation.h</DeclaredIn>
+			
+			<Declaration>- (unsigned char)byteAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/byteAtIndex:</Anchor>
+            <NodeRef refid="97"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,781 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>BluetoothConnectionManager Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GoTennaSDK </a></h1>
+				<a id="developerHome" href="../index.html">Your Name</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">BluetoothConnectionManager Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/centralManager">&nbsp;&nbsp;&nbsp;&nbsp;centralManager</option>
+	
+	<option value="//api/name/commandCenter">&nbsp;&nbsp;&nbsp;&nbsp;commandCenter</option>
+	
+	<option value="//api/name/connectionNotRequired">&nbsp;&nbsp;&nbsp;&nbsp;connectionNotRequired</option>
+	
+	<option value="//api/name/gtPeripheralManager">&nbsp;&nbsp;&nbsp;&nbsp;gtPeripheralManager</option>
+	
+	<option value="//api/name/pairingDelegate">&nbsp;&nbsp;&nbsp;&nbsp;pairingDelegate</option>
+	
+	<option value="//api/name/pendingPeripheral">&nbsp;&nbsp;&nbsp;&nbsp;pendingPeripheral</option>
+	
+	<option value="//api/name/scanning">&nbsp;&nbsp;&nbsp;&nbsp;scanning</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/shared">&nbsp;&nbsp;&nbsp;&nbsp;+ shared</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/centralManager:didConnectPeripheral:">&nbsp;&nbsp;&nbsp;&nbsp;- centralManager:didConnectPeripheral:</option>
+	
+	<option value="//api/name/centralManager:didDisconnectPeripheral:error:">&nbsp;&nbsp;&nbsp;&nbsp;- centralManager:didDisconnectPeripheral:error:</option>
+	
+	<option value="//api/name/centralManager:didDiscoverPeripheral:advertisementData:RSSI:">&nbsp;&nbsp;&nbsp;&nbsp;- centralManager:didDiscoverPeripheral:advertisementData:RSSI:</option>
+	
+	<option value="//api/name/centralManager:didFailToConnectPeripheral:error:">&nbsp;&nbsp;&nbsp;&nbsp;- centralManager:didFailToConnectPeripheral:error:</option>
+	
+	<option value="//api/name/centralManagerDidUpdateState:">&nbsp;&nbsp;&nbsp;&nbsp;- centralManagerDidUpdateState:</option>
+	
+	<option value="//api/name/clearScannedDevice">&nbsp;&nbsp;&nbsp;&nbsp;- clearScannedDevice</option>
+	
+	<option value="//api/name/isConnected">&nbsp;&nbsp;&nbsp;&nbsp;- isConnected</option>
+	
+	<option value="//api/name/isScannedDeviceSaved">&nbsp;&nbsp;&nbsp;&nbsp;- isScannedDeviceSaved</option>
+	
+	<option value="//api/name/isScanning">&nbsp;&nbsp;&nbsp;&nbsp;- isScanning</option>
+	
+	<option value="//api/name/resetCentralManager">&nbsp;&nbsp;&nbsp;&nbsp;- resetCentralManager</option>
+	
+	<option value="//api/name/rssiValid:">&nbsp;&nbsp;&nbsp;&nbsp;- rssiValid:</option>
+	
+	<option value="//api/name/scanAndConnect">&nbsp;&nbsp;&nbsp;&nbsp;- scanAndConnect</option>
+	
+	<option value="//api/name/stopScan">&nbsp;&nbsp;&nbsp;&nbsp;- stopScan</option>
+	
+	<option value="//api/name/userDisconnect">&nbsp;&nbsp;&nbsp;&nbsp;- userDisconnect</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Extension Methods">Extension Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/centralManager">centralManager</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/commandCenter">commandCenter</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/connectionNotRequired">connectionNotRequired</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/gtPeripheralManager">gtPeripheralManager</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pairingDelegate">pairingDelegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pendingPeripheral">pendingPeripheral</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanning">scanning</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shared">shared</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/centralManager:didConnectPeripheral:">centralManager:didConnectPeripheral:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/centralManager:didDisconnectPeripheral:error:">centralManager:didDisconnectPeripheral:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/centralManager:didDiscoverPeripheral:advertisementData:RSSI:">centralManager:didDiscoverPeripheral:advertisementData:RSSI:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/centralManager:didFailToConnectPeripheral:error:">centralManager:didFailToConnectPeripheral:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/centralManagerDidUpdateState:">centralManagerDidUpdateState:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/clearScannedDevice">clearScannedDevice</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isConnected">isConnected</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isScannedDeviceSaved">isScannedDeviceSaved</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isScanning">isScanning</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resetCentralManager">resetCentralManager</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rssiValid:">rssiValid:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanAndConnect">scanAndConnect</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/stopScan">stopScan</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userDisconnect">userDisconnect</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="BluetoothConnectionManager Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">BluetoothConnectionManager Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">CBCentralManagerDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">BluetoothConnectionManager.h<br />BluetoothConnectionManager.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pairingDelegate">&nbsp;&nbsp;pairingDelegate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/connectionNotRequired">&nbsp;&nbsp;connectionNotRequired</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shared">+&nbsp;shared</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanAndConnect">&ndash;&nbsp;scanAndConnect</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/stopScan">&ndash;&nbsp;stopScan</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resetCentralManager">&ndash;&nbsp;resetCentralManager</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userDisconnect">&ndash;&nbsp;userDisconnect</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/clearScannedDevice">&ndash;&nbsp;clearScannedDevice</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isScannedDeviceSaved">&ndash;&nbsp;isScannedDeviceSaved</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isConnected">&ndash;&nbsp;isConnected</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isScanning">&ndash;&nbsp;isScanning</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/centralManagerDidUpdateState:">&ndash;&nbsp;centralManagerDidUpdateState:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/centralManager:didDiscoverPeripheral:advertisementData:RSSI:">&ndash;&nbsp;centralManager:didDiscoverPeripheral:advertisementData:RSSI:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rssiValid:">&ndash;&nbsp;rssiValid:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/centralManager:didConnectPeripheral:">&ndash;&nbsp;centralManager:didConnectPeripheral:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/centralManager:didFailToConnectPeripheral:error:">&ndash;&nbsp;centralManager:didFailToConnectPeripheral:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/centralManager:didDisconnectPeripheral:error:">&ndash;&nbsp;centralManager:didDisconnectPeripheral:error:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h3 class="subsubtitle task-title">Extension Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/centralManager">&nbsp;&nbsp;centralManager</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/gtPeripheralManager">&nbsp;&nbsp;gtPeripheralManager</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/commandCenter">&nbsp;&nbsp;commandCenter</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pendingPeripheral">&nbsp;&nbsp;pendingPeripheral</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanning">&nbsp;&nbsp;scanning</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/centralManager" title="centralManager"></a>
+	<h3 class="subsubtitle method-title">centralManager</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (strong, nonatomic) CBCentralManager *centralManager</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/commandCenter" title="commandCenter"></a>
+	<h3 class="subsubtitle method-title">commandCenter</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTCommandCenter *commandCenter</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/connectionNotRequired" title="connectionNotRequired"></a>
+	<h3 class="subsubtitle method-title">connectionNotRequired</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL connectionNotRequired</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/gtPeripheralManager" title="gtPeripheralManager"></a>
+	<h3 class="subsubtitle method-title">gtPeripheralManager</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTPeripheralManager *gtPeripheralManager</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pairingDelegate" title="pairingDelegate"></a>
+	<h3 class="subsubtitle method-title">pairingDelegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (weak, nonatomic) id&lt;BluetoothPairingProtocol&gt; pairingDelegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pendingPeripheral" title="pendingPeripheral"></a>
+	<h3 class="subsubtitle method-title">pendingPeripheral</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) CBPeripheral *pendingPeripheral</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanning" title="scanning"></a>
+	<h3 class="subsubtitle method-title">scanning</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL scanning</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/shared" title="shared"></a>
+	<h3 class="subsubtitle method-title">shared</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (BluetoothConnectionManager *)shared</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/centralManager:didConnectPeripheral:" title="centralManager:didConnectPeripheral:"></a>
+	<h3 class="subsubtitle method-title">centralManager:didConnectPeripheral:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)centralManager:(CBCentralManager *)<em>central</em> didConnectPeripheral:(CBPeripheral *)<em>peripheral</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/centralManager:didDisconnectPeripheral:error:" title="centralManager:didDisconnectPeripheral:error:"></a>
+	<h3 class="subsubtitle method-title">centralManager:didDisconnectPeripheral:error:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)centralManager:(CBCentralManager *)<em>central</em> didDisconnectPeripheral:(CBPeripheral *)<em>peripheral</em> error:(NSError *)<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/centralManager:didDiscoverPeripheral:advertisementData:RSSI:" title="centralManager:didDiscoverPeripheral:advertisementData:RSSI:"></a>
+	<h3 class="subsubtitle method-title">centralManager:didDiscoverPeripheral:advertisementData:RSSI:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)centralManager:(CBCentralManager *)<em>central</em> didDiscoverPeripheral:(CBPeripheral *)<em>peripheral</em> advertisementData:(NSDictionary *)<em>advertisementData</em> RSSI:(NSNumber *)<em>RSSI</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/centralManager:didFailToConnectPeripheral:error:" title="centralManager:didFailToConnectPeripheral:error:"></a>
+	<h3 class="subsubtitle method-title">centralManager:didFailToConnectPeripheral:error:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)centralManager:(CBCentralManager *)<em>central</em> didFailToConnectPeripheral:(CBPeripheral *)<em>peripheral</em> error:(NSError *)<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/centralManagerDidUpdateState:" title="centralManagerDidUpdateState:"></a>
+	<h3 class="subsubtitle method-title">centralManagerDidUpdateState:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>/</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)centralManagerDidUpdateState:(CBCentralManager *)<em>central</em></code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.m</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/clearScannedDevice" title="clearScannedDevice"></a>
+	<h3 class="subsubtitle method-title">clearScannedDevice</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)clearScannedDevice</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isConnected" title="isConnected"></a>
+	<h3 class="subsubtitle method-title">isConnected</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isConnected</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isScannedDeviceSaved" title="isScannedDeviceSaved"></a>
+	<h3 class="subsubtitle method-title">isScannedDeviceSaved</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isScannedDeviceSaved</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isScanning" title="isScanning"></a>
+	<h3 class="subsubtitle method-title">isScanning</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)isScanning</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resetCentralManager" title="resetCentralManager"></a>
+	<h3 class="subsubtitle method-title">resetCentralManager</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)resetCentralManager</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rssiValid:" title="rssiValid:"></a>
+	<h3 class="subsubtitle method-title">rssiValid:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)rssiValid:(NSNumber *)<em>RSSI</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanAndConnect" title="scanAndConnect"></a>
+	<h3 class="subsubtitle method-title">scanAndConnect</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)scanAndConnect</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/stopScan" title="stopScan"></a>
+	<h3 class="subsubtitle method-title">stopScan</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)stopScan</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userDisconnect" title="userDisconnect"></a>
+	<h3 class="subsubtitle method-title">userDisconnect</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)userDisconnect</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

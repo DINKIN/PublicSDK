@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTDataSerializer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTDataSerializer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="30"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTDataSerializer/deserializeGroupMessageDataObj:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
+			
+			<Declaration>+ (GTGroupCreationMessageData *)deserializeGroupMessageDataObj:(GTMessageData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/deserializeGroupMessageDataObj:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTDataSerializer/deserializeSystemInfo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
+			
+			<Declaration>+ (SystemInfoResponseData *)deserializeSystemInfo:(GTResponse *)response</Declaration>
+			
+			
+			<Anchor>//api/name/deserializeSystemInfo:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTDataSerializer/deserializeMessage:forCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
+			
+			<Declaration>+ (GTResponse *)deserializeMessage:(NSData *)data forCommand:(GTCommand *)command</Declaration>
+			
+			
+			<Anchor>//api/name/deserializeMessage:forCommand:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTDataSerializer/appTokenData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)appTokenData</Declaration>
+			
+			
+			<Anchor>//api/name/appTokenData</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTDataSerializer/parseAndHandleGetMessageResponse:onIncoming:onGroupCreated:onSuccessLastMessageDelete:isDecryptionErrorRetry:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)parseAndHandleGetMessageResponse:(GTResponse *)response onIncoming:(void ( ^ ) ( GTMessageData *))onIncomingMessage onGroupCreated:(void ( ^ ) ( GTGroupCreationMessageData *))onGroupAdded onSuccessLastMessageDelete:(void ( ^ ) ( ))lastMessageDelete isDecryptionErrorRetry:(BOOL)isDecryptionErrorRetry</Declaration>
+			
+			
+			<Anchor>//api/name/parseAndHandleGetMessageResponse:onIncoming:onGroupCreated:onSuccessLastMessageDelete:isDecryptionErrorRetry:</Anchor>
+            <NodeRef refid="30"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

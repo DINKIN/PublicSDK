@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GTDigestHMACGeneratorProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GTDigestHMACGeneratorProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDigestHMACGeneratorProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="106"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTDigestHMACGeneratorProtocol/generateRandom32BytesUsingSharedSecret:andLongKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDigestHMACGeneratorProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)generateRandom32BytesUsingSharedSecret:(NSData *)sharedSecret andLongKey:(NSData *)longKey</Declaration>
+			
+			
+			<Anchor>//api/name/generateRandom32BytesUsingSharedSecret:andLongKey:</Anchor>
+            <NodeRef refid="106"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

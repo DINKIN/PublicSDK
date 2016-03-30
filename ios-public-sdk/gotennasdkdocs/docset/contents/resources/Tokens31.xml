@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTDataTypes.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTDataTypes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataTypes.h</DeclaredIn>
+            
+			
+			<NodeRef refid="31"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTDataTypes/getDataForGIDType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataTypes.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)getDataForGIDType:(GTGIDType)type</Declaration>
+			
+			
+			<Anchor>//api/name/getDataForGIDType:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTDataTypes/getGIDTypeFromData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataTypes.h</DeclaredIn>
+			
+			<Declaration>+ (GTGIDType)getGIDTypeFromData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/getGIDTypeFromData:</Anchor>
+            <NodeRef refid="31"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

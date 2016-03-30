@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BluetoothConnectionManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BluetoothConnectionManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/setPairingDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;BluetoothPairingProtocol&gt; pairingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pairingDelegate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/pairingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;BluetoothPairingProtocol&gt; pairingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pairingDelegate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BluetoothConnectionManager/pairingDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>@property (weak, nonatomic) id&lt;BluetoothPairingProtocol&gt; pairingDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/pairingDelegate</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/setConnectionNotRequired:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL connectionNotRequired</Declaration>
+			
+			
+			<Anchor>//api/name/connectionNotRequired</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/connectionNotRequired</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL connectionNotRequired</Declaration>
+			
+			
+			<Anchor>//api/name/connectionNotRequired</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BluetoothConnectionManager/connectionNotRequired</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL connectionNotRequired</Declaration>
+			
+			
+			<Anchor>//api/name/connectionNotRequired</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BluetoothConnectionManager/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>+ (BluetoothConnectionManager *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/scanAndConnect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>- (void)scanAndConnect</Declaration>
+			
+			
+			<Anchor>//api/name/scanAndConnect</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/stopScan</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>- (void)stopScan</Declaration>
+			
+			
+			<Anchor>//api/name/stopScan</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/resetCentralManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>- (void)resetCentralManager</Declaration>
+			
+			
+			<Anchor>//api/name/resetCentralManager</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/userDisconnect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>- (void)userDisconnect</Declaration>
+			
+			
+			<Anchor>//api/name/userDisconnect</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/clearScannedDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>- (void)clearScannedDevice</Declaration>
+			
+			
+			<Anchor>//api/name/clearScannedDevice</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/isScannedDeviceSaved</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isScannedDeviceSaved</Declaration>
+			
+			
+			<Anchor>//api/name/isScannedDeviceSaved</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/isConnected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isConnected</Declaration>
+			
+			
+			<Anchor>//api/name/isConnected</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/isScanning</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isScanning</Declaration>
+			
+			
+			<Anchor>//api/name/isScanning</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/centralManagerDidUpdateState:</TokenIdentifier>
+			<Abstract type="html">/</Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>- (void)centralManagerDidUpdateState:(CBCentralManager *)central</Declaration>
+			
+			
+			<Anchor>//api/name/centralManagerDidUpdateState:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/centralManager:didDiscoverPeripheral:advertisementData:RSSI:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>- (void)centralManager:(CBCentralManager *)central didDiscoverPeripheral:(CBPeripheral *)peripheral advertisementData:(NSDictionary *)advertisementData RSSI:(NSNumber *)RSSI</Declaration>
+			
+			
+			<Anchor>//api/name/centralManager:didDiscoverPeripheral:advertisementData:RSSI:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/rssiValid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)rssiValid:(NSNumber *)RSSI</Declaration>
+			
+			
+			<Anchor>//api/name/rssiValid:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/centralManager:didConnectPeripheral:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>- (void)centralManager:(CBCentralManager *)central didConnectPeripheral:(CBPeripheral *)peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/centralManager:didConnectPeripheral:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/centralManager:didFailToConnectPeripheral:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>- (void)centralManager:(CBCentralManager *)central didFailToConnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/centralManager:didFailToConnectPeripheral:error:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/centralManager:didDisconnectPeripheral:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>- (void)centralManager:(CBCentralManager *)central didDisconnectPeripheral:(CBPeripheral *)peripheral error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/centralManager:didDisconnectPeripheral:error:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/setCentralManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) CBCentralManager *centralManager</Declaration>
+			
+			
+			<Anchor>//api/name/centralManager</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/centralManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) CBCentralManager *centralManager</Declaration>
+			
+			
+			<Anchor>//api/name/centralManager</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BluetoothConnectionManager/centralManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic) CBCentralManager *centralManager</Declaration>
+			
+			
+			<Anchor>//api/name/centralManager</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/setGtPeripheralManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPeripheralManager *gtPeripheralManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtPeripheralManager</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/gtPeripheralManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPeripheralManager *gtPeripheralManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtPeripheralManager</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BluetoothConnectionManager/gtPeripheralManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPeripheralManager *gtPeripheralManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtPeripheralManager</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/setCommandCenter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *commandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/commandCenter</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/commandCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *commandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/commandCenter</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BluetoothConnectionManager/commandCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *commandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/commandCenter</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/setPendingPeripheral:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBPeripheral *pendingPeripheral</Declaration>
+			
+			
+			<Anchor>//api/name/pendingPeripheral</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/pendingPeripheral</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBPeripheral *pendingPeripheral</Declaration>
+			
+			
+			<Anchor>//api/name/pendingPeripheral</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BluetoothConnectionManager/pendingPeripheral</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBPeripheral *pendingPeripheral</Declaration>
+			
+			
+			<Anchor>//api/name/pendingPeripheral</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/setScanning:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL scanning</Declaration>
+			
+			
+			<Anchor>//api/name/scanning</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/scanning</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL scanning</Declaration>
+			
+			
+			<Anchor>//api/name/scanning</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BluetoothConnectionManager/scanning</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BluetoothConnectionManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL scanning</Declaration>
+			
+			
+			<Anchor>//api/name/scanning</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

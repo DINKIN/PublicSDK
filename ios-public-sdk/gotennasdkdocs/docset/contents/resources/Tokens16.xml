@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/FrequencyMode.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/FrequencyMode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FrequencyMode.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FrequencyMode/setCommandCode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FrequencyMode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) void const *commandCode</Declaration>
+			
+			
+			<Anchor>//api/name/commandCode</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FrequencyMode/commandCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FrequencyMode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) void const *commandCode</Declaration>
+			
+			
+			<Anchor>//api/name/commandCode</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FrequencyMode/commandCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FrequencyMode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) void const *commandCode</Declaration>
+			
+			
+			<Anchor>//api/name/commandCode</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FrequencyMode/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FrequencyMode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FrequencyMode/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FrequencyMode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FrequencyMode/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FrequencyMode.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FrequencyMode/initWithCode:andName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FrequencyMode.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithCode:(char *const)code andName:(NSString *)name</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCode:andName:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FrequencyMode/initForCode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FrequencyMode.h</DeclaredIn>
+			
+			<Declaration>- (id)initForCode:(GTFrequencyModes)mode</Declaration>
+			
+			
+			<Anchor>//api/name/initForCode:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

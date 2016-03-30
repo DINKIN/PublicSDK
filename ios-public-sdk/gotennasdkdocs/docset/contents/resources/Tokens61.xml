@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTPeripheralManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTPeripheralManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="61"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setPeripheral:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBPeripheral *peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/peripheral</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBPeripheral *peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/peripheral</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBPeripheral *peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTPeripheralManager/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.h</DeclaredIn>
+			
+			<Declaration>+ (GTPeripheralManager *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/updatePeripheral:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.h</DeclaredIn>
+			
+			<Declaration>- (void)updatePeripheral:(CBPeripheral *)peripheral</Declaration>
+			
+			
+			<Anchor>//api/name/updatePeripheral:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/writeCommandPackets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.h</DeclaredIn>
+			
+			<Declaration>- (void)writeCommandPackets:(GTCommand *)command</Declaration>
+			
+			
+			<Anchor>//api/name/writeCommandPackets:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/peripheralIsConnected</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)peripheralIsConnected</Declaration>
+			
+			
+			<Anchor>//api/name/peripheralIsConnected</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/scanPeripheralServices:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.h</DeclaredIn>
+			
+			<Declaration>- (void)scanPeripheralServices:(void ( ^ ) ( ))onCharacteristicsReceived</Declaration>
+			
+			
+			<Anchor>//api/name/scanPeripheralServices:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/peripheral:didDiscoverServices:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>- (void)peripheral:(CBPeripheral *)peripheral didDiscoverServices:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral:didDiscoverServices:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/peripheral:didUpdateValueForCharacteristic:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>- (void)peripheral:(CBPeripheral *)peripheral didUpdateValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral:didUpdateValueForCharacteristic:error:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/peripheral:didWriteValueForCharacteristic:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>- (void)peripheral:(CBPeripheral *)peripheral didWriteValueForCharacteristic:(CBCharacteristic *)characteristic error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral:didWriteValueForCharacteristic:error:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/peripheral:didDiscoverCharacteristicsForService:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>- (void)peripheral:(CBPeripheral *)peripheral didDiscoverCharacteristicsForService:(CBService *)service error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/peripheral:didDiscoverCharacteristicsForService:error:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/peripheralDidUpdateRSSI:error:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>- (void)peripheralDidUpdateRSSI:(CBPeripheral *)peripheral error:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/peripheralDidUpdateRSSI:error:</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/writeNextPacket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>- (void)writeNextPacket</Declaration>
+			
+			
+			<Anchor>//api/name/writeNextPacket</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setKeepAliveCharacteristic:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *keepAliveCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/keepAliveCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/keepAliveCharacteristic</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *keepAliveCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/keepAliveCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/keepAliveCharacteristic</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *keepAliveCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/keepAliveCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setReadCharacteristic:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *readCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/readCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/readCharacteristic</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *readCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/readCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/readCharacteristic</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *readCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/readCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setWriteCharacteristic:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *writeCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/writeCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/writeCharacteristic</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *writeCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/writeCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/writeCharacteristic</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *writeCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/writeCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setBluetoothProtocolRevisionCharacteristic:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *bluetoothProtocolRevisionCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothProtocolRevisionCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/bluetoothProtocolRevisionCharacteristic</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *bluetoothProtocolRevisionCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothProtocolRevisionCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/bluetoothProtocolRevisionCharacteristic</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) CBMutableCharacteristic *bluetoothProtocolRevisionCharacteristic</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothProtocolRevisionCharacteristic</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setCurrentPacketOut:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPacket *currentPacketOut</Declaration>
+			
+			
+			<Anchor>//api/name/currentPacketOut</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/currentPacketOut</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPacket *currentPacketOut</Declaration>
+			
+			
+			<Anchor>//api/name/currentPacketOut</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/currentPacketOut</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPacket *currentPacketOut</Declaration>
+			
+			
+			<Anchor>//api/name/currentPacketOut</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setCurrentPackets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *currentPackets</Declaration>
+			
+			
+			<Anchor>//api/name/currentPackets</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/currentPackets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *currentPackets</Declaration>
+			
+			
+			<Anchor>//api/name/currentPackets</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/currentPackets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *currentPackets</Declaration>
+			
+			
+			<Anchor>//api/name/currentPackets</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setCurrentCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *currentCommand</Declaration>
+			
+			
+			<Anchor>//api/name/currentCommand</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/currentCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *currentCommand</Declaration>
+			
+			
+			<Anchor>//api/name/currentCommand</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/currentCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *currentCommand</Declaration>
+			
+			
+			<Anchor>//api/name/currentCommand</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setOnCharacteristicsReceived:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onCharacteristicsReceived</Declaration>
+			
+			
+			<Anchor>//api/name/onCharacteristicsReceived</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/onCharacteristicsReceived</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onCharacteristicsReceived</Declaration>
+			
+			
+			<Anchor>//api/name/onCharacteristicsReceived</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/onCharacteristicsReceived</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onCharacteristicsReceived</Declaration>
+			
+			
+			<Anchor>//api/name/onCharacteristicsReceived</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setChunkProcessor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) ChunkProcessor *chunkProcessor</Declaration>
+			
+			
+			<Anchor>//api/name/chunkProcessor</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/chunkProcessor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) ChunkProcessor *chunkProcessor</Declaration>
+			
+			
+			<Anchor>//api/name/chunkProcessor</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/chunkProcessor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) ChunkProcessor *chunkProcessor</Declaration>
+			
+			
+			<Anchor>//api/name/chunkProcessor</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/setKeepAliveProcessor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTKeepAliveProcessor *keepAliveProcessor</Declaration>
+			
+			
+			<Anchor>//api/name/keepAliveProcessor</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPeripheralManager/keepAliveProcessor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTKeepAliveProcessor *keepAliveProcessor</Declaration>
+			
+			
+			<Anchor>//api/name/keepAliveProcessor</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPeripheralManager/keepAliveProcessor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPeripheralManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTKeepAliveProcessor *keepAliveProcessor</Declaration>
+			
+			
+			<Anchor>//api/name/keepAliveProcessor</Anchor>
+            <NodeRef refid="61"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

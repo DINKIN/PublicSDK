@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GroupSecretManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GroupSecretManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GroupSecretManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="83"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GroupSecretManager/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GroupSecretManager.h</DeclaredIn>
+			
+			<Declaration>+ (GroupSecretManager *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GroupSecretManager/generateSharedSecret</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GroupSecretManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)generateSharedSecret</Declaration>
+			
+			
+			<Anchor>//api/name/generateSharedSecret</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GroupSecretManager/createAndSaveSecretForGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GroupSecretManager.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)createAndSaveSecretForGroup:(NSNumber *)groupGID</Declaration>
+			
+			
+			<Anchor>//api/name/createAndSaveSecretForGroup:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GroupSecretManager/saveSecret:forGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GroupSecretManager.h</DeclaredIn>
+			
+			<Declaration>- (void)saveSecret:(NSData *)sharedSecret forGroup:(NSNumber *)groupGID</Declaration>
+			
+			
+			<Anchor>//api/name/saveSecret:forGroup:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GroupSecretManager/getSharedSecretForGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GroupSecretManager.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)getSharedSecretForGroup:(NSNumber *)groupGID</Declaration>
+			
+			
+			<Anchor>//api/name/getSharedSecretForGroup:</Anchor>
+            <NodeRef refid="83"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

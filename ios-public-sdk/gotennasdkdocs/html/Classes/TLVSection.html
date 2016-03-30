@@ -1,0 +1,757 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>TLVSection Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GoTennaSDK </a></h1>
+				<a id="developerHome" href="../index.html">Your Name</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">TLVSection Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/fullLength">&nbsp;&nbsp;&nbsp;&nbsp;fullLength</option>
+	
+	<option value="//api/name/length">&nbsp;&nbsp;&nbsp;&nbsp;length</option>
+	
+	<option value="//api/name/type">&nbsp;&nbsp;&nbsp;&nbsp;type</option>
+	
+	<option value="//api/name/value">&nbsp;&nbsp;&nbsp;&nbsp;value</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/createDataFromTLVWithType:length:value:">&nbsp;&nbsp;&nbsp;&nbsp;+ createDataFromTLVWithType:length:value:</option>
+	
+	<option value="//api/name/createDataFromTLVWithType:value:">&nbsp;&nbsp;&nbsp;&nbsp;+ createDataFromTLVWithType:value:</option>
+	
+	<option value="//api/name/createTLVFromData:">&nbsp;&nbsp;&nbsp;&nbsp;+ createTLVFromData:</option>
+	
+	<option value="//api/name/createTLVFromData:parentJacketTLV:">&nbsp;&nbsp;&nbsp;&nbsp;+ createTLVFromData:parentJacketTLV:</option>
+	
+	<option value="//api/name/getJacketTLVTypeForLength:">&nbsp;&nbsp;&nbsp;&nbsp;+ getJacketTLVTypeForLength:</option>
+	
+	<option value="//api/name/getLengthByteLengthForType:">&nbsp;&nbsp;&nbsp;&nbsp;+ getLengthByteLengthForType:</option>
+	
+	<option value="//api/name/integerMinByteCount:">&nbsp;&nbsp;&nbsp;&nbsp;+ integerMinByteCount:</option>
+	
+	<option value="//api/name/isExtenderJacketType:">&nbsp;&nbsp;&nbsp;&nbsp;+ isExtenderJacketType:</option>
+	
+	<option value="//api/name/tlvSectionsFromData:">&nbsp;&nbsp;&nbsp;&nbsp;+ tlvSectionsFromData:</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/fullLength">&nbsp;&nbsp;&nbsp;&nbsp;- fullLength</option>
+	
+	<option value="//api/name/initWithType:value:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithType:value:</option>
+	
+	<option value="//api/name/length">&nbsp;&nbsp;&nbsp;&nbsp;- length</option>
+	
+	<option value="//api/name/tlvSectionToData:">&nbsp;&nbsp;&nbsp;&nbsp;- tlvSectionToData:</option>
+	
+	<option value="//api/name/toBytes">&nbsp;&nbsp;&nbsp;&nbsp;- toBytes</option>
+	
+	<option value="//api/name/toString">&nbsp;&nbsp;&nbsp;&nbsp;- toString</option>
+	
+	<option value="//api/name/type">&nbsp;&nbsp;&nbsp;&nbsp;- type</option>
+	
+	<option value="//api/name/value">&nbsp;&nbsp;&nbsp;&nbsp;- value</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Extension Methods">Extension Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fullLength">fullLength</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/length">length</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/type">type</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/value">value</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createDataFromTLVWithType:length:value:">createDataFromTLVWithType:length:value:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createDataFromTLVWithType:value:">createDataFromTLVWithType:value:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createTLVFromData:">createTLVFromData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createTLVFromData:parentJacketTLV:">createTLVFromData:parentJacketTLV:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getJacketTLVTypeForLength:">getJacketTLVTypeForLength:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getLengthByteLengthForType:">getLengthByteLengthForType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/integerMinByteCount:">integerMinByteCount:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isExtenderJacketType:">isExtenderJacketType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tlvSectionsFromData:">tlvSectionsFromData:</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fullLength">fullLength</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithType:value:">initWithType:value:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/length">length</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tlvSectionToData:">tlvSectionToData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/toBytes">toBytes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/toString">toString</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/type">type</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/value">value</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="TLVSection Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">TLVSection Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">TLVSection.h<br />TLVSection.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithType:value:">&ndash;&nbsp;initWithType:value:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tlvSectionsFromData:">+&nbsp;tlvSectionsFromData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createTLVFromData:">+&nbsp;createTLVFromData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createDataFromTLVWithType:value:">+&nbsp;createDataFromTLVWithType:value:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/type">&ndash;&nbsp;type</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/length">&ndash;&nbsp;length</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fullLength">&ndash;&nbsp;fullLength</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/value">&ndash;&nbsp;value</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/toBytes">&ndash;&nbsp;toBytes</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/toString">&ndash;&nbsp;toString</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tlvSectionToData:">&ndash;&nbsp;tlvSectionToData:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createDataFromTLVWithType:length:value:">+&nbsp;createDataFromTLVWithType:length:value:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createTLVFromData:parentJacketTLV:">+&nbsp;createTLVFromData:parentJacketTLV:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isExtenderJacketType:">+&nbsp;isExtenderJacketType:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getLengthByteLengthForType:">+&nbsp;getLengthByteLengthForType:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getJacketTLVTypeForLength:">+&nbsp;getJacketTLVTypeForLength:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/integerMinByteCount:">+&nbsp;integerMinByteCount:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h3 class="subsubtitle task-title">Extension Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/type">&nbsp;&nbsp;type</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/length">&nbsp;&nbsp;length</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/value">&nbsp;&nbsp;value</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fullLength">&nbsp;&nbsp;fullLength</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/fullLength" title="fullLength"></a>
+	<h3 class="subsubtitle method-title">fullLength</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) int fullLength</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/length" title="length"></a>
+	<h3 class="subsubtitle method-title">length</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) int length</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/type" title="type"></a>
+	<h3 class="subsubtitle method-title">type</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) int type</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/value" title="value"></a>
+	<h3 class="subsubtitle method-title">value</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSData *value</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/createDataFromTLVWithType:length:value:" title="createDataFromTLVWithType:length:value:"></a>
+	<h3 class="subsubtitle method-title">createDataFromTLVWithType:length:value:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)createDataFromTLVWithType:(int)<em>type</em> length:(int)<em>length</em> value:(NSData *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createDataFromTLVWithType:value:" title="createDataFromTLVWithType:value:"></a>
+	<h3 class="subsubtitle method-title">createDataFromTLVWithType:value:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSData *)createDataFromTLVWithType:(int)<em>type</em> value:(NSData *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createTLVFromData:" title="createTLVFromData:"></a>
+	<h3 class="subsubtitle method-title">createTLVFromData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (TLVSection *)createTLVFromData:(NSData *)<em>data</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createTLVFromData:parentJacketTLV:" title="createTLVFromData:parentJacketTLV:"></a>
+	<h3 class="subsubtitle method-title">createTLVFromData:parentJacketTLV:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (TLVSection *)createTLVFromData:(NSData *)<em>data</em> parentJacketTLV:(TLVSection *)<em>parentJacketTLV</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getJacketTLVTypeForLength:" title="getJacketTLVTypeForLength:"></a>
+	<h3 class="subsubtitle method-title">getJacketTLVTypeForLength:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (int)getJacketTLVTypeForLength:(int)<em>length</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getLengthByteLengthForType:" title="getLengthByteLengthForType:"></a>
+	<h3 class="subsubtitle method-title">getLengthByteLengthForType:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (int)getLengthByteLengthForType:(int)<em>type</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/integerMinByteCount:" title="integerMinByteCount:"></a>
+	<h3 class="subsubtitle method-title">integerMinByteCount:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (int)integerMinByteCount:(int)<em>integer</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isExtenderJacketType:" title="isExtenderJacketType:"></a>
+	<h3 class="subsubtitle method-title">isExtenderJacketType:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (BOOL)isExtenderJacketType:(int)<em>type</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tlvSectionsFromData:" title="tlvSectionsFromData:"></a>
+	<h3 class="subsubtitle method-title">tlvSectionsFromData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (NSArray&lt;TLVSection*&gt; *)tlvSectionsFromData:(NSData *)<em>data</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/fullLength" title="fullLength"></a>
+	<h3 class="subsubtitle method-title">fullLength</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (int)fullLength</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithType:value:" title="initWithType:value:"></a>
+	<h3 class="subsubtitle method-title">initWithType:value:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (instancetype)initWithType:(int)<em>type</em> value:(NSData *)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/length" title="length"></a>
+	<h3 class="subsubtitle method-title">length</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (int)length</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tlvSectionToData:" title="tlvSectionToData:"></a>
+	<h3 class="subsubtitle method-title">tlvSectionToData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSData *)tlvSectionToData:(NSArray&lt;TLVSection*&gt; *)<em>tlvSections</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/toBytes" title="toBytes"></a>
+	<h3 class="subsubtitle method-title">toBytes</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>//</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (NSData *)toBytes</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">TLVSection.m</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/toString" title="toString"></a>
+	<h3 class="subsubtitle method-title">toString</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)toString</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/type" title="type"></a>
+	<h3 class="subsubtitle method-title">type</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (int)type</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/value" title="value"></a>
+	<h3 class="subsubtitle method-title">value</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSData *)value</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTFirmwareRetrieverAmazon.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTFirmwareRetrieverAmazon</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.h</DeclaredIn>
+            
+			
+			<NodeRef refid="45"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/initWithFirmwareAmazonBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithFirmwareAmazonBucket:(const NSString *)bucket</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFirmwareAmazonBucket:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/retrieveFirmwareWithStorageCompletion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.h</DeclaredIn>
+			
+			<Declaration>- (void)retrieveFirmwareWithStorageCompletion:(RetrievalCompletion)retrievalCompletion</Declaration>
+			
+			
+			<Anchor>//api/name/retrieveFirmwareWithStorageCompletion:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/checkForNewFirmware:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>- (void)checkForNewFirmware:(void ( ^ ) ( ))onDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/checkForNewFirmware:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/downloadNewFirmware:onDownloaded:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>- (void)downloadNewFirmware:(NSString *)newGTFilename onDownloaded:(void ( ^ ) ( ))onDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/downloadNewFirmware:onDownloaded:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/performFirmwareDownload:onDownloaded:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>- (void)performFirmwareDownload:(AWSS3TransferManagerDownloadRequest *)request onDownloaded:(void ( ^ ) ( NSString *))onDownloaded</Declaration>
+			
+			
+			<Anchor>//api/name/performFirmwareDownload:onDownloaded:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/downloadRequestCanStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)downloadRequestCanStart:(AWSS3TransferManagerDownloadRequest *)downloadRequest</Declaration>
+			
+			
+			<Anchor>//api/name/downloadRequestCanStart:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/createListFirmwareRequestWithBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>- (AWSS3ListObjectsRequest *)createListFirmwareRequestWithBucket:(NSString *)bucket</Declaration>
+			
+			
+			<Anchor>//api/name/createListFirmwareRequestWithBucket:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/taskIsPaused:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)taskIsPaused:(AWSTask *)downloadTask</Declaration>
+			
+			
+			<Anchor>//api/name/taskIsPaused:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/createDownloadRequest:withBucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>- (AWSS3TransferManagerDownloadRequest *)createDownloadRequest:(NSString *)filename withBucket:(NSString *)bucket</Declaration>
+			
+			
+			<Anchor>//api/name/createDownloadRequest:withBucket:</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/setStorageFilePath:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *storageFilePath</Declaration>
+			
+			
+			<Anchor>//api/name/storageFilePath</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/storageFilePath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *storageFilePath</Declaration>
+			
+			
+			<Anchor>//api/name/storageFilePath</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareRetrieverAmazon/storageFilePath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *storageFilePath</Declaration>
+			
+			
+			<Anchor>//api/name/storageFilePath</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/setFileName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *fileName</Declaration>
+			
+			
+			<Anchor>//api/name/fileName</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/fileName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *fileName</Declaration>
+			
+			
+			<Anchor>//api/name/fileName</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareRetrieverAmazon/fileName</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *fileName</Declaration>
+			
+			
+			<Anchor>//api/name/fileName</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/setGtDocumentsManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDocumentManager *gtDocumentsManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtDocumentsManager</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/gtDocumentsManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDocumentManager *gtDocumentsManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtDocumentsManager</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareRetrieverAmazon/gtDocumentsManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDocumentManager *gtDocumentsManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtDocumentsManager</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/setGtFirmwareVersionStore:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSystemInfoStore *gtFirmwareVersionStore</Declaration>
+			
+			
+			<Anchor>//api/name/gtFirmwareVersionStore</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/gtFirmwareVersionStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSystemInfoStore *gtFirmwareVersionStore</Declaration>
+			
+			
+			<Anchor>//api/name/gtFirmwareVersionStore</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareRetrieverAmazon/gtFirmwareVersionStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSystemInfoStore *gtFirmwareVersionStore</Declaration>
+			
+			
+			<Anchor>//api/name/gtFirmwareVersionStore</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/setS3Bucket:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *S3Bucket</Declaration>
+			
+			
+			<Anchor>//api/name/S3Bucket</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/S3Bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *S3Bucket</Declaration>
+			
+			
+			<Anchor>//api/name/S3Bucket</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareRetrieverAmazon/S3Bucket</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *S3Bucket</Declaration>
+			
+			
+			<Anchor>//api/name/S3Bucket</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/setFirmwareBucketParser:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) FirmwareBucketParser *firmwareBucketParser</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareBucketParser</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareRetrieverAmazon/firmwareBucketParser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) FirmwareBucketParser *firmwareBucketParser</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareBucketParser</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareRetrieverAmazon/firmwareBucketParser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverAmazon.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) FirmwareBucketParser *firmwareBucketParser</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareBucketParser</Anchor>
+            <NodeRef refid="45"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

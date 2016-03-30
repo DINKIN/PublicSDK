@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTCRC16.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTCRC16</TokenIdentifier>
+			<Abstract type="html">Runs the CRC operation - useful for encryption and overall data integrity</Abstract>
+			<DeclaredIn>GTCRC16.h</DeclaredIn>
+            
+			
+			<NodeRef refid="19"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTCRC16/getCRC16ChecksumForData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCRC16.h</DeclaredIn>
+			
+			<Declaration>+ (unsigned short)getCRC16ChecksumForData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/getCRC16ChecksumForData:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTCRC16/getCRC32ChecksumForData:</TokenIdentifier>
+			<Abstract type="html">note to self: sizeof on buffer pointer returns size of pointer which is 4 bytes. use data.length</Abstract>
+			<DeclaredIn>GTCRC16.h</DeclaredIn>
+			
+			<Declaration>+ (int)getCRC32ChecksumForData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/getCRC32ChecksumForData:</Anchor>
+            <NodeRef refid="19"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

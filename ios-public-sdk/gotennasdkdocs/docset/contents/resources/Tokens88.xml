@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PublicKeyManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PublicKeyManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="88"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PublicKeyManager/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/addPublicKeyWithGID:publicKeyData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.h</DeclaredIn>
+			
+			<Declaration>- (void)addPublicKeyWithGID:(NSNumber *)gid publicKeyData:(NSData *)publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/addPublicKeyWithGID:publicKeyData:</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.h</DeclaredIn>
+			
+			<Declaration>- (void)addPublicKeyWithGID:(NSNumber *)gid publicKeyData:(NSData *)publicKey userHasMyPublicKey:(BOOL)hasPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/setPublicKeyStateWithGID:userHasMyPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.h</DeclaredIn>
+			
+			<Declaration>- (void)setPublicKeyStateWithGID:(NSNumber *)gid userHasMyPublicKey:(BOOL)userHasPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/setPublicKeyStateWithGID:userHasMyPublicKey:</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/didResetMyPublicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.h</DeclaredIn>
+			
+			<Declaration>- (void)didResetMyPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/didResetMyPublicKey</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/publicKeyEntryForGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.h</DeclaredIn>
+			
+			<Declaration>- (PublicKeyEntry *)publicKeyEntryForGID:(NSNumber *)gid</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyEntryForGID:</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/printOutPublicKeysAndGIDs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.h</DeclaredIn>
+			
+			<Declaration>- (void)printOutPublicKeysAndGIDs</Declaration>
+			
+			
+			<Anchor>//api/name/printOutPublicKeysAndGIDs</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.m</DeclaredIn>
+			
+			<Declaration>- (void)addPublicKeyPrivateWithGID:(NSNumber *)gid publicKeyData:(NSData *)publicKey userHasPublicKey:(BOOL)userHasPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/savePublicKeyDict</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.m</DeclaredIn>
+			
+			<Declaration>- (void)savePublicKeyDict</Declaration>
+			
+			
+			<Anchor>//api/name/savePublicKeyDict</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/archivePath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)archivePath</Declaration>
+			
+			
+			<Anchor>//api/name/archivePath</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/setPublicKeyDict:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary&lt;NSNumber*PublicKeyEntry*&gt; *publicKeyDict</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyDict</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyManager/publicKeyDict</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary&lt;NSNumber*PublicKeyEntry*&gt; *publicKeyDict</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyDict</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PublicKeyManager/publicKeyDict</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary&lt;NSNumber*PublicKeyEntry*&gt; *publicKeyDict</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyDict</Anchor>
+            <NodeRef refid="88"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

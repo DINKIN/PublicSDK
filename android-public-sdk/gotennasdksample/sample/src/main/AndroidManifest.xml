@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.gotenna.sdk.sample"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.PairingActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.SdkOptionsActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activities.SetGidActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activities.PrivateMessageActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activities.BroadcastMessageActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activities.CreateGroupActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activities.GroupMessageActivity"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

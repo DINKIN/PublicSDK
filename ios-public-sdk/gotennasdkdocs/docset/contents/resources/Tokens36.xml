@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTEncryption.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTEncryption</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.h</DeclaredIn>
+            
+			
+			<NodeRef refid="36"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryption/initWithEncryptionKeyBuilder:digestHMACGenerator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithEncryptionKeyBuilder:(GTEncryptionKeyBuilder *)keyBuilder digestHMACGenerator:(id&lt;GTDigestHMACGeneratorProtocol&gt;)digestHMACGenerator</Declaration>
+			
+			
+			<Anchor>//api/name/initWithEncryptionKeyBuilder:digestHMACGenerator:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryption/encryptDecryptWithRawBytes:counter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)encryptDecryptWithRawBytes:(NSData *)rawMessageBytes counter:(int)globalCounter</Declaration>
+			
+			
+			<Anchor>//api/name/encryptDecryptWithRawBytes:counter:</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryption/setKeyBuilder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTEncryptionKeyBuilder *keyBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/keyBuilder</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryption/keyBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTEncryptionKeyBuilder *keyBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/keyBuilder</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryption/keyBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTEncryptionKeyBuilder *keyBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/keyBuilder</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryption/setDigestHMAC:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;GTDigestHMACGeneratorProtocol&gt; digestHMAC</Declaration>
+			
+			
+			<Anchor>//api/name/digestHMAC</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryption/digestHMAC</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;GTDigestHMACGeneratorProtocol&gt; digestHMAC</Declaration>
+			
+			
+			<Anchor>//api/name/digestHMAC</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryption/digestHMAC</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) id&lt;GTDigestHMACGeneratorProtocol&gt; digestHMAC</Declaration>
+			
+			
+			<Anchor>//api/name/digestHMAC</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryption/setSubCounter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int subCounter</Declaration>
+			
+			
+			<Anchor>//api/name/subCounter</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryption/subCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int subCounter</Declaration>
+			
+			
+			<Anchor>//api/name/subCounter</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryption/subCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryption.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int subCounter</Declaration>
+			
+			
+			<Anchor>//api/name/subCounter</Anchor>
+            <NodeRef refid="36"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

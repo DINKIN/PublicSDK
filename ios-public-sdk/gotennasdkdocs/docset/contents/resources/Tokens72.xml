@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTSecurityService.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTSecurityService</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.h</DeclaredIn>
+            
+			
+			<NodeRef refid="72"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTSecurityService/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/generatePersonalKeyPair</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.h</DeclaredIn>
+			
+			<Declaration>- (void)generatePersonalKeyPair</Declaration>
+			
+			
+			<Anchor>//api/name/generatePersonalKeyPair</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/keyPair</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.h</DeclaredIn>
+			
+			<Declaration>- (GoTennaKeyPair *)keyPair</Declaration>
+			
+			
+			<Anchor>//api/name/keyPair</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/generateSharedSecretUsingRemotePublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)generateSharedSecretUsingRemotePublicKey:(NSData *)remotePublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/generateSharedSecretUsingRemotePublicKey:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/secByteBlockToBytesWithByteBlock:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>- (const unsigned char *)secByteBlockToBytesWithByteBlock:(CryptoPP : : SecByteBlock)byteBlock</Declaration>
+			
+			
+			<Anchor>//api/name/secByteBlockToBytesWithByteBlock:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/bytesToSecByteBlockWithBytes:length:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>- (CryptoPP : : SecByteBlock)bytesToSecByteBlockWithBytes:(const unsigned char *)bytes length:(int)length</Declaration>
+			
+			
+			<Anchor>//api/name/bytesToSecByteBlockWithBytes:length:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/isKeyPairDataValidForPrivateKey:publicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)isKeyPairDataValidForPrivateKey:(NSData *)privateKey publicKey:(NSData *)publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/isKeyPairDataValidForPrivateKey:publicKey:</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/setGoTennaPrivKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SecByteBlock goTennaPrivKey</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaPrivKey</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/goTennaPrivKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SecByteBlock goTennaPrivKey</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaPrivKey</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSecurityService/goTennaPrivKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SecByteBlock goTennaPrivKey</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaPrivKey</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/setGoTennaPubKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SecByteBlock goTennaPubKey</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaPubKey</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/goTennaPubKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SecByteBlock goTennaPubKey</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaPubKey</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSecurityService/goTennaPubKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) SecByteBlock goTennaPubKey</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaPubKey</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/setKeychain:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UICKeyChainStore *keychain</Declaration>
+			
+			
+			<Anchor>//api/name/keychain</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSecurityService/keychain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UICKeyChainStore *keychain</Declaration>
+			
+			
+			<Anchor>//api/name/keychain</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSecurityService/keychain</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSecurityService.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UICKeyChainStore *keychain</Declaration>
+			
+			
+			<Anchor>//api/name/keychain</Anchor>
+            <NodeRef refid="72"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

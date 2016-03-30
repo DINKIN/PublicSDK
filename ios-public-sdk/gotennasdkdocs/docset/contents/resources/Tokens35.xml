@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTDocumentManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTDocumentManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDocumentManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="35"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDocumentManager/firmwareFilePathfor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDocumentManager.h</DeclaredIn>
+			
+			<Declaration>- (NSURL *)firmwareFilePathfor:(NSString *)filename</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareFilePathfor:</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDocumentManager/firmwareDirectory</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDocumentManager.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)firmwareDirectory</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareDirectory</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDocumentManager/extractFirmwareVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDocumentManager.h</DeclaredIn>
+			
+			<Declaration>- (double)extractFirmwareVersion:(NSString *)filename</Declaration>
+			
+			
+			<Anchor>//api/name/extractFirmwareVersion:</Anchor>
+            <NodeRef refid="35"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

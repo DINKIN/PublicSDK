@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTFirmwareInstallationManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTFirmwareInstallationManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="44"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/checkAndInstallFirmwareWithFirmwareProgressDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.h</DeclaredIn>
+			
+			<Declaration>- (void)checkAndInstallFirmwareWithFirmwareProgressDelegate:(id&lt;GTFirmwareInstallationProgressProtocol&gt;)delegate</Declaration>
+			
+			
+			<Anchor>//api/name/checkAndInstallFirmwareWithFirmwareProgressDelegate:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/isCurrentlyDownloading</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isCurrentlyDownloading</Declaration>
+			
+			
+			<Anchor>//api/name/isCurrentlyDownloading</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/kickOffNewInstallation:withDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>- (void)kickOffNewInstallation:(GTFirmwareVersion *)versionToInstall withDelegate:(id&lt;GTFirmwareInstallationProgressProtocol&gt;)delegate</Declaration>
+			
+			
+			<Anchor>//api/name/kickOffNewInstallation:withDelegate:</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/resolveInProgressInstallation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>- (void)resolveInProgressInstallation</Declaration>
+			
+			
+			<Anchor>//api/name/resolveInProgressInstallation</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/abortInstallation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>- (void)abortInstallation</Declaration>
+			
+			
+			<Anchor>//api/name/abortInstallation</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/setFirmwareVersionStore:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSystemInfoStore *firmwareVersionStore</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersionStore</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/firmwareVersionStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSystemInfoStore *firmwareVersionStore</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersionStore</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareInstallationManager/firmwareVersionStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSystemInfoStore *firmwareVersionStore</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersionStore</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/setFirmwareWriter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTFirmwareWriter *firmwareWriter</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareWriter</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/firmwareWriter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTFirmwareWriter *firmwareWriter</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareWriter</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareInstallationManager/firmwareWriter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTFirmwareWriter *firmwareWriter</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareWriter</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/setGoTennaRebootTimer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *goTennaRebootTimer</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaRebootTimer</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/goTennaRebootTimer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *goTennaRebootTimer</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaRebootTimer</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareInstallationManager/goTennaRebootTimer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *goTennaRebootTimer</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaRebootTimer</Anchor>
+            <NodeRef refid="44"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

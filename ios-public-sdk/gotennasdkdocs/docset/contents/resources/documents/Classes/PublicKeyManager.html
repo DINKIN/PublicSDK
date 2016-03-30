@@ -1,0 +1,543 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>PublicKeyManager Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GoTennaSDK </a></h1>
+				<a id="developerHome" href="../index.html">Your Name</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">PublicKeyManager Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/publicKeyDict">&nbsp;&nbsp;&nbsp;&nbsp;publicKeyDict</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/shared">&nbsp;&nbsp;&nbsp;&nbsp;+ shared</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:">&nbsp;&nbsp;&nbsp;&nbsp;- addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:</option>
+	
+	<option value="//api/name/addPublicKeyWithGID:publicKeyData:">&nbsp;&nbsp;&nbsp;&nbsp;- addPublicKeyWithGID:publicKeyData:</option>
+	
+	<option value="//api/name/addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:">&nbsp;&nbsp;&nbsp;&nbsp;- addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:</option>
+	
+	<option value="//api/name/archivePath">&nbsp;&nbsp;&nbsp;&nbsp;- archivePath</option>
+	
+	<option value="//api/name/didResetMyPublicKey">&nbsp;&nbsp;&nbsp;&nbsp;- didResetMyPublicKey</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/printOutPublicKeysAndGIDs">&nbsp;&nbsp;&nbsp;&nbsp;- printOutPublicKeysAndGIDs</option>
+	
+	<option value="//api/name/publicKeyEntryForGID:">&nbsp;&nbsp;&nbsp;&nbsp;- publicKeyEntryForGID:</option>
+	
+	<option value="//api/name/savePublicKeyDict">&nbsp;&nbsp;&nbsp;&nbsp;- savePublicKeyDict</option>
+	
+	<option value="//api/name/setPublicKeyStateWithGID:userHasMyPublicKey:">&nbsp;&nbsp;&nbsp;&nbsp;- setPublicKeyStateWithGID:userHasMyPublicKey:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Extension Methods">Extension Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/publicKeyDict">publicKeyDict</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shared">shared</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:">addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addPublicKeyWithGID:publicKeyData:">addPublicKeyWithGID:publicKeyData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:">addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/archivePath">archivePath</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/didResetMyPublicKey">didResetMyPublicKey</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/printOutPublicKeysAndGIDs">printOutPublicKeysAndGIDs</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/publicKeyEntryForGID:">publicKeyEntryForGID:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/savePublicKeyDict">savePublicKeyDict</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPublicKeyStateWithGID:userHasMyPublicKey:">setPublicKeyStateWithGID:userHasMyPublicKey:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="PublicKeyManager Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">PublicKeyManager Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">PublicKeyManager.h<br />PublicKeyManager.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shared">+&nbsp;shared</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addPublicKeyWithGID:publicKeyData:">&ndash;&nbsp;addPublicKeyWithGID:publicKeyData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:">&ndash;&nbsp;addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPublicKeyStateWithGID:userHasMyPublicKey:">&ndash;&nbsp;setPublicKeyStateWithGID:userHasMyPublicKey:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/didResetMyPublicKey">&ndash;&nbsp;didResetMyPublicKey</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/publicKeyEntryForGID:">&ndash;&nbsp;publicKeyEntryForGID:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/printOutPublicKeysAndGIDs">&ndash;&nbsp;printOutPublicKeysAndGIDs</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:">&ndash;&nbsp;addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/savePublicKeyDict">&ndash;&nbsp;savePublicKeyDict</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/archivePath">&ndash;&nbsp;archivePath</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h3 class="subsubtitle task-title">Extension Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/publicKeyDict">&nbsp;&nbsp;publicKeyDict</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/publicKeyDict" title="publicKeyDict"></a>
+	<h3 class="subsubtitle method-title">publicKeyDict</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSMutableDictionary&lt;NSNumber*PublicKeyEntry*&gt; *publicKeyDict</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/shared" title="shared"></a>
+	<h3 class="subsubtitle method-title">shared</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (instancetype)shared</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:" title="addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:"></a>
+	<h3 class="subsubtitle method-title">addPublicKeyPrivateWithGID:publicKeyData:userHasPublicKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addPublicKeyPrivateWithGID:(NSNumber *)<em>gid</em> publicKeyData:(NSData *)<em>publicKey</em> userHasPublicKey:(BOOL)<em>userHasPublicKey</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addPublicKeyWithGID:publicKeyData:" title="addPublicKeyWithGID:publicKeyData:"></a>
+	<h3 class="subsubtitle method-title">addPublicKeyWithGID:publicKeyData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addPublicKeyWithGID:(NSNumber *)<em>gid</em> publicKeyData:(NSData *)<em>publicKey</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:" title="addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:"></a>
+	<h3 class="subsubtitle method-title">addPublicKeyWithGID:publicKeyData:userHasMyPublicKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addPublicKeyWithGID:(NSNumber *)<em>gid</em> publicKeyData:(NSData *)<em>publicKey</em> userHasMyPublicKey:(BOOL)<em>hasPublicKey</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/archivePath" title="archivePath"></a>
+	<h3 class="subsubtitle method-title">archivePath</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSString *)archivePath</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/didResetMyPublicKey" title="didResetMyPublicKey"></a>
+	<h3 class="subsubtitle method-title">didResetMyPublicKey</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)didResetMyPublicKey</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (instancetype)init</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/printOutPublicKeysAndGIDs" title="printOutPublicKeysAndGIDs"></a>
+	<h3 class="subsubtitle method-title">printOutPublicKeysAndGIDs</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)printOutPublicKeysAndGIDs</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/publicKeyEntryForGID:" title="publicKeyEntryForGID:"></a>
+	<h3 class="subsubtitle method-title">publicKeyEntryForGID:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (PublicKeyEntry *)publicKeyEntryForGID:(NSNumber *)<em>gid</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/savePublicKeyDict" title="savePublicKeyDict"></a>
+	<h3 class="subsubtitle method-title">savePublicKeyDict</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)savePublicKeyDict</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPublicKeyStateWithGID:userHasMyPublicKey:" title="setPublicKeyStateWithGID:userHasMyPublicKey:"></a>
+	<h3 class="subsubtitle method-title">setPublicKeyStateWithGID:userHasMyPublicKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setPublicKeyStateWithGID:(NSNumber *)<em>gid</em> userHasMyPublicKey:(BOOL)<em>userHasPublicKey</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

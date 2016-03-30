@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTCommandValidator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTCommandValidator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandValidator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandValidator/validateSendMessage:destinationGID:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandValidator.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)validateSendMessage:(NSData *)data destinationGID:(NSNumber *)GID onError:(void ( ^ ) ( NSError *))error</Declaration>
+			
+			
+			<Anchor>//api/name/validateSendMessage:destinationGID:onError:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandValidator/validateBroadcast:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandValidator.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)validateBroadcast:(NSData *)data onError:(void ( ^ ) ( NSError *))error</Declaration>
+			
+			
+			<Anchor>//api/name/validateBroadcast:onError:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandValidator/validateSetGoTennaGID:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandValidator.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)validateSetGoTennaGID:(NSNumber *)number onError:(void ( ^ ) ( NSError *))error</Declaration>
+			
+			
+			<Anchor>//api/name/validateSetGoTennaGID:onError:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandValidator/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandValidator.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandValidator/validateSendingMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandValidator.m</DeclaredIn>
+			
+			<Declaration>- (NSError *)validateSendingMessage:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/validateSendingMessage:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandValidator/validateNotShout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandValidator.m</DeclaredIn>
+			
+			<Declaration>- (NSError *)validateNotShout:(NSNumber *)GID</Declaration>
+			
+			
+			<Anchor>//api/name/validateNotShout:</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandValidator/setUserDataStore:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandValidator.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UserDataStore *userDataStore</Declaration>
+			
+			
+			<Anchor>//api/name/userDataStore</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandValidator/userDataStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandValidator.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UserDataStore *userDataStore</Declaration>
+			
+			
+			<Anchor>//api/name/userDataStore</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandValidator/userDataStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandValidator.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UserDataStore *userDataStore</Declaration>
+			
+			
+			<Anchor>//api/name/userDataStore</Anchor>
+            <NodeRef refid="26"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

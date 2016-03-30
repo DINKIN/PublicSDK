@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTPairingManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTPairingManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="60"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/setPairingHandler:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) id&lt;GTPairingHandlerProtocol&gt; pairingHandler</Declaration>
+			
+			
+			<Anchor>//api/name/pairingHandler</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/pairingHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) id&lt;GTPairingHandlerProtocol&gt; pairingHandler</Declaration>
+			
+			
+			<Anchor>//api/name/pairingHandler</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPairingManager/pairingHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) id&lt;GTPairingHandlerProtocol&gt; pairingHandler</Declaration>
+			
+			
+			<Anchor>//api/name/pairingHandler</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/setShouldReconnect:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL shouldReconnect</Declaration>
+			
+			
+			<Anchor>//api/name/shouldReconnect</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/shouldReconnect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL shouldReconnect</Declaration>
+			
+			
+			<Anchor>//api/name/shouldReconnect</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPairingManager/shouldReconnect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL shouldReconnect</Declaration>
+			
+			
+			<Anchor>//api/name/shouldReconnect</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTPairingManager/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>+ (GTPairingManager *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/initiateDisconnect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (void)initiateDisconnect</Declaration>
+			
+			
+			<Anchor>//api/name/initiateDisconnect</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/initiateScanningConnect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (void)initiateScanningConnect</Declaration>
+			
+			
+			<Anchor>//api/name/initiateScanningConnect</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/stopScanningConnect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (void)stopScanningConnect</Declaration>
+			
+			
+			<Anchor>//api/name/stopScanningConnect</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/clearSavedScannedDevice</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (void)clearSavedScannedDevice</Declaration>
+			
+			
+			<Anchor>//api/name/clearSavedScannedDevice</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/connectingState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (GTConnectionState)connectingState</Declaration>
+			
+			
+			<Anchor>//api/name/connectingState</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/isScannedDeviceSaved</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isScannedDeviceSaved</Declaration>
+			
+			
+			<Anchor>//api/name/isScannedDeviceSaved</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/scanAndConnect</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>- (void)scanAndConnect</Declaration>
+			
+			
+			<Anchor>//api/name/scanAndConnect</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/updateState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>- (void)updateState:(GTConnectionState)state</Declaration>
+			
+			
+			<Anchor>//api/name/updateState:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/checkAndPerformConfirmationWrite:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>- (void)checkAndPerformConfirmationWrite:(id)checkAndPerformConfirmationWrite</Declaration>
+			
+			
+			<Anchor>//api/name/checkAndPerformConfirmationWrite:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/didConnectToPeripheral</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>- (void)didConnectToPeripheral</Declaration>
+			
+			
+			<Anchor>//api/name/didConnectToPeripheral</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/bluetoothConnectionNotAvailable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>- (void)bluetoothConnectionNotAvailable:(CBCentralManagerState)state</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothConnectionNotAvailable:</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/canNotConnectToPeripheral</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>- (void)canNotConnectToPeripheral</Declaration>
+			
+			
+			<Anchor>//api/name/canNotConnectToPeripheral</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/bluetoothPoweredOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>- (void)bluetoothPoweredOn</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothPoweredOn</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/nonUserDisconnectionOccurred</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>- (void)nonUserDisconnectionOccurred</Declaration>
+			
+			
+			<Anchor>//api/name/nonUserDisconnectionOccurred</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/setConnectionManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) BluetoothConnectionManager *connectionManager</Declaration>
+			
+			
+			<Anchor>//api/name/connectionManager</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/connectionManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) BluetoothConnectionManager *connectionManager</Declaration>
+			
+			
+			<Anchor>//api/name/connectionManager</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPairingManager/connectionManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) BluetoothConnectionManager *connectionManager</Declaration>
+			
+			
+			<Anchor>//api/name/connectionManager</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/setGtPeripheralManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPeripheralManager *gtPeripheralManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtPeripheralManager</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/gtPeripheralManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPeripheralManager *gtPeripheralManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtPeripheralManager</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPairingManager/gtPeripheralManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPeripheralManager *gtPeripheralManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtPeripheralManager</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/setCommandCenter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *commandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/commandCenter</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/commandCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *commandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/commandCenter</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPairingManager/commandCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *commandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/commandCenter</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/setWriteConnectionConfirmationTimer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *writeConnectionConfirmationTimer</Declaration>
+			
+			
+			<Anchor>//api/name/writeConnectionConfirmationTimer</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/writeConnectionConfirmationTimer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *writeConnectionConfirmationTimer</Declaration>
+			
+			
+			<Anchor>//api/name/writeConnectionConfirmationTimer</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPairingManager/writeConnectionConfirmationTimer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *writeConnectionConfirmationTimer</Declaration>
+			
+			
+			<Anchor>//api/name/writeConnectionConfirmationTimer</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/setConnectedState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPairingConnectionState *connectedState</Declaration>
+			
+			
+			<Anchor>//api/name/connectedState</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/connectedState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPairingConnectionState *connectedState</Declaration>
+			
+			
+			<Anchor>//api/name/connectedState</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPairingManager/connectedState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPairingConnectionState *connectedState</Declaration>
+			
+			
+			<Anchor>//api/name/connectedState</Anchor>
+            <NodeRef refid="60"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

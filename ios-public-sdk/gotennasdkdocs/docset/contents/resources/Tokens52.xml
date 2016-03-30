@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTLocationMessageData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTLocationMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="52"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/setLocationType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *locationType</Declaration>
+			
+			
+			<Anchor>//api/name/locationType</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/locationType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *locationType</Declaration>
+			
+			
+			<Anchor>//api/name/locationType</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTLocationMessageData/locationType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *locationType</Declaration>
+			
+			
+			<Anchor>//api/name/locationType</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/setLatitude:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *latitude</Declaration>
+			
+			
+			<Anchor>//api/name/latitude</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/latitude</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *latitude</Declaration>
+			
+			
+			<Anchor>//api/name/latitude</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTLocationMessageData/latitude</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *latitude</Declaration>
+			
+			
+			<Anchor>//api/name/latitude</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/setLongitude:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *longitude</Declaration>
+			
+			
+			<Anchor>//api/name/longitude</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/longitude</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *longitude</Declaration>
+			
+			
+			<Anchor>//api/name/longitude</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTLocationMessageData/longitude</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *longitude</Declaration>
+			
+			
+			<Anchor>//api/name/longitude</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTLocationMessageData/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/initFromOrderedData:withSenderGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>- (id)initFromOrderedData:(NSArray&lt;TLVSection*&gt; *)tlvSections withSenderGID:(NSNumber *)senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/initFromOrderedData:withSenderGID:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/initWithLocationType:andLatitude:andLongitude:andName:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithLocationType:(NSNumber *)number andLatitude:(NSNumber *)latitude andLongitude:(NSNumber *)longitude andName:(NSString *)name onError:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/initWithLocationType:andLatitude:andLongitude:andName:onError:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/getTLVSections</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>- (NSArray&lt;TLVSection*&gt; *)getTLVSections</Declaration>
+			
+			
+			<Anchor>//api/name/getTLVSections</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/serializeToBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)serializeToBytes</Declaration>
+			
+			
+			<Anchor>//api/name/serializeToBytes</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationMessageData/getNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationMessageData.m</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)getNumber:(NSString *)value</Declaration>
+			
+			
+			<Anchor>//api/name/getNumber:</Anchor>
+            <NodeRef refid="52"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

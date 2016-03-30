@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BCTSServiceInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BCTSServiceInfo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BCTSServiceInfo/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.h</DeclaredIn>
+			
+			<Declaration>+ (BCTSServiceInfo *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/prepareToSendCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.h</DeclaredIn>
+			
+			<Declaration>- (void)prepareToSendCommand</Declaration>
+			
+			
+			<Anchor>//api/name/prepareToSendCommand</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/commandFinished</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.h</DeclaredIn>
+			
+			<Declaration>- (void)commandFinished</Declaration>
+			
+			
+			<Anchor>//api/name/commandFinished</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/setProtocolVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.h</DeclaredIn>
+			
+			<Declaration>- (void)setProtocolVersion:(float)protocolVersion</Declaration>
+			
+			
+			<Anchor>//api/name/setProtocolVersion:</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/isCommandSendWindowOfOpportunityOpen</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isCommandSendWindowOfOpportunityOpen</Declaration>
+			
+			
+			<Anchor>//api/name/isCommandSendWindowOfOpportunityOpen</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/setState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BCTSServiceInfoState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/state</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BCTSServiceInfoState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BCTSServiceInfo/state</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BCTSServiceInfoState state</Declaration>
+			
+			
+			<Anchor>//api/name/state</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/setCommandTimeStart:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSDate *commandTimeStart</Declaration>
+			
+			
+			<Anchor>//api/name/commandTimeStart</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/commandTimeStart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSDate *commandTimeStart</Declaration>
+			
+			
+			<Anchor>//api/name/commandTimeStart</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BCTSServiceInfo/commandTimeStart</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSDate *commandTimeStart</Declaration>
+			
+			
+			<Anchor>//api/name/commandTimeStart</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/setBluetoothProtocolVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float bluetoothProtocolVersion</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothProtocolVersion</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BCTSServiceInfo/bluetoothProtocolVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float bluetoothProtocolVersion</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothProtocolVersion</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BCTSServiceInfo/bluetoothProtocolVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BCTSServiceInfo.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) float bluetoothProtocolVersion</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothProtocolVersion</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSData+BytesToPrimitiveArray.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSData(BytesToPrimitiveArray)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+BytesToPrimitiveArray.h</DeclaredIn>
+            
+			
+			<NodeRef refid="99"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/array8BitIntegers</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+BytesToPrimitiveArray.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)array8BitIntegers</Declaration>
+			
+			
+			<Anchor>//api/name/array8BitIntegers</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/array8BitAsciiTransform</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+BytesToPrimitiveArray.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)array8BitAsciiTransform</Declaration>
+			
+			
+			<Anchor>//api/name/array8BitAsciiTransform</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/bytesToInt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+BytesToPrimitiveArray.h</DeclaredIn>
+			
+			<Declaration>- (int)bytesToInt</Declaration>
+			
+			
+			<Anchor>//api/name/bytesToInt</Anchor>
+            <NodeRef refid="99"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

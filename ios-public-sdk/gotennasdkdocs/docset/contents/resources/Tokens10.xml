@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DecryptedPayloadData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DecryptedPayloadData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DecryptedPayloadData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DecryptedPayloadData/initWithEncryptionInfoHeader:plaintextPayloadData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DecryptedPayloadData.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithEncryptionInfoHeader:(EncryptionInfoHeader *)encryptionInfoHeader plaintextPayloadData:(NSData *)plaintextPayloadData</Declaration>
+			
+			
+			<Anchor>//api/name/initWithEncryptionInfoHeader:plaintextPayloadData:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DecryptedPayloadData/setEncryptionInfoHeader:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DecryptedPayloadData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) EncryptionInfoHeader *encryptionInfoHeader</Declaration>
+			
+			
+			<Anchor>//api/name/encryptionInfoHeader</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DecryptedPayloadData/encryptionInfoHeader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DecryptedPayloadData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) EncryptionInfoHeader *encryptionInfoHeader</Declaration>
+			
+			
+			<Anchor>//api/name/encryptionInfoHeader</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DecryptedPayloadData/encryptionInfoHeader</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DecryptedPayloadData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) EncryptionInfoHeader *encryptionInfoHeader</Declaration>
+			
+			
+			<Anchor>//api/name/encryptionInfoHeader</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DecryptedPayloadData/setPlaintextPayloadData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DecryptedPayloadData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *plaintextPayloadData</Declaration>
+			
+			
+			<Anchor>//api/name/plaintextPayloadData</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DecryptedPayloadData/plaintextPayloadData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DecryptedPayloadData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *plaintextPayloadData</Declaration>
+			
+			
+			<Anchor>//api/name/plaintextPayloadData</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/DecryptedPayloadData/plaintextPayloadData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>DecryptedPayloadData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *plaintextPayloadData</Declaration>
+			
+			
+			<Anchor>//api/name/plaintextPayloadData</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

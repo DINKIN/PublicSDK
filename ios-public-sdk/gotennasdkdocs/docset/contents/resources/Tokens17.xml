@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GIDManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GIDManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GIDManager/shoutGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSNumber *)shoutGID</Declaration>
+			
+			
+			<Anchor>//api/name/shoutGID</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GIDManager/emergencyGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.h</DeclaredIn>
+			
+			<Declaration>+ (NSNumber *)emergencyGID</Declaration>
+			
+			
+			<Anchor>//api/name/emergencyGID</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GIDManager/senderIsGoTennaHQ:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)senderIsGoTennaHQ:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/senderIsGoTennaHQ:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GIDManager/gidTypeForGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.h</DeclaredIn>
+			
+			<Declaration>+ (GTGIDType)gidTypeForGID:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/gidTypeForGID:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/personalGIDFromDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)personalGIDFromDate:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/personalGIDFromDate:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/groupGIDFromDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)groupGIDFromDate:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/groupGIDFromDate:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/generateWithLength:fromDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.m</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)generateWithLength:(int)gidLength fromDate:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/generateWithLength:fromDate:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/generateRandomGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)generateRandomGID</Declaration>
+			
+			
+			<Anchor>//api/name/generateRandomGID</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/setDateFormatter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDateFormatter *dateFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/dateFormatter</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/dateFormatter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDateFormatter *dateFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/dateFormatter</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GIDManager/dateFormatter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDateFormatter *dateFormatter</Declaration>
+			
+			
+			<Anchor>//api/name/dateFormatter</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/setUserDataStore:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UserDataStore *userDataStore</Declaration>
+			
+			
+			<Anchor>//api/name/userDataStore</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/userDataStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UserDataStore *userDataStore</Declaration>
+			
+			
+			<Anchor>//api/name/userDataStore</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GIDManager/userDataStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GIDManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UserDataStore *userDataStore</Declaration>
+			
+			
+			<Anchor>//api/name/userDataStore</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

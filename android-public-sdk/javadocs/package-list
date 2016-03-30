@@ -1,0 +1,10 @@
+com.gotenna.sdk
+com.gotenna.sdk.bluetooth
+com.gotenna.sdk.commands
+com.gotenna.sdk.firmware
+com.gotenna.sdk.interfaces
+com.gotenna.sdk.messages
+com.gotenna.sdk.responses
+com.gotenna.sdk.types
+com.gotenna.sdk.user
+com.gotenna.sdk.utils

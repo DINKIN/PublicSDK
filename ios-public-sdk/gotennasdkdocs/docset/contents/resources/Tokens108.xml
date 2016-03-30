@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GTFirmwareRetrieveProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GTFirmwareRetrieveProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieveProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="108"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTFirmwareRetrieveProtocol/retrieveFirmwareWithStorageCompletion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieveProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)retrieveFirmwareWithStorageCompletion:(RetrievalCompletion)retrievalCompletion</Declaration>
+			
+			
+			<Anchor>//api/name/retrieveFirmwareWithStorageCompletion:</Anchor>
+            <NodeRef refid="108"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

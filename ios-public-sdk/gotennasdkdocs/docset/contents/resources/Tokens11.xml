@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EncryptionDataHandler.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EncryptionDataHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionDataHandler.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EncryptionDataHandler/createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionDataHandler.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)createGroupEncryptedMessagePayloadWithGroupGID:(NSNumber *)groupGID andSharedSecret:(NSData *)sharedSecret andOutgoingData:(NSData *)outgoingData</Declaration>
+			
+			
+			<Anchor>//api/name/createGroupEncryptedMessagePayloadWithGroupGID:andSharedSecret:andOutgoingData:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EncryptionDataHandler/createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionDataHandler.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)createOneToOneEncryptedMessagePayloadWithRemotePublicKey:(NSData *)remotePublicKey outgoingData:(NSData *)outgoingData</Declaration>
+			
+			
+			<Anchor>//api/name/createOneToOneEncryptedMessagePayloadWithRemotePublicKey:outgoingData:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EncryptionDataHandler/createPlainMessagePayloadWithOutgoingData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionDataHandler.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)createPlainMessagePayloadWithOutgoingData:(NSData *)outgoingData</Declaration>
+			
+			
+			<Anchor>//api/name/createPlainMessagePayloadWithOutgoingData:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EncryptionDataHandler/parseEncryptionInfoHeaderWithMessagePayloadTLV:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionDataHandler.h</DeclaredIn>
+			
+			<Declaration>+ (EncryptionInfoHeader *)parseEncryptionInfoHeaderWithMessagePayloadTLV:(TLVSection *)messagePayloadTLV</Declaration>
+			
+			
+			<Anchor>//api/name/parseEncryptionInfoHeaderWithMessagePayloadTLV:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EncryptionDataHandler/decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionDataHandler.h</DeclaredIn>
+			
+			<Declaration>+ (DecryptedPayloadData *)decryptMessagePayloadWith:(EncryptionInfoHeader *)encryptionInfoHeader andMessagePayloadTLV:(TLVSection *)messagePayloadTLV andGroupGID:(NSNumber *)groupGID isGroupMessage:(BOOL)isGroupMessage</Declaration>
+			
+			
+			<Anchor>//api/name/decryptMessagePayloadWith:andMessagePayloadTLV:andGroupGID:isGroupMessage:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EncryptionDataHandler/createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionDataHandler.m</DeclaredIn>
+			
+			<Declaration>+ (NSData *)createMessagePayloadWithEncryption:(BOOL)isEncrypted sharedSecret:(NSData *)sharedSecret myPublicKey:(NSData *)myPublicKey senderGid:(NSNumber *)senderGID outgoingData:(NSData *)outgoingData</Declaration>
+			
+			
+			<Anchor>//api/name/createMessagePayloadWithEncryption:sharedSecret:myPublicKey:senderGid:outgoingData:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EncryptionDataHandler/createOutgoingDataWithCRCUsingOutgoingData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionDataHandler.m</DeclaredIn>
+			
+			<Declaration>+ (NSData *)createOutgoingDataWithCRCUsingOutgoingData:(NSData *)outgoingData</Declaration>
+			
+			
+			<Anchor>//api/name/createOutgoingDataWithCRCUsingOutgoingData:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EncryptionDataHandler/decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionDataHandler.m</DeclaredIn>
+			
+			<Declaration>+ (NSData *)decryptMessagePayloadDataWithMessagePayloadData:(NSData *)messagePayloadData senderGID:(NSNumber *)senderGID encryptionCounter:(int)encryptionCounter groupGID:(NSNumber *)groupGID isGroupMessage:(BOOL)isGroupMessage</Declaration>
+			
+			
+			<Anchor>//api/name/decryptMessagePayloadDataWithMessagePayloadData:senderGID:encryptionCounter:groupGID:isGroupMessage:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EncryptionDataHandler/getGroupPublicKeyFromGroupGID:andSharedSecret:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionDataHandler.m</DeclaredIn>
+			
+			<Declaration>+ (NSData *)getGroupPublicKeyFromGroupGID:(NSNumber *)groupGID andSharedSecret:(NSData *)sharedSecret</Declaration>
+			
+			
+			<Anchor>//api/name/getGroupPublicKeyFromGroupGID:andSharedSecret:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

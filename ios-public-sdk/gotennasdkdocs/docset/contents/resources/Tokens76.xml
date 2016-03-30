@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTSystemInfoStore.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTSystemInfoStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.h</DeclaredIn>
+            
+			
+			<NodeRef refid="76"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTSystemInfoStore/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.h</DeclaredIn>
+			
+			<Declaration>+ (GTSystemInfoStore *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/storeVersionToInstall:withFileName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.h</DeclaredIn>
+			
+			<Declaration>- (void)storeVersionToInstall:(double)version withFileName:(NSString *)filename</Declaration>
+			
+			
+			<Anchor>//api/name/storeVersionToInstall:withFileName:</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/versionToInstall</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.h</DeclaredIn>
+			
+			<Declaration>- (GTFirmwareVersion *)versionToInstall</Declaration>
+			
+			
+			<Anchor>//api/name/versionToInstall</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/currentSystemInfo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.h</DeclaredIn>
+			
+			<Declaration>- (GTSystemInfo *)currentSystemInfo</Declaration>
+			
+			
+			<Anchor>//api/name/currentSystemInfo</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/removeVersionToInstall</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.h</DeclaredIn>
+			
+			<Declaration>- (void)removeVersionToInstall</Declaration>
+			
+			
+			<Anchor>//api/name/removeVersionToInstall</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/storeVersionToInstall:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.h</DeclaredIn>
+			
+			<Declaration>- (void)storeVersionToInstall:(GTFirmwareVersion *)version</Declaration>
+			
+			
+			<Anchor>//api/name/storeVersionToInstall:</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/updateNewSystemInfo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.h</DeclaredIn>
+			
+			<Declaration>- (void)updateNewSystemInfo:(SystemInfoResponseData *)systemInfo</Declaration>
+			
+			
+			<Anchor>//api/name/updateNewSystemInfo:</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/sendInfoRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>- (void)sendInfoRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendInfoRequest</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/versionToInstallPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)versionToInstallPath</Declaration>
+			
+			
+			<Anchor>//api/name/versionToInstallPath</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/systemInfoPath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)systemInfoPath</Declaration>
+			
+			
+			<Anchor>//api/name/systemInfoPath</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/setBluetoothConnectionManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) BluetoothConnectionManager *bluetoothConnectionManager</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothConnectionManager</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/bluetoothConnectionManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) BluetoothConnectionManager *bluetoothConnectionManager</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothConnectionManager</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSystemInfoStore/bluetoothConnectionManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) BluetoothConnectionManager *bluetoothConnectionManager</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothConnectionManager</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/setGtCommandCenter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *gtCommandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/gtCommandCenter</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/gtCommandCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *gtCommandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/gtCommandCenter</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSystemInfoStore/gtCommandCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *gtCommandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/gtCommandCenter</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/setInfoRequestTimer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *infoRequestTimer</Declaration>
+			
+			
+			<Anchor>//api/name/infoRequestTimer</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfoStore/infoRequestTimer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *infoRequestTimer</Declaration>
+			
+			
+			<Anchor>//api/name/infoRequestTimer</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSystemInfoStore/infoRequestTimer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfoStore.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *infoRequestTimer</Declaration>
+			
+			
+			<Anchor>//api/name/infoRequestTimer</Anchor>
+            <NodeRef refid="76"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

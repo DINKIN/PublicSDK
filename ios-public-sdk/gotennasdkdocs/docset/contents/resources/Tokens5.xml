@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BinaryLogLogger.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BinaryLogLogger</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLogLogger.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BinaryLogLogger/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLogLogger.h</DeclaredIn>
+			
+			<Declaration>+ (BinaryLogLogger *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BinaryLogLogger/logRecievedBinaryLogs:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLogLogger.h</DeclaredIn>
+			
+			<Declaration>- (void)logRecievedBinaryLogs:(NSArray *)binaryArrays</Declaration>
+			
+			
+			<Anchor>//api/name/logRecievedBinaryLogs:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BinaryLogLogger/directory</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLogLogger.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)directory</Declaration>
+			
+			
+			<Anchor>//api/name/directory</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BinaryLogLogger/filename</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLogLogger.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BinaryLogLogger/subject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLogLogger.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)subject</Declaration>
+			
+			
+			<Anchor>//api/name/subject</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BinaryLogLogger/logDestinationEmail</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLogLogger.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)logDestinationEmail</Declaration>
+			
+			
+			<Anchor>//api/name/logDestinationEmail</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BinaryLogLogger/goTennaBinaryLogsLoggingDirectory</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLogLogger.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)goTennaBinaryLogsLoggingDirectory</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaBinaryLogsLoggingDirectory</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/BinaryLogLogger/goTennaBinaryLogsLoggingFilename</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLogLogger.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)goTennaBinaryLogsLoggingFilename</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaBinaryLogsLoggingFilename</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

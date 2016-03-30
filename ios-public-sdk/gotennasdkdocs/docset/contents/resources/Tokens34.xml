@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTDigestHMACSha256.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTDigestHMACSha256</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDigestHMACSha256.h</DeclaredIn>
+            
+			
+			<NodeRef refid="34"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDigestHMACSha256/generateRandom32BytesUsingSharedSecret:andLongKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDigestHMACSha256.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)generateRandom32BytesUsingSharedSecret:(NSData *)sharedSecret andLongKey:(NSData *)longKey</Declaration>
+			
+			
+			<Anchor>//api/name/generateRandom32BytesUsingSharedSecret:andLongKey:</Anchor>
+            <NodeRef refid="34"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

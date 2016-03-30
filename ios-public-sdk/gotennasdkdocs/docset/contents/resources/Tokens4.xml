@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/BinaryLog.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/BinaryLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLog.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BinaryLog/initWithLogData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLog.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithLogData:(NSData *)logData</Declaration>
+			
+			
+			<Anchor>//api/name/initWithLogData:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BinaryLog/binaryLogArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLog.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)binaryLogArray</Declaration>
+			
+			
+			<Anchor>//api/name/binaryLogArray</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BinaryLog/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLog.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BinaryLog/setBinaryLogArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLog.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *binaryLogArray</Declaration>
+			
+			
+			<Anchor>//api/name/binaryLogArray</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/BinaryLog/binaryLogArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLog.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *binaryLogArray</Declaration>
+			
+			
+			<Anchor>//api/name/binaryLogArray</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/BinaryLog/binaryLogArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>BinaryLog.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *binaryLogArray</Declaration>
+			
+			
+			<Anchor>//api/name/binaryLogArray</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

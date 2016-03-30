@@ -1,0 +1,1187 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GTCommandCenter Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GoTennaSDK </a></h1>
+				<a id="developerHome" href="../index.html">Your Name</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GTCommandCenter Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/activeStateForBER">&nbsp;&nbsp;&nbsp;&nbsp;activeStateForBER</option>
+	
+	<option value="//api/name/commandBuilder">&nbsp;&nbsp;&nbsp;&nbsp;commandBuilder</option>
+	
+	<option value="//api/name/commandQueue">&nbsp;&nbsp;&nbsp;&nbsp;commandQueue</option>
+	
+	<option value="//api/name/commandValidator">&nbsp;&nbsp;&nbsp;&nbsp;commandValidator</option>
+	
+	<option value="//api/name/onIncomingGroupCreated">&nbsp;&nbsp;&nbsp;&nbsp;onIncomingGroupCreated</option>
+	
+	<option value="//api/name/onIncomingMessage">&nbsp;&nbsp;&nbsp;&nbsp;onIncomingMessage</option>
+	
+	<option value="//api/name/responseProcessor">&nbsp;&nbsp;&nbsp;&nbsp;responseProcessor</option>
+	
+	<option value="//api/name/testBERMessageData">&nbsp;&nbsp;&nbsp;&nbsp;testBERMessageData</option>
+	
+	<option value="//api/name/userDataStore">&nbsp;&nbsp;&nbsp;&nbsp;userDataStore</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/shared">&nbsp;&nbsp;&nbsp;&nbsp;+ shared</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/abortCurrentCommand">&nbsp;&nbsp;&nbsp;&nbsp;- abortCurrentCommand</option>
+	
+	<option value="//api/name/addGroupGID:">&nbsp;&nbsp;&nbsp;&nbsp;- addGroupGID:</option>
+	
+	<option value="//api/name/buildGetMessageRequest">&nbsp;&nbsp;&nbsp;&nbsp;- buildGetMessageRequest</option>
+	
+	<option value="//api/name/createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:</option>
+	
+	<option value="//api/name/currentQueueCommand">&nbsp;&nbsp;&nbsp;&nbsp;- currentQueueCommand</option>
+	
+	<option value="//api/name/deleteGID:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteGID:onError:</option>
+	
+	<option value="//api/name/dispatchResponse:">&nbsp;&nbsp;&nbsp;&nbsp;- dispatchResponse:</option>
+	
+	<option value="//api/name/executeUpcomingQueueCommand">&nbsp;&nbsp;&nbsp;&nbsp;- executeUpcomingQueueCommand</option>
+	
+	<option value="//api/name/pauseQueue">&nbsp;&nbsp;&nbsp;&nbsp;- pauseQueue</option>
+	
+	<option value="//api/name/queueCommand:">&nbsp;&nbsp;&nbsp;&nbsp;- queueCommand:</option>
+	
+	<option value="//api/name/queuePriorityCommands:">&nbsp;&nbsp;&nbsp;&nbsp;- queuePriorityCommands:</option>
+	
+	<option value="//api/name/queuePriorityGTCommand:">&nbsp;&nbsp;&nbsp;&nbsp;- queuePriorityGTCommand:</option>
+	
+	<option value="//api/name/remainingCommands">&nbsp;&nbsp;&nbsp;&nbsp;- remainingCommands</option>
+	
+	<option value="//api/name/resetGotenna">&nbsp;&nbsp;&nbsp;&nbsp;- resetGotenna</option>
+	
+	<option value="//api/name/resetQueue">&nbsp;&nbsp;&nbsp;&nbsp;- resetQueue</option>
+	
+	<option value="//api/name/sendBroadcast:toGID:onResponse:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- sendBroadcast:toGID:onResponse:onError:</option>
+	
+	<option value="//api/name/sendDeleteLastMessageRequest">&nbsp;&nbsp;&nbsp;&nbsp;- sendDeleteLastMessageRequest</option>
+	
+	<option value="//api/name/sendDisconnectGotenna">&nbsp;&nbsp;&nbsp;&nbsp;- sendDisconnectGotenna</option>
+	
+	<option value="//api/name/sendEchoCommand:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- sendEchoCommand:onError:</option>
+	
+	<option value="//api/name/sendGetMessageRequest">&nbsp;&nbsp;&nbsp;&nbsp;- sendGetMessageRequest</option>
+	
+	<option value="//api/name/sendGetSystemInfoOnSuccess:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- sendGetSystemInfoOnSuccess:onError:</option>
+	
+	<option value="//api/name/sendHardReset">&nbsp;&nbsp;&nbsp;&nbsp;- sendHardReset</option>
+	
+	<option value="//api/name/sendMessage:encrypt:toGID:fromGID:onResponse:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- sendMessage:encrypt:toGID:fromGID:onResponse:onError:</option>
+	
+	<option value="//api/name/sendPublicKeyRequestToGID:">&nbsp;&nbsp;&nbsp;&nbsp;- sendPublicKeyRequestToGID:</option>
+	
+	<option value="//api/name/sendPublicKeyResponseToGID:">&nbsp;&nbsp;&nbsp;&nbsp;- sendPublicKeyResponseToGID:</option>
+	
+	<option value="//api/name/sendSetAppTokenOnResponse:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- sendSetAppTokenOnResponse:onError:</option>
+	
+	<option value="//api/name/sendStoreDateTime">&nbsp;&nbsp;&nbsp;&nbsp;- sendStoreDateTime</option>
+	
+	<option value="//api/name/setGTGID:">&nbsp;&nbsp;&nbsp;&nbsp;- setGTGID:</option>
+	
+	<option value="//api/name/setOnGroupCreated:">&nbsp;&nbsp;&nbsp;&nbsp;- setOnGroupCreated:</option>
+	
+	<option value="//api/name/setPublicKey:">&nbsp;&nbsp;&nbsp;&nbsp;- setPublicKey:</option>
+	
+	<option value="//api/name/setgoTennaGID:withUsername:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- setgoTennaGID:withUsername:onError:</option>
+	
+	<option value="//api/name/valueChangeForBERState:messageData:">&nbsp;&nbsp;&nbsp;&nbsp;- valueChangeForBERState:messageData:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Extension Methods">Extension Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/activeStateForBER">activeStateForBER</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/commandBuilder">commandBuilder</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/commandQueue">commandQueue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/commandValidator">commandValidator</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onIncomingGroupCreated">onIncomingGroupCreated</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onIncomingMessage">onIncomingMessage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/responseProcessor">responseProcessor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/testBERMessageData">testBERMessageData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userDataStore">userDataStore</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shared">shared</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/abortCurrentCommand">abortCurrentCommand</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addGroupGID:">addGroupGID:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildGetMessageRequest">buildGetMessageRequest</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:">createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentQueueCommand">currentQueueCommand</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteGID:onError:">deleteGID:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dispatchResponse:">dispatchResponse:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/executeUpcomingQueueCommand">executeUpcomingQueueCommand</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pauseQueue">pauseQueue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queueCommand:">queueCommand:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queuePriorityCommands:">queuePriorityCommands:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/queuePriorityGTCommand:">queuePriorityGTCommand:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/remainingCommands">remainingCommands</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resetGotenna">resetGotenna</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resetQueue">resetQueue</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendBroadcast:toGID:onResponse:onError:">sendBroadcast:toGID:onResponse:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendDeleteLastMessageRequest">sendDeleteLastMessageRequest</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendDisconnectGotenna">sendDisconnectGotenna</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendEchoCommand:onError:">sendEchoCommand:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendGetMessageRequest">sendGetMessageRequest</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendGetSystemInfoOnSuccess:onError:">sendGetSystemInfoOnSuccess:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendHardReset">sendHardReset</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendMessage:encrypt:toGID:fromGID:onResponse:onError:">sendMessage:encrypt:toGID:fromGID:onResponse:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendPublicKeyRequestToGID:">sendPublicKeyRequestToGID:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendPublicKeyResponseToGID:">sendPublicKeyResponseToGID:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendSetAppTokenOnResponse:onError:">sendSetAppTokenOnResponse:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendStoreDateTime">sendStoreDateTime</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setGTGID:">setGTGID:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setOnGroupCreated:">setOnGroupCreated:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setPublicKey:">setPublicKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setgoTennaGID:withUsername:onError:">setgoTennaGID:withUsername:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/valueChangeForBERState:messageData:">valueChangeForBERState:messageData:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GTCommandCenter Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GTCommandCenter Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">GTCommandCenter.h<br />GTCommandCenter.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><code>GTCommandCenter</code> is the lifeblood of the application,
+all commands to be sent to the goTenna must go through this class.
+This is the way in which one is to communicate with a goTenna</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onIncomingMessage">&nbsp;&nbsp;onIncomingMessage</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shared">+&nbsp;shared</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendEchoCommand:onError:">&ndash;&nbsp;sendEchoCommand:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setgoTennaGID:withUsername:onError:">&ndash;&nbsp;setgoTennaGID:withUsername:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendMessage:encrypt:toGID:fromGID:onResponse:onError:">&ndash;&nbsp;sendMessage:encrypt:toGID:fromGID:onResponse:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteGID:onError:">&ndash;&nbsp;deleteGID:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendBroadcast:toGID:onResponse:onError:">&ndash;&nbsp;sendBroadcast:toGID:onResponse:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:">&ndash;&nbsp;createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setOnGroupCreated:">&ndash;&nbsp;setOnGroupCreated:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendGetSystemInfoOnSuccess:onError:">&ndash;&nbsp;sendGetSystemInfoOnSuccess:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendSetAppTokenOnResponse:onError:">&ndash;&nbsp;sendSetAppTokenOnResponse:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendDisconnectGotenna">&ndash;&nbsp;sendDisconnectGotenna</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resetGotenna">&ndash;&nbsp;resetGotenna</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setPublicKey:">&ndash;&nbsp;setPublicKey:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queueCommand:">&ndash;&nbsp;queueCommand:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resetQueue">&ndash;&nbsp;resetQueue</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dispatchResponse:">&ndash;&nbsp;dispatchResponse:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendGetMessageRequest">&ndash;&nbsp;sendGetMessageRequest</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/abortCurrentCommand">&ndash;&nbsp;abortCurrentCommand</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addGroupGID:">&ndash;&nbsp;addGroupGID:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendStoreDateTime">&ndash;&nbsp;sendStoreDateTime</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pauseQueue">&ndash;&nbsp;pauseQueue</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queuePriorityCommands:">&ndash;&nbsp;queuePriorityCommands:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/executeUpcomingQueueCommand">&ndash;&nbsp;executeUpcomingQueueCommand</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendHardReset">&ndash;&nbsp;sendHardReset</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendPublicKeyRequestToGID:">&ndash;&nbsp;sendPublicKeyRequestToGID:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendPublicKeyResponseToGID:">&ndash;&nbsp;sendPublicKeyResponseToGID:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentQueueCommand">&ndash;&nbsp;currentQueueCommand</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/remainingCommands">&ndash;&nbsp;remainingCommands</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/valueChangeForBERState:messageData:">&ndash;&nbsp;valueChangeForBERState:messageData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildGetMessageRequest">&ndash;&nbsp;buildGetMessageRequest</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setGTGID:">&ndash;&nbsp;setGTGID:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendDeleteLastMessageRequest">&ndash;&nbsp;sendDeleteLastMessageRequest</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/queuePriorityGTCommand:">&ndash;&nbsp;queuePriorityGTCommand:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h3 class="subsubtitle task-title">Extension Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/commandQueue">&nbsp;&nbsp;commandQueue</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/responseProcessor">&nbsp;&nbsp;responseProcessor</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/commandBuilder">&nbsp;&nbsp;commandBuilder</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onIncomingGroupCreated">&nbsp;&nbsp;onIncomingGroupCreated</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userDataStore">&nbsp;&nbsp;userDataStore</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/commandValidator">&nbsp;&nbsp;commandValidator</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/testBERMessageData">&nbsp;&nbsp;testBERMessageData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/activeStateForBER">&nbsp;&nbsp;activeStateForBER</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/activeStateForBER" title="activeStateForBER"></a>
+	<h3 class="subsubtitle method-title">activeStateForBER</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL activeStateForBER</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/commandBuilder" title="commandBuilder"></a>
+	<h3 class="subsubtitle method-title">commandBuilder</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTCommandBuilder *commandBuilder</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/commandQueue" title="commandQueue"></a>
+	<h3 class="subsubtitle method-title">commandQueue</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTCommandQueue *commandQueue</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/commandValidator" title="commandValidator"></a>
+	<h3 class="subsubtitle method-title">commandValidator</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTCommandValidator *commandValidator</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onIncomingGroupCreated" title="onIncomingGroupCreated"></a>
+	<h3 class="subsubtitle method-title">onIncomingGroupCreated</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) void ( ^ ) ( GTGroupCreationMessageData *) onIncomingGroupCreated</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onIncomingMessage" title="onIncomingMessage"></a>
+	<h3 class="subsubtitle method-title">onIncomingMessage</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) void ( ^ ) ( GTMessageData *) onIncomingMessage</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/responseProcessor" title="responseProcessor"></a>
+	<h3 class="subsubtitle method-title">responseProcessor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTResponseDispatcher *responseProcessor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/testBERMessageData" title="testBERMessageData"></a>
+	<h3 class="subsubtitle method-title">testBERMessageData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSData *testBERMessageData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userDataStore" title="userDataStore"></a>
+	<h3 class="subsubtitle method-title">userDataStore</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) UserDataStore *userDataStore</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/shared" title="shared"></a>
+	<h3 class="subsubtitle method-title">shared</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (GTCommandCenter *)shared</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/abortCurrentCommand" title="abortCurrentCommand"></a>
+	<h3 class="subsubtitle method-title">abortCurrentCommand</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)abortCurrentCommand</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/addGroupGID:" title="addGroupGID:"></a>
+	<h3 class="subsubtitle method-title">addGroupGID:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)addGroupGID:(NSNumber *)<em>number</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildGetMessageRequest" title="buildGetMessageRequest"></a>
+	<h3 class="subsubtitle method-title">buildGetMessageRequest</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildGetMessageRequest</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:" title="createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:"></a>
+	<h3 class="subsubtitle method-title">createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSNumber *)createGroupWithGIDs:(NSArray *)<em>memberGIDs</em> encrypt:(BOOL)<em>willEncrypt</em> onMemberResponse:(void ( ^ ) ( GTResponse *, NSNumber *memberGID ))<em>onMemberResponse</em> fromGID:(NSNumber *)<em>senderGID</em> onError:(void ( ^ ) ( NSError *, NSNumber *))<em>onError</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentQueueCommand" title="currentQueueCommand"></a>
+	<h3 class="subsubtitle method-title">currentQueueCommand</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)currentQueueCommand</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteGID:onError:" title="deleteGID:onError:"></a>
+	<h3 class="subsubtitle method-title">deleteGID:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)deleteGID:(NSNumber *)<em>gidToDelete</em> onError:(void ( ^ ) ( NSError *))<em>onError</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dispatchResponse:" title="dispatchResponse:"></a>
+	<h3 class="subsubtitle method-title">dispatchResponse:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)dispatchResponse:(NSMutableData *)<em>response</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/executeUpcomingQueueCommand" title="executeUpcomingQueueCommand"></a>
+	<h3 class="subsubtitle method-title">executeUpcomingQueueCommand</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)executeUpcomingQueueCommand</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pauseQueue" title="pauseQueue"></a>
+	<h3 class="subsubtitle method-title">pauseQueue</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)pauseQueue</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queueCommand:" title="queueCommand:"></a>
+	<h3 class="subsubtitle method-title">queueCommand:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)queueCommand:(GTCommand *)<em>command</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queuePriorityCommands:" title="queuePriorityCommands:"></a>
+	<h3 class="subsubtitle method-title">queuePriorityCommands:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)queuePriorityCommands:(GTCommandArray *)<em>array</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/queuePriorityGTCommand:" title="queuePriorityGTCommand:"></a>
+	<h3 class="subsubtitle method-title">queuePriorityGTCommand:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)queuePriorityGTCommand:(GTCommand *)<em>command</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/remainingCommands" title="remainingCommands"></a>
+	<h3 class="subsubtitle method-title">remainingCommands</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray *)remainingCommands</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resetGotenna" title="resetGotenna"></a>
+	<h3 class="subsubtitle method-title">resetGotenna</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)resetGotenna</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resetQueue" title="resetQueue"></a>
+	<h3 class="subsubtitle method-title">resetQueue</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)resetQueue</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendBroadcast:toGID:onResponse:onError:" title="sendBroadcast:toGID:onResponse:onError:"></a>
+	<h3 class="subsubtitle method-title">sendBroadcast:toGID:onResponse:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendBroadcast:(NSData *)<em>messageData</em> toGID:(NSNumber *)<em>destinationGID</em> onResponse:(void ( ^ ) ( GTResponse *))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>onError</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendDeleteLastMessageRequest" title="sendDeleteLastMessageRequest"></a>
+	<h3 class="subsubtitle method-title">sendDeleteLastMessageRequest</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendDeleteLastMessageRequest</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendDisconnectGotenna" title="sendDisconnectGotenna"></a>
+	<h3 class="subsubtitle method-title">sendDisconnectGotenna</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendDisconnectGotenna</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendEchoCommand:onError:" title="sendEchoCommand:onError:"></a>
+	<h3 class="subsubtitle method-title">sendEchoCommand:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendEchoCommand:(void ( ^ ) ( GTResponse *))<em>onResponse</em> onError:(void ( ^ ) ( NSError *))<em>onError</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendGetMessageRequest" title="sendGetMessageRequest"></a>
+	<h3 class="subsubtitle method-title">sendGetMessageRequest</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendGetMessageRequest</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendGetSystemInfoOnSuccess:onError:" title="sendGetSystemInfoOnSuccess:onError:"></a>
+	<h3 class="subsubtitle method-title">sendGetSystemInfoOnSuccess:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendGetSystemInfoOnSuccess:(void ( ^ ) ( SystemInfoResponseData *))<em>onSuccess</em> onError:(void ( ^ ) ( NSError *))<em>onError</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendHardReset" title="sendHardReset"></a>
+	<h3 class="subsubtitle method-title">sendHardReset</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendHardReset</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendMessage:encrypt:toGID:fromGID:onResponse:onError:" title="sendMessage:encrypt:toGID:fromGID:onResponse:onError:"></a>
+	<h3 class="subsubtitle method-title">sendMessage:encrypt:toGID:fromGID:onResponse:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendMessage:(NSData *)<em>messageData</em> encrypt:(BOOL)<em>encryptionEnabled</em> toGID:(NSNumber *)<em>destinationGID</em> fromGID:(NSNumber *)<em>senderGID</em> onResponse:(void ( ^ ) ( GTResponse *))<em>success</em> onError:(void ( ^ ) ( NSError *))<em>onError</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendPublicKeyRequestToGID:" title="sendPublicKeyRequestToGID:"></a>
+	<h3 class="subsubtitle method-title">sendPublicKeyRequestToGID:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendPublicKeyRequestToGID:(NSNumber *)<em>destinationGID</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendPublicKeyResponseToGID:" title="sendPublicKeyResponseToGID:"></a>
+	<h3 class="subsubtitle method-title">sendPublicKeyResponseToGID:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendPublicKeyResponseToGID:(NSNumber *)<em>destinationGID</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendSetAppTokenOnResponse:onError:" title="sendSetAppTokenOnResponse:onError:"></a>
+	<h3 class="subsubtitle method-title">sendSetAppTokenOnResponse:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendSetAppTokenOnResponse:(void ( ^ ) ( GTResponse *))<em>onResponse</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendStoreDateTime" title="sendStoreDateTime"></a>
+	<h3 class="subsubtitle method-title">sendStoreDateTime</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)sendStoreDateTime</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setGTGID:" title="setGTGID:"></a>
+	<h3 class="subsubtitle method-title">setGTGID:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setGTGID:(GTGid *)<em>gtGID</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setOnGroupCreated:" title="setOnGroupCreated:"></a>
+	<h3 class="subsubtitle method-title">setOnGroupCreated:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setOnGroupCreated:(void ( ^ ) ( GTGroupCreationMessageData *))<em>externalOnGroupCreate</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setPublicKey:" title="setPublicKey:"></a>
+	<h3 class="subsubtitle method-title">setPublicKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setPublicKey:(NSData *)<em>publicKey</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setgoTennaGID:withUsername:onError:" title="setgoTennaGID:withUsername:onError:"></a>
+	<h3 class="subsubtitle method-title">setgoTennaGID:withUsername:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setgoTennaGID:(NSNumber *)<em>number</em> withUsername:(NSString *)<em>username</em> onError:(void ( ^ ) ( NSError *))<em>onError</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/valueChangeForBERState:messageData:" title="valueChangeForBERState:messageData:"></a>
+	<h3 class="subsubtitle method-title">valueChangeForBERState:messageData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)valueChangeForBERState:(BOOL)<em>BERState</em> messageData:(NSData *)<em>messageData</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

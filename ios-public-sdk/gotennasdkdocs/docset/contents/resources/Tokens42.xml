@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTFileLogger.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTFileLogger</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.h</DeclaredIn>
+            
+			
+			<NodeRef refid="42"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/initWithDirectory:andSeparator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithDirectory:(NSString *)directory andSeparator:(NSString *const)separator</Declaration>
+			
+			
+			<Anchor>//api/name/initWithDirectory:andSeparator:</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/log:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.h</DeclaredIn>
+			
+			<Declaration>- (void)log:(NSString *)logText</Declaration>
+			
+			
+			<Anchor>//api/name/log:</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/allLogs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)allLogs</Declaration>
+			
+			
+			<Anchor>//api/name/allLogs</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/latestLogs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)latestLogs</Declaration>
+			
+			
+			<Anchor>//api/name/latestLogs</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/truncateLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.h</DeclaredIn>
+			
+			<Declaration>- (void)truncateLog</Declaration>
+			
+			
+			<Anchor>//api/name/truncateLog</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/writeQueued</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.h</DeclaredIn>
+			
+			<Declaration>- (void)writeQueued</Declaration>
+			
+			
+			<Anchor>//api/name/writeQueued</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/createLogFile</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.m</DeclaredIn>
+			
+			<Declaration>- (void)createLogFile</Declaration>
+			
+			
+			<Anchor>//api/name/createLogFile</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/setDirectory:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *directory</Declaration>
+			
+			
+			<Anchor>//api/name/directory</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/directory</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *directory</Declaration>
+			
+			
+			<Anchor>//api/name/directory</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFileLogger/directory</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *directory</Declaration>
+			
+			
+			<Anchor>//api/name/directory</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/setLogQueue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *logQueue</Declaration>
+			
+			
+			<Anchor>//api/name/logQueue</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/logQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *logQueue</Declaration>
+			
+			
+			<Anchor>//api/name/logQueue</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFileLogger/logQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *logQueue</Declaration>
+			
+			
+			<Anchor>//api/name/logQueue</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/setSeparator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *separator</Declaration>
+			
+			
+			<Anchor>//api/name/separator</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFileLogger/separator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *separator</Declaration>
+			
+			
+			<Anchor>//api/name/separator</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFileLogger/separator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFileLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *separator</Declaration>
+			
+			
+			<Anchor>//api/name/separator</Anchor>
+            <NodeRef refid="42"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

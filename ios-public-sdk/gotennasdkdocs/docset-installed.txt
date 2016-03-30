@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/joshmakinda/Library/Developer/Shared/Documentation/DocSets/com.yourcompany.GoTennaSDK.docset
+Time: 2016-03-24 00:20:23 +0000

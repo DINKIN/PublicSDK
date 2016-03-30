@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTDecryptionErrorItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTDecryptionErrorItem</TokenIdentifier>
+			<Abstract type="html">A model that represent a GTResponse with callback blocks that we tried to decrypt, but were unsuccessful in decrypting.
+We were most likely unsuccessful because we did not have one of the required public keys.</Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorItem/setResponse:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTResponse *response</Declaration>
+			
+			
+			<Anchor>//api/name/response</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorItem/response</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTResponse *response</Declaration>
+			
+			
+			<Anchor>//api/name/response</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTDecryptionErrorItem/response</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTResponse *response</Declaration>
+			
+			
+			<Anchor>//api/name/response</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorItem/setOnIncomingMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTMessageData *) onIncomingMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onIncomingMessage</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorItem/onIncomingMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTMessageData *) onIncomingMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onIncomingMessage</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTDecryptionErrorItem/onIncomingMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTMessageData *) onIncomingMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onIncomingMessage</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorItem/setOnGroupAdded:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTGroupCreationMessageData *) onGroupAdded</Declaration>
+			
+			
+			<Anchor>//api/name/onGroupAdded</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorItem/onGroupAdded</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTGroupCreationMessageData *) onGroupAdded</Declaration>
+			
+			
+			<Anchor>//api/name/onGroupAdded</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTDecryptionErrorItem/onGroupAdded</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTGroupCreationMessageData *) onGroupAdded</Declaration>
+			
+			
+			<Anchor>//api/name/onGroupAdded</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorItem/setOnSuccessLastMessageDelete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onSuccessLastMessageDelete</Declaration>
+			
+			
+			<Anchor>//api/name/onSuccessLastMessageDelete</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorItem/onSuccessLastMessageDelete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onSuccessLastMessageDelete</Declaration>
+			
+			
+			<Anchor>//api/name/onSuccessLastMessageDelete</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTDecryptionErrorItem/onSuccessLastMessageDelete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onSuccessLastMessageDelete</Declaration>
+			
+			
+			<Anchor>//api/name/onSuccessLastMessageDelete</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorItem/initWithResponse:onIncomingMessage:onGroupAdded:onSuccessLastMessageDelete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDecryptionErrorItem.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithResponse:(GTResponse *)response onIncomingMessage:(void ( ^ ) ( GTMessageData *))onIncomingMessage onGroupAdded:(void ( ^ ) ( GTGroupCreationMessageData *))onGroupAdded onSuccessLastMessageDelete:(void ( ^ ) ( ))onSuccessLastMessageDelete</Declaration>
+			
+			
+			<Anchor>//api/name/initWithResponse:onIncomingMessage:onGroupAdded:onSuccessLastMessageDelete:</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

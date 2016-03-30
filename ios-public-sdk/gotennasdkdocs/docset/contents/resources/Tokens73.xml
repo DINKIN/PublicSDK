@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTSendCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTSendCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+            
+			
+			<NodeRef refid="73"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSendCommand/initWithOutgoingData:SenderGID:recipientGID:willEncrypt:</TokenIdentifier>
+			<Abstract type="html">The GTSendCommand handles the send message commands for the CommandBuilder.
+It inherits from GTCommand</Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithOutgoingData:(NSData *)outgoingData SenderGID:(NSNumber *)senderGID recipientGID:(NSNumber *)recipientGID willEncrypt:(BOOL)willEncrypt</Declaration>
+			
+			
+			<Anchor>//api/name/initWithOutgoingData:SenderGID:recipientGID:willEncrypt:</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSendCommand/setOutgoingData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *outgoingData</Declaration>
+			
+			
+			<Anchor>//api/name/outgoingData</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSendCommand/outgoingData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *outgoingData</Declaration>
+			
+			
+			<Anchor>//api/name/outgoingData</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSendCommand/outgoingData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSData *outgoingData</Declaration>
+			
+			
+			<Anchor>//api/name/outgoingData</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSendCommand/setSenderGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/senderGID</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSendCommand/senderGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/senderGID</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSendCommand/senderGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/senderGID</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSendCommand/setRecipientGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *recipientGID</Declaration>
+			
+			
+			<Anchor>//api/name/recipientGID</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSendCommand/recipientGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *recipientGID</Declaration>
+			
+			
+			<Anchor>//api/name/recipientGID</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSendCommand/recipientGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSNumber *recipientGID</Declaration>
+			
+			
+			<Anchor>//api/name/recipientGID</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSendCommand/setWillEncrypt:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL willEncrypt</Declaration>
+			
+			
+			<Anchor>//api/name/willEncrypt</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSendCommand/willEncrypt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL willEncrypt</Declaration>
+			
+			
+			<Anchor>//api/name/willEncrypt</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSendCommand/willEncrypt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSendCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL willEncrypt</Declaration>
+			
+			
+			<Anchor>//api/name/willEncrypt</Anchor>
+            <NodeRef refid="73"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

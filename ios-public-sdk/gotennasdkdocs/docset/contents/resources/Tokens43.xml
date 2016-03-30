@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTFirmwareDownloadTaskManager.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTFirmwareDownloadTaskManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareDownloadTaskManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="43"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTFirmwareDownloadTaskManager/manager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareDownloadTaskManager.h</DeclaredIn>
+			
+			<Declaration>+ (GTFirmwareDownloadTaskManager *)manager</Declaration>
+			
+			
+			<Anchor>//api/name/manager</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareDownloadTaskManager/retrieveAndStoreFirmwareUsingRetriever:onCompletion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareDownloadTaskManager.h</DeclaredIn>
+			
+			<Declaration>- (void)retrieveAndStoreFirmwareUsingRetriever:(id&lt;GTFirmwareRetrieveProtocol&gt;)retriever onCompletion:(RetrievalCompletion)retrievalCompletion</Declaration>
+			
+			
+			<Anchor>//api/name/retrieveAndStoreFirmwareUsingRetriever:onCompletion:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareDownloadTaskManager/downloadLastRetrievedFirmwareWithProgressDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareDownloadTaskManager.h</DeclaredIn>
+			
+			<Declaration>- (void)downloadLastRetrievedFirmwareWithProgressDelegate:(id&lt;GTFirmwareInstallationProgressProtocol&gt;)progressDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/downloadLastRetrievedFirmwareWithProgressDelegate:</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareDownloadTaskManager/isInstallingFirmware</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareDownloadTaskManager.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isInstallingFirmware</Declaration>
+			
+			
+			<Anchor>//api/name/isInstallingFirmware</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareDownloadTaskManager/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareDownloadTaskManager.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareDownloadTaskManager/setInstallationManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareDownloadTaskManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTFirmwareInstallationManager *installationManager</Declaration>
+			
+			
+			<Anchor>//api/name/installationManager</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareDownloadTaskManager/installationManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareDownloadTaskManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTFirmwareInstallationManager *installationManager</Declaration>
+			
+			
+			<Anchor>//api/name/installationManager</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareDownloadTaskManager/installationManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareDownloadTaskManager.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTFirmwareInstallationManager *installationManager</Declaration>
+			
+			
+			<Anchor>//api/name/installationManager</Anchor>
+            <NodeRef refid="43"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

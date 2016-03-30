@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EndianUtils.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EndianUtils</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EndianUtils.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EndianUtils/longToBigEndianBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EndianUtils.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)longToBigEndianBytes:(unsigned long long)longValue</Declaration>
+			
+			
+			<Anchor>//api/name/longToBigEndianBytes:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EndianUtils/integerToBigEndianBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EndianUtils.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)integerToBigEndianBytes:(int)integer</Declaration>
+			
+			
+			<Anchor>//api/name/integerToBigEndianBytes:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EndianUtils/integer:toBigEndianBytesWithLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EndianUtils.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)integer:(int)integer toBigEndianBytesWithLength:(int)byteCount</Declaration>
+			
+			
+			<Anchor>//api/name/integer:toBigEndianBytesWithLength:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EndianUtils/bytesToLong:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EndianUtils.h</DeclaredIn>
+			
+			<Declaration>+ (long long)bytesToLong:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/bytesToLong:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EndianUtils/bytesToInt:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EndianUtils.h</DeclaredIn>
+			
+			<Declaration>+ (int)bytesToInt:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/bytesToInt:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EndianUtils/bytesToDouble:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EndianUtils.h</DeclaredIn>
+			
+			<Declaration>+ (double)bytesToDouble:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/bytesToDouble:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EndianUtils/doubleToBigEndianBytes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EndianUtils.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)doubleToBigEndianBytes:(double)doubleValue</Declaration>
+			
+			
+			<Anchor>//api/name/doubleToBigEndianBytes:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSNumber+Utilities.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSNumber(Utilities)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSNumber+Utilities.h</DeclaredIn>
+            
+			
+			<NodeRef refid="103"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSNumber/convertGIDStringToNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSNumber+Utilities.h</DeclaredIn>
+			
+			<Declaration>+ (NSNumber *)convertGIDStringToNumber:(NSString *)input</Declaration>
+			
+			
+			<Anchor>//api/name/convertGIDStringToNumber:</Anchor>
+            <NodeRef refid="103"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSNumber/convertGIDToData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSNumber+Utilities.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)convertGIDToData</Declaration>
+			
+			
+			<Anchor>//api/name/convertGIDToData</Anchor>
+            <NodeRef refid="103"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSNumber/convertToDataWithLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSNumber+Utilities.m</DeclaredIn>
+			
+			<Declaration>- (NSData *)convertToDataWithLength:(NSUInteger)length</Declaration>
+			
+			
+			<Anchor>//api/name/convertToDataWithLength:</Anchor>
+            <NodeRef refid="103"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

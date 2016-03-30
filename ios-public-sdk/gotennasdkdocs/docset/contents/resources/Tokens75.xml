@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTSystemInfo.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTSystemInfo</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+            
+			
+			<NodeRef refid="75"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/setFirmwareVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/firmwareVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSystemInfo/firmwareVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/setMajorRevision:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *majorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/majorRevision</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/majorRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *majorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/majorRevision</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSystemInfo/majorRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *majorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/majorRevision</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/setMinorRevision:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *minorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/minorRevision</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/minorRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *minorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/minorRevision</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSystemInfo/minorRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *minorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/minorRevision</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/setBuildRevision:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *buildRevision</Declaration>
+			
+			
+			<Anchor>//api/name/buildRevision</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/buildRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *buildRevision</Declaration>
+			
+			
+			<Anchor>//api/name/buildRevision</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSystemInfo/buildRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *buildRevision</Declaration>
+			
+			
+			<Anchor>//api/name/buildRevision</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/setBatteryLevel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/batteryLevel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSystemInfo/batteryLevel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/setGoTennaSerialNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *goTennaSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaSerialNumber</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/goTennaSerialNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *goTennaSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaSerialNumber</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTSystemInfo/goTennaSerialNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *goTennaSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaSerialNumber</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTSystemInfo/initWithSystemInfo:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>+ (id)initWithSystemInfo:(SystemInfoResponseData *)incomingData</Declaration>
+			
+			
+			<Anchor>//api/name/initWithSystemInfo:</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/currentBatteryStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>- (GTBatteryStatusLevel)currentBatteryStatus</Declaration>
+			
+			
+			<Anchor>//api/name/currentBatteryStatus</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/printableVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)printableVersion</Declaration>
+			
+			
+			<Anchor>//api/name/printableVersion</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/printableRevisionVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)printableRevisionVersion</Declaration>
+			
+			
+			<Anchor>//api/name/printableRevisionVersion</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTSystemInfo/batteryPercentageMap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.m</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)batteryPercentageMap</Declaration>
+			
+			
+			<Anchor>//api/name/batteryPercentageMap</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.m</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(NSCoder *)aCoder</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTSystemInfo/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTSystemInfo.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(NSCoder *)aDecoder</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="75"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

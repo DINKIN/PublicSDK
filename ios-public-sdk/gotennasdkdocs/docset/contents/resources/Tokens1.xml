@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AppTokenStore.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AppTokenStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.m</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AppTokenStore/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.m</DeclaredIn>
+			
+			<Declaration>+ (instancetype)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppTokenStore/setAppToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *appToken</Declaration>
+			
+			
+			<Anchor>//api/name/appToken</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppTokenStore/appToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *appToken</Declaration>
+			
+			
+			<Anchor>//api/name/appToken</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AppTokenStore/appToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *appToken</Declaration>
+			
+			
+			<Anchor>//api/name/appToken</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppTokenStore/setAppTokenString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.m</DeclaredIn>
+			
+			<Declaration>- (void)setAppTokenString:(NSString *)appTokenString</Declaration>
+			
+			
+			<Anchor>//api/name/setAppTokenString:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppTokenStore/setTokenVerifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSDKTokenVerifier *tokenVerifier</Declaration>
+			
+			
+			<Anchor>//api/name/tokenVerifier</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppTokenStore/tokenVerifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSDKTokenVerifier *tokenVerifier</Declaration>
+			
+			
+			<Anchor>//api/name/tokenVerifier</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AppTokenStore/tokenVerifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSDKTokenVerifier *tokenVerifier</Declaration>
+			
+			
+			<Anchor>//api/name/tokenVerifier</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AppTokenStore/isVerified</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTenna.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)isVerified</Declaration>
+			
+			
+			<Anchor>//api/name/isVerified</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

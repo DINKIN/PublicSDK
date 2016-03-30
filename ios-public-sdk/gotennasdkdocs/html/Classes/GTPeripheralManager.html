@@ -1,0 +1,756 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GTPeripheralManager Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GoTennaSDK </a></h1>
+				<a id="developerHome" href="../index.html">Your Name</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GTPeripheralManager Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/bluetoothProtocolRevisionCharacteristic">&nbsp;&nbsp;&nbsp;&nbsp;bluetoothProtocolRevisionCharacteristic</option>
+	
+	<option value="//api/name/chunkProcessor">&nbsp;&nbsp;&nbsp;&nbsp;chunkProcessor</option>
+	
+	<option value="//api/name/currentCommand">&nbsp;&nbsp;&nbsp;&nbsp;currentCommand</option>
+	
+	<option value="//api/name/currentPacketOut">&nbsp;&nbsp;&nbsp;&nbsp;currentPacketOut</option>
+	
+	<option value="//api/name/currentPackets">&nbsp;&nbsp;&nbsp;&nbsp;currentPackets</option>
+	
+	<option value="//api/name/keepAliveCharacteristic">&nbsp;&nbsp;&nbsp;&nbsp;keepAliveCharacteristic</option>
+	
+	<option value="//api/name/keepAliveProcessor">&nbsp;&nbsp;&nbsp;&nbsp;keepAliveProcessor</option>
+	
+	<option value="//api/name/onCharacteristicsReceived">&nbsp;&nbsp;&nbsp;&nbsp;onCharacteristicsReceived</option>
+	
+	<option value="//api/name/peripheral">&nbsp;&nbsp;&nbsp;&nbsp;peripheral</option>
+	
+	<option value="//api/name/readCharacteristic">&nbsp;&nbsp;&nbsp;&nbsp;readCharacteristic</option>
+	
+	<option value="//api/name/writeCharacteristic">&nbsp;&nbsp;&nbsp;&nbsp;writeCharacteristic</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/shared">&nbsp;&nbsp;&nbsp;&nbsp;+ shared</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/peripheral:didDiscoverCharacteristicsForService:error:">&nbsp;&nbsp;&nbsp;&nbsp;- peripheral:didDiscoverCharacteristicsForService:error:</option>
+	
+	<option value="//api/name/peripheral:didDiscoverServices:">&nbsp;&nbsp;&nbsp;&nbsp;- peripheral:didDiscoverServices:</option>
+	
+	<option value="//api/name/peripheral:didUpdateValueForCharacteristic:error:">&nbsp;&nbsp;&nbsp;&nbsp;- peripheral:didUpdateValueForCharacteristic:error:</option>
+	
+	<option value="//api/name/peripheral:didWriteValueForCharacteristic:error:">&nbsp;&nbsp;&nbsp;&nbsp;- peripheral:didWriteValueForCharacteristic:error:</option>
+	
+	<option value="//api/name/peripheralDidUpdateRSSI:error:">&nbsp;&nbsp;&nbsp;&nbsp;- peripheralDidUpdateRSSI:error:</option>
+	
+	<option value="//api/name/peripheralIsConnected">&nbsp;&nbsp;&nbsp;&nbsp;- peripheralIsConnected</option>
+	
+	<option value="//api/name/scanPeripheralServices:">&nbsp;&nbsp;&nbsp;&nbsp;- scanPeripheralServices:</option>
+	
+	<option value="//api/name/updatePeripheral:">&nbsp;&nbsp;&nbsp;&nbsp;- updatePeripheral:</option>
+	
+	<option value="//api/name/writeCommandPackets:">&nbsp;&nbsp;&nbsp;&nbsp;- writeCommandPackets:</option>
+	
+	<option value="//api/name/writeNextPacket">&nbsp;&nbsp;&nbsp;&nbsp;- writeNextPacket</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Extension Methods">Extension Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/bluetoothProtocolRevisionCharacteristic">bluetoothProtocolRevisionCharacteristic</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/chunkProcessor">chunkProcessor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentCommand">currentCommand</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentPacketOut">currentPacketOut</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentPackets">currentPackets</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/keepAliveCharacteristic">keepAliveCharacteristic</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/keepAliveProcessor">keepAliveProcessor</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onCharacteristicsReceived">onCharacteristicsReceived</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/peripheral">peripheral</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/readCharacteristic">readCharacteristic</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/writeCharacteristic">writeCharacteristic</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shared">shared</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/peripheral:didDiscoverCharacteristicsForService:error:">peripheral:didDiscoverCharacteristicsForService:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/peripheral:didDiscoverServices:">peripheral:didDiscoverServices:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/peripheral:didUpdateValueForCharacteristic:error:">peripheral:didUpdateValueForCharacteristic:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/peripheral:didWriteValueForCharacteristic:error:">peripheral:didWriteValueForCharacteristic:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/peripheralDidUpdateRSSI:error:">peripheralDidUpdateRSSI:error:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/peripheralIsConnected">peripheralIsConnected</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/scanPeripheralServices:">scanPeripheralServices:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updatePeripheral:">updatePeripheral:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/writeCommandPackets:">writeCommandPackets:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/writeNextPacket">writeNextPacket</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GTPeripheralManager Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GTPeripheralManager Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value">CBPeripheralDelegate</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">GTPeripheralManager.h<br />GTPeripheralManager.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/peripheral">&nbsp;&nbsp;peripheral</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shared">+&nbsp;shared</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updatePeripheral:">&ndash;&nbsp;updatePeripheral:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/writeCommandPackets:">&ndash;&nbsp;writeCommandPackets:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/peripheralIsConnected">&ndash;&nbsp;peripheralIsConnected</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/scanPeripheralServices:">&ndash;&nbsp;scanPeripheralServices:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/peripheral:didDiscoverServices:">&ndash;&nbsp;peripheral:didDiscoverServices:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/peripheral:didUpdateValueForCharacteristic:error:">&ndash;&nbsp;peripheral:didUpdateValueForCharacteristic:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/peripheral:didWriteValueForCharacteristic:error:">&ndash;&nbsp;peripheral:didWriteValueForCharacteristic:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/peripheral:didDiscoverCharacteristicsForService:error:">&ndash;&nbsp;peripheral:didDiscoverCharacteristicsForService:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/peripheralDidUpdateRSSI:error:">&ndash;&nbsp;peripheralDidUpdateRSSI:error:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/writeNextPacket">&ndash;&nbsp;writeNextPacket</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h3 class="subsubtitle task-title">Extension Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/keepAliveCharacteristic">&nbsp;&nbsp;keepAliveCharacteristic</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/readCharacteristic">&nbsp;&nbsp;readCharacteristic</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/writeCharacteristic">&nbsp;&nbsp;writeCharacteristic</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/bluetoothProtocolRevisionCharacteristic">&nbsp;&nbsp;bluetoothProtocolRevisionCharacteristic</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentPacketOut">&nbsp;&nbsp;currentPacketOut</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentPackets">&nbsp;&nbsp;currentPackets</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentCommand">&nbsp;&nbsp;currentCommand</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onCharacteristicsReceived">&nbsp;&nbsp;onCharacteristicsReceived</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/chunkProcessor">&nbsp;&nbsp;chunkProcessor</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/keepAliveProcessor">&nbsp;&nbsp;keepAliveProcessor</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/bluetoothProtocolRevisionCharacteristic" title="bluetoothProtocolRevisionCharacteristic"></a>
+	<h3 class="subsubtitle method-title">bluetoothProtocolRevisionCharacteristic</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) CBMutableCharacteristic *bluetoothProtocolRevisionCharacteristic</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/chunkProcessor" title="chunkProcessor"></a>
+	<h3 class="subsubtitle method-title">chunkProcessor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) ChunkProcessor *chunkProcessor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentCommand" title="currentCommand"></a>
+	<h3 class="subsubtitle method-title">currentCommand</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTCommand *currentCommand</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentPacketOut" title="currentPacketOut"></a>
+	<h3 class="subsubtitle method-title">currentPacketOut</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTPacket *currentPacketOut</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/currentPackets" title="currentPackets"></a>
+	<h3 class="subsubtitle method-title">currentPackets</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSMutableArray *currentPackets</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/keepAliveCharacteristic" title="keepAliveCharacteristic"></a>
+	<h3 class="subsubtitle method-title">keepAliveCharacteristic</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) CBMutableCharacteristic *keepAliveCharacteristic</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/keepAliveProcessor" title="keepAliveProcessor"></a>
+	<h3 class="subsubtitle method-title">keepAliveProcessor</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTKeepAliveProcessor *keepAliveProcessor</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onCharacteristicsReceived" title="onCharacteristicsReceived"></a>
+	<h3 class="subsubtitle method-title">onCharacteristicsReceived</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) void ( ^ ) ( ) onCharacteristicsReceived</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/peripheral" title="peripheral"></a>
+	<h3 class="subsubtitle method-title">peripheral</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) CBPeripheral *peripheral</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/readCharacteristic" title="readCharacteristic"></a>
+	<h3 class="subsubtitle method-title">readCharacteristic</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) CBMutableCharacteristic *readCharacteristic</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/writeCharacteristic" title="writeCharacteristic"></a>
+	<h3 class="subsubtitle method-title">writeCharacteristic</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) CBMutableCharacteristic *writeCharacteristic</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/shared" title="shared"></a>
+	<h3 class="subsubtitle method-title">shared</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>+ (GTPeripheralManager *)shared</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/peripheral:didDiscoverCharacteristicsForService:error:" title="peripheral:didDiscoverCharacteristicsForService:error:"></a>
+	<h3 class="subsubtitle method-title">peripheral:didDiscoverCharacteristicsForService:error:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)peripheral:(CBPeripheral *)<em>peripheral</em> didDiscoverCharacteristicsForService:(CBService *)<em>service</em> error:(NSError *)<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/peripheral:didDiscoverServices:" title="peripheral:didDiscoverServices:"></a>
+	<h3 class="subsubtitle method-title">peripheral:didDiscoverServices:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)peripheral:(CBPeripheral *)<em>peripheral</em> didDiscoverServices:(NSError *)<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/peripheral:didUpdateValueForCharacteristic:error:" title="peripheral:didUpdateValueForCharacteristic:error:"></a>
+	<h3 class="subsubtitle method-title">peripheral:didUpdateValueForCharacteristic:error:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)peripheral:(CBPeripheral *)<em>peripheral</em> didUpdateValueForCharacteristic:(CBCharacteristic *)<em>characteristic</em> error:(NSError *)<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/peripheral:didWriteValueForCharacteristic:error:" title="peripheral:didWriteValueForCharacteristic:error:"></a>
+	<h3 class="subsubtitle method-title">peripheral:didWriteValueForCharacteristic:error:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)peripheral:(CBPeripheral *)<em>peripheral</em> didWriteValueForCharacteristic:(CBCharacteristic *)<em>characteristic</em> error:(NSError *)<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/peripheralDidUpdateRSSI:error:" title="peripheralDidUpdateRSSI:error:"></a>
+	<h3 class="subsubtitle method-title">peripheralDidUpdateRSSI:error:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)peripheralDidUpdateRSSI:(CBPeripheral *)<em>peripheral</em> error:(NSError *)<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/peripheralIsConnected" title="peripheralIsConnected"></a>
+	<h3 class="subsubtitle method-title">peripheralIsConnected</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)peripheralIsConnected</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/scanPeripheralServices:" title="scanPeripheralServices:"></a>
+	<h3 class="subsubtitle method-title">scanPeripheralServices:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)scanPeripheralServices:(void ( ^ ) ( ))<em>onCharacteristicsReceived</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updatePeripheral:" title="updatePeripheral:"></a>
+	<h3 class="subsubtitle method-title">updatePeripheral:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)updatePeripheral:(CBPeripheral *)<em>peripheral</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/writeCommandPackets:" title="writeCommandPackets:"></a>
+	<h3 class="subsubtitle method-title">writeCommandPackets:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)writeCommandPackets:(GTCommand *)<em>command</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/writeNextPacket" title="writeNextPacket"></a>
+	<h3 class="subsubtitle method-title">writeNextPacket</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)writeNextPacket</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

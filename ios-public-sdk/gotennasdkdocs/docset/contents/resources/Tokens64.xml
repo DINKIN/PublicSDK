@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTPublicKeyRequestMessageData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTPublicKeyRequestMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPublicKeyRequestMessageData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="64"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPublicKeyRequestMessageData/initFromOrderedData:withSenderGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPublicKeyRequestMessageData.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)initFromOrderedData:(NSArray&lt;TLVSection*&gt; *)data withSenderGID:(NSNumber *)senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/initFromOrderedData:withSenderGID:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPublicKeyRequestMessageData/initOutgoingOnError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPublicKeyRequestMessageData.m</DeclaredIn>
+			
+			<Declaration>- (id)initOutgoingOnError:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/initOutgoingOnError:</Anchor>
+            <NodeRef refid="64"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

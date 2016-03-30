@@ -1,0 +1,887 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GTCommandBuilder Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GoTennaSDK </a></h1>
+				<a id="developerHome" href="../index.html">Your Name</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GTCommandBuilder Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/dataSerializer">&nbsp;&nbsp;&nbsp;&nbsp;dataSerializer</option>
+	
+	<option value="//api/name/packetBuilder">&nbsp;&nbsp;&nbsp;&nbsp;packetBuilder</option>
+	
+	<option value="//api/name/packetVerifier">&nbsp;&nbsp;&nbsp;&nbsp;packetVerifier</option>
+	
+	<option value="//api/name/publicKeyHasher">&nbsp;&nbsp;&nbsp;&nbsp;publicKeyHasher</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/buildAbortFirmwareUpdate:">&nbsp;&nbsp;&nbsp;&nbsp;- buildAbortFirmwareUpdate:</option>
+	
+	<option value="//api/name/buildAntennaSweep:">&nbsp;&nbsp;&nbsp;&nbsp;- buildAntennaSweep:</option>
+	
+	<option value="//api/name/buildBERTestWithData:">&nbsp;&nbsp;&nbsp;&nbsp;- buildBERTestWithData:</option>
+	
+	<option value="//api/name/buildDeleteBinaryLog">&nbsp;&nbsp;&nbsp;&nbsp;- buildDeleteBinaryLog</option>
+	
+	<option value="//api/name/buildDeleteGID:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- buildDeleteGID:onError:</option>
+	
+	<option value="//api/name/buildDeleteLastMessage">&nbsp;&nbsp;&nbsp;&nbsp;- buildDeleteLastMessage</option>
+	
+	<option value="//api/name/buildDisconnectGotenna">&nbsp;&nbsp;&nbsp;&nbsp;- buildDisconnectGotenna</option>
+	
+	<option value="//api/name/buildEchoCommandOnResponse:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- buildEchoCommandOnResponse:onError:</option>
+	
+	<option value="//api/name/buildFinalizeFirmwareUpdateForVersion:">&nbsp;&nbsp;&nbsp;&nbsp;- buildFinalizeFirmwareUpdateForVersion:</option>
+	
+	<option value="//api/name/buildFrequencyMode:">&nbsp;&nbsp;&nbsp;&nbsp;- buildFrequencyMode:</option>
+	
+	<option value="//api/name/buildGetBinaryLog">&nbsp;&nbsp;&nbsp;&nbsp;- buildGetBinaryLog</option>
+	
+	<option value="//api/name/buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:">&nbsp;&nbsp;&nbsp;&nbsp;- buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:</option>
+	
+	<option value="//api/name/buildGetSystemInfoOnError:">&nbsp;&nbsp;&nbsp;&nbsp;- buildGetSystemInfoOnError:</option>
+	
+	<option value="//api/name/buildHardReset">&nbsp;&nbsp;&nbsp;&nbsp;- buildHardReset</option>
+	
+	<option value="//api/name/buildHardwareTransmit">&nbsp;&nbsp;&nbsp;&nbsp;- buildHardwareTransmit</option>
+	
+	<option value="//api/name/buildInitiateFirmware:totalNumOfBytesSending:">&nbsp;&nbsp;&nbsp;&nbsp;- buildInitiateFirmware:totalNumOfBytesSending:</option>
+	
+	<option value="//api/name/buildPowerSavingTransmit:">&nbsp;&nbsp;&nbsp;&nbsp;- buildPowerSavingTransmit:</option>
+	
+	<option value="//api/name/buildResetGotenna">&nbsp;&nbsp;&nbsp;&nbsp;- buildResetGotenna</option>
+	
+	<option value="//api/name/buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:">&nbsp;&nbsp;&nbsp;&nbsp;- buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:</option>
+	
+	<option value="//api/name/buildSetGID:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- buildSetGID:onError:</option>
+	
+	<option value="//api/name/buildSetPublicKey:">&nbsp;&nbsp;&nbsp;&nbsp;- buildSetPublicKey:</option>
+	
+	<option value="//api/name/buildStoreDateTime:">&nbsp;&nbsp;&nbsp;&nbsp;- buildStoreDateTime:</option>
+	
+	<option value="//api/name/buildWriteFirmware:">&nbsp;&nbsp;&nbsp;&nbsp;- buildWriteFirmware:</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/setAppTokenOnResponse:onError:">&nbsp;&nbsp;&nbsp;&nbsp;- setAppTokenOnResponse:onError:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Extension Methods">Extension Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataSerializer">dataSerializer</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packetBuilder">packetBuilder</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packetVerifier">packetVerifier</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/publicKeyHasher">publicKeyHasher</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildAbortFirmwareUpdate:">buildAbortFirmwareUpdate:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildAntennaSweep:">buildAntennaSweep:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildBERTestWithData:">buildBERTestWithData:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildDeleteBinaryLog">buildDeleteBinaryLog</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildDeleteGID:onError:">buildDeleteGID:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildDeleteLastMessage">buildDeleteLastMessage</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildDisconnectGotenna">buildDisconnectGotenna</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildEchoCommandOnResponse:onError:">buildEchoCommandOnResponse:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildFinalizeFirmwareUpdateForVersion:">buildFinalizeFirmwareUpdateForVersion:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildFrequencyMode:">buildFrequencyMode:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildGetBinaryLog">buildGetBinaryLog</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:">buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildGetSystemInfoOnError:">buildGetSystemInfoOnError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildHardReset">buildHardReset</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildHardwareTransmit">buildHardwareTransmit</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildInitiateFirmware:totalNumOfBytesSending:">buildInitiateFirmware:totalNumOfBytesSending:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildPowerSavingTransmit:">buildPowerSavingTransmit:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildResetGotenna">buildResetGotenna</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:">buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildSetGID:onError:">buildSetGID:onError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildSetPublicKey:">buildSetPublicKey:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildStoreDateTime:">buildStoreDateTime:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildWriteFirmware:">buildWriteFirmware:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setAppTokenOnResponse:onError:">setAppTokenOnResponse:onError:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GTCommandBuilder Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GTCommandBuilder Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">GTCommandBuilder.h<br />GTCommandBuilder.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildSetGID:onError:">&ndash;&nbsp;buildSetGID:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildResetGotenna">&ndash;&nbsp;buildResetGotenna</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildSetPublicKey:">&ndash;&nbsp;buildSetPublicKey:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:">&ndash;&nbsp;buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildDeleteLastMessage">&ndash;&nbsp;buildDeleteLastMessage</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:">&ndash;&nbsp;buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildEchoCommandOnResponse:onError:">&ndash;&nbsp;buildEchoCommandOnResponse:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildDisconnectGotenna">&ndash;&nbsp;buildDisconnectGotenna</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildDeleteGID:onError:">&ndash;&nbsp;buildDeleteGID:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildGetSystemInfoOnError:">&ndash;&nbsp;buildGetSystemInfoOnError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setAppTokenOnResponse:onError:">&ndash;&nbsp;setAppTokenOnResponse:onError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildInitiateFirmware:totalNumOfBytesSending:">&ndash;&nbsp;buildInitiateFirmware:totalNumOfBytesSending:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildWriteFirmware:">&ndash;&nbsp;buildWriteFirmware:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildAbortFirmwareUpdate:">&ndash;&nbsp;buildAbortFirmwareUpdate:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildFinalizeFirmwareUpdateForVersion:">&ndash;&nbsp;buildFinalizeFirmwareUpdateForVersion:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildStoreDateTime:">&ndash;&nbsp;buildStoreDateTime:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildHardReset">&ndash;&nbsp;buildHardReset</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildAntennaSweep:">&ndash;&nbsp;buildAntennaSweep:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildFrequencyMode:">&ndash;&nbsp;buildFrequencyMode:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildHardwareTransmit">&ndash;&nbsp;buildHardwareTransmit</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildBERTestWithData:">&ndash;&nbsp;buildBERTestWithData:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildGetBinaryLog">&ndash;&nbsp;buildGetBinaryLog</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildDeleteBinaryLog">&ndash;&nbsp;buildDeleteBinaryLog</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildPowerSavingTransmit:">&ndash;&nbsp;buildPowerSavingTransmit:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h3 class="subsubtitle task-title">Extension Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packetBuilder">&nbsp;&nbsp;packetBuilder</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataSerializer">&nbsp;&nbsp;dataSerializer</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/publicKeyHasher">&nbsp;&nbsp;publicKeyHasher</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packetVerifier">&nbsp;&nbsp;packetVerifier</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/dataSerializer" title="dataSerializer"></a>
+	<h3 class="subsubtitle method-title">dataSerializer</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTDataSerializer *dataSerializer</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packetBuilder" title="packetBuilder"></a>
+	<h3 class="subsubtitle method-title">packetBuilder</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTPacketBuilder *packetBuilder</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packetVerifier" title="packetVerifier"></a>
+	<h3 class="subsubtitle method-title">packetVerifier</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) PacketVerifier *packetVerifier</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/publicKeyHasher" title="publicKeyHasher"></a>
+	<h3 class="subsubtitle method-title">publicKeyHasher</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) PublicKeyHasher *publicKeyHasher</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/buildAbortFirmwareUpdate:" title="buildAbortFirmwareUpdate:"></a>
+	<h3 class="subsubtitle method-title">buildAbortFirmwareUpdate:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildAbortFirmwareUpdate:(GTFirmwareVersion *)<em>version</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildAntennaSweep:" title="buildAntennaSweep:"></a>
+	<h3 class="subsubtitle method-title">buildAntennaSweep:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildAntennaSweep:(BOOL)<em>on</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildBERTestWithData:" title="buildBERTestWithData:"></a>
+	<h3 class="subsubtitle method-title">buildBERTestWithData:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildBERTestWithData:(NSData *)<em>berData</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildDeleteBinaryLog" title="buildDeleteBinaryLog"></a>
+	<h3 class="subsubtitle method-title">buildDeleteBinaryLog</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildDeleteBinaryLog</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildDeleteGID:onError:" title="buildDeleteGID:onError:"></a>
+	<h3 class="subsubtitle method-title">buildDeleteGID:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildDeleteGID:(GTGid *)<em>number</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildDeleteLastMessage" title="buildDeleteLastMessage"></a>
+	<h3 class="subsubtitle method-title">buildDeleteLastMessage</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildDeleteLastMessage</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildDisconnectGotenna" title="buildDisconnectGotenna"></a>
+	<h3 class="subsubtitle method-title">buildDisconnectGotenna</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildDisconnectGotenna</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildEchoCommandOnResponse:onError:" title="buildEchoCommandOnResponse:onError:"></a>
+	<h3 class="subsubtitle method-title">buildEchoCommandOnResponse:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildEchoCommandOnResponse:(void ( ^ ) ( GTResponse *))<em>onSuccess</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildFinalizeFirmwareUpdateForVersion:" title="buildFinalizeFirmwareUpdateForVersion:"></a>
+	<h3 class="subsubtitle method-title">buildFinalizeFirmwareUpdateForVersion:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildFinalizeFirmwareUpdateForVersion:(GTFirmwareVersion *)<em>version</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildFrequencyMode:" title="buildFrequencyMode:"></a>
+	<h3 class="subsubtitle method-title">buildFrequencyMode:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildFrequencyMode:(FrequencyMode *)<em>mode</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildGetBinaryLog" title="buildGetBinaryLog"></a>
+	<h3 class="subsubtitle method-title">buildGetBinaryLog</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildGetBinaryLog</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:" title="buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:"></a>
+	<h3 class="subsubtitle method-title">buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildGetMessageWithOnSuccess:(void ( ^ ) ( GTMessageData *))<em>onIncomingMessage</em> onGroupCreated:(void ( ^ ) ( GTGroupCreationMessageData *))<em>onGroupAdded</em> onSuccessLastMessageDelete:(void ( ^ ) ( ))<em>lastMessageDelete</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildGetSystemInfoOnError:" title="buildGetSystemInfoOnError:"></a>
+	<h3 class="subsubtitle method-title">buildGetSystemInfoOnError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildGetSystemInfoOnError:(void ( ^ ) ( NSError *))<em>pFunction</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildHardReset" title="buildHardReset"></a>
+	<h3 class="subsubtitle method-title">buildHardReset</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildHardReset</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildHardwareTransmit" title="buildHardwareTransmit"></a>
+	<h3 class="subsubtitle method-title">buildHardwareTransmit</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildHardwareTransmit</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildInitiateFirmware:totalNumOfBytesSending:" title="buildInitiateFirmware:totalNumOfBytesSending:"></a>
+	<h3 class="subsubtitle method-title">buildInitiateFirmware:totalNumOfBytesSending:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildInitiateFirmware:(int)<em>numCommands</em> totalNumOfBytesSending:(int)<em>numBytes</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildPowerSavingTransmit:" title="buildPowerSavingTransmit:"></a>
+	<h3 class="subsubtitle method-title">buildPowerSavingTransmit:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildPowerSavingTransmit:(BOOL)<em>on</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildResetGotenna" title="buildResetGotenna"></a>
+	<h3 class="subsubtitle method-title">buildResetGotenna</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildResetGotenna</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:" title="buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:"></a>
+	<h3 class="subsubtitle method-title">buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildSendMessageCommand:(NSData *)<em>outgoingData</em> toGID:(GTGid *)<em>addresseeGID</em> onResponse:(void ( ^ ) ( GTResponse *))<em>onResponse</em> onError:(void ( ^ ) ( NSError *))<em>onError</em> willEncrypt:(BOOL)<em>willEncrypt</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildSetGID:onError:" title="buildSetGID:onError:"></a>
+	<h3 class="subsubtitle method-title">buildSetGID:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildSetGID:(GTGid *)<em>number</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildSetPublicKey:" title="buildSetPublicKey:"></a>
+	<h3 class="subsubtitle method-title">buildSetPublicKey:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildSetPublicKey:(NSData *)<em>publicKey</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildStoreDateTime:" title="buildStoreDateTime:"></a>
+	<h3 class="subsubtitle method-title">buildStoreDateTime:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildStoreDateTime:(NSString *)<em>emergencyMessage</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/buildWriteFirmware:" title="buildWriteFirmware:"></a>
+	<h3 class="subsubtitle method-title">buildWriteFirmware:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)buildWriteFirmware:(NSData *)<em>data</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setAppTokenOnResponse:onError:" title="setAppTokenOnResponse:onError:"></a>
+	<h3 class="subsubtitle method-title">setAppTokenOnResponse:onError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (GTCommand *)setAppTokenOnResponse:(void ( ^ ) ( GTResponse *))<em>onResponse</em> onError:(void ( ^ ) ( NSError *))<em>error</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

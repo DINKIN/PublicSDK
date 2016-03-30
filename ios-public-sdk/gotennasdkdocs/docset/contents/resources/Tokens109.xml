@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GTMessageDataProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GTMessageDataProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTMessageDataProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="109"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTMessageDataProtocol/initFromOrderedData:withSenderGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTMessageDataProtocol.h</DeclaredIn>
+			
+			<Declaration>- (id)initFromOrderedData:(NSArray&lt;TLVSection*&gt; *)data withSenderGID:(NSNumber *)senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/initFromOrderedData:withSenderGID:</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTMessageDataProtocol/getTLVSections</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTMessageDataProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSArray&lt;TLVSection*&gt; *)getTLVSections</Declaration>
+			
+			
+			<Anchor>//api/name/getTLVSections</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTMessageDataProtocol/serializeToBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTMessageDataProtocol.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)serializeToBytes</Declaration>
+			
+			
+			<Anchor>//api/name/serializeToBytes</Anchor>
+            <NodeRef refid="109"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

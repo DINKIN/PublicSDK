@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTPairingConnectionState.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTPairingConnectionState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.h</DeclaredIn>
+            
+			
+			<NodeRef refid="59"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingConnectionState/setConnectionState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.h</DeclaredIn>
+			
+			<Declaration>- (void)setConnectionState:(GTConnectionState)connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/setConnectionState:</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingConnectionState/isNewState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isNewState:(GTConnectionState)connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/isNewState:</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingConnectionState/connectionState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.h</DeclaredIn>
+			
+			<Declaration>- (GTConnectionState)connectionState</Declaration>
+			
+			
+			<Anchor>//api/name/connectionState</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingConnectionState/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingConnectionState/setCurrentConnectionState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTConnectionState currentConnectionState</Declaration>
+			
+			
+			<Anchor>//api/name/currentConnectionState</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingConnectionState/currentConnectionState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTConnectionState currentConnectionState</Declaration>
+			
+			
+			<Anchor>//api/name/currentConnectionState</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPairingConnectionState/currentConnectionState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTConnectionState currentConnectionState</Declaration>
+			
+			
+			<Anchor>//api/name/currentConnectionState</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingConnectionState/setStoredConnectionState:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTConnectionState storedConnectionState</Declaration>
+			
+			
+			<Anchor>//api/name/storedConnectionState</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPairingConnectionState/storedConnectionState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTConnectionState storedConnectionState</Declaration>
+			
+			
+			<Anchor>//api/name/storedConnectionState</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPairingConnectionState/storedConnectionState</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingConnectionState.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTConnectionState storedConnectionState</Declaration>
+			
+			
+			<Anchor>//api/name/storedConnectionState</Anchor>
+            <NodeRef refid="59"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTCommandQueue.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTCommandQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+            
+			
+			<NodeRef refid="25"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/setCurrentCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *currentCommand</Declaration>
+			
+			
+			<Anchor>//api/name/currentCommand</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/currentCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *currentCommand</Declaration>
+			
+			
+			<Anchor>//api/name/currentCommand</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandQueue/currentCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *currentCommand</Declaration>
+			
+			
+			<Anchor>//api/name/currentCommand</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/queueGTCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+			
+			<Declaration>- (void)queueGTCommand:(GTCommand *)command</Declaration>
+			
+			
+			<Anchor>//api/name/queueGTCommand:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/queueGTCommands:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+			
+			<Declaration>- (void)queueGTCommands:(GTCommandArray *)incomingCommands</Declaration>
+			
+			
+			<Anchor>//api/name/queueGTCommands:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/nudgeToNextCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+			
+			<Declaration>- (void)nudgeToNextCommand</Declaration>
+			
+			
+			<Anchor>//api/name/nudgeToNextCommand</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/empty</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+			
+			<Declaration>- (void)empty</Declaration>
+			
+			
+			<Anchor>//api/name/empty</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/remainingCommands</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)remainingCommands</Declaration>
+			
+			
+			<Anchor>//api/name/remainingCommands</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/pauseQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+			
+			<Declaration>- (void)pauseQueue</Declaration>
+			
+			
+			<Anchor>//api/name/pauseQueue</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/executeUpcomingCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
+			
+			<Declaration>- (void)executeUpcomingCommand</Declaration>
+			
+			
+			<Anchor>//api/name/executeUpcomingCommand</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/sortQueuePriorities</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>- (void)sortQueuePriorities</Declaration>
+			
+			
+			<Anchor>//api/name/sortQueuePriorities</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/enqueueCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>- (void)enqueueCommand:(GTCommand *)command</Declaration>
+			
+			
+			<Anchor>//api/name/enqueueCommand:</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/writeCurrentCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>- (void)writeCurrentCommand</Declaration>
+			
+			
+			<Anchor>//api/name/writeCurrentCommand</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/canNudge</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)canNudge</Declaration>
+			
+			
+			<Anchor>//api/name/canNudge</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/setCommandQueue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *commandQueue</Declaration>
+			
+			
+			<Anchor>//api/name/commandQueue</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/commandQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *commandQueue</Declaration>
+			
+			
+			<Anchor>//api/name/commandQueue</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandQueue/commandQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *commandQueue</Declaration>
+			
+			
+			<Anchor>//api/name/commandQueue</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/setGtPeripheralManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPeripheralManager *gtPeripheralManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtPeripheralManager</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/gtPeripheralManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPeripheralManager *gtPeripheralManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtPeripheralManager</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandQueue/gtPeripheralManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPeripheralManager *gtPeripheralManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtPeripheralManager</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/setDataRateLimiter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDataRateLimiter *dataRateLimiter</Declaration>
+			
+			
+			<Anchor>//api/name/dataRateLimiter</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandQueue/dataRateLimiter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDataRateLimiter *dataRateLimiter</Declaration>
+			
+			
+			<Anchor>//api/name/dataRateLimiter</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandQueue/dataRateLimiter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandQueue.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDataRateLimiter *dataRateLimiter</Declaration>
+			
+			
+			<Anchor>//api/name/dataRateLimiter</Anchor>
+            <NodeRef refid="25"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

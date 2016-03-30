@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTLocationOnlyMessageData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTLocationOnlyMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationOnlyMessageData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="53"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationOnlyMessageData/initOutgoingWithLocation:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationOnlyMessageData.h</DeclaredIn>
+			
+			<Declaration>- (id)initOutgoingWithLocation:(GTLocationMessageData *)data onError:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/initOutgoingWithLocation:onError:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationOnlyMessageData/initFromOrderedData:withSenderGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationOnlyMessageData.m</DeclaredIn>
+			
+			<Declaration>- (id)initFromOrderedData:(NSArray&lt;TLVSection*&gt; *)array withSenderGID:(NSNumber *)senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/initFromOrderedData:withSenderGID:</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTLocationOnlyMessageData/buildTLVSections</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTLocationOnlyMessageData.m</DeclaredIn>
+			
+			<Declaration>- (NSArray&lt;TLVSection*&gt; *)buildTLVSections</Declaration>
+			
+			
+			<Anchor>//api/name/buildTLVSections</Anchor>
+            <NodeRef refid="53"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

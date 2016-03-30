@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/EncryptionInfoHeader.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/EncryptionInfoHeader</TokenIdentifier>
+			<Abstract type="html">* A model class that represents an EncryptionInfoHeader.
+* This header is sent along will all message data.</Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+            
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/setIsEncrypted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL isEncrypted</Declaration>
+			
+			
+			<Anchor>//api/name/isEncrypted</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/isEncrypted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL isEncrypted</Declaration>
+			
+			
+			<Anchor>//api/name/isEncrypted</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EncryptionInfoHeader/isEncrypted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL isEncrypted</Declaration>
+			
+			
+			<Anchor>//api/name/isEncrypted</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/setSenderGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/senderGID</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/senderGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/senderGID</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EncryptionInfoHeader/senderGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/senderGID</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/setTimestamp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/timestamp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EncryptionInfoHeader/timestamp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int timestamp</Declaration>
+			
+			
+			<Anchor>//api/name/timestamp</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/setEncryptionCounter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int encryptionCounter</Declaration>
+			
+			
+			<Anchor>//api/name/encryptionCounter</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/encryptionCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int encryptionCounter</Declaration>
+			
+			
+			<Anchor>//api/name/encryptionCounter</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EncryptionInfoHeader/encryptionCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int encryptionCounter</Declaration>
+			
+			
+			<Anchor>//api/name/encryptionCounter</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/setFullTlvLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int fullTlvLength</Declaration>
+			
+			
+			<Anchor>//api/name/fullTlvLength</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/fullTlvLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int fullTlvLength</Declaration>
+			
+			
+			<Anchor>//api/name/fullTlvLength</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/EncryptionInfoHeader/fullTlvLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) int fullTlvLength</Declaration>
+			
+			
+			<Anchor>//api/name/fullTlvLength</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/EncryptionInfoHeader/isValidHeaderSize:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isValidHeaderSize:(int)len</Declaration>
+			
+			
+			<Anchor>//api/name/isValidHeaderSize:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/initWithIsEncrypted:andSenderGID:andEncryptionCounter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithIsEncrypted:(BOOL)isEncrypted andSenderGID:(NSNumber *)senderGID andEncryptionCounter:(int)encryptionCounter</Declaration>
+			
+			
+			<Anchor>//api/name/initWithIsEncrypted:andSenderGID:andEncryptionCounter:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/initWithTlvSection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithTlvSection:(TLVSection *)encryptionInfoTLV</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTlvSection:</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/getPacketId</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)getPacketId</Declaration>
+			
+			
+			<Anchor>//api/name/getPacketId</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/getTimestampAsDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)getTimestampAsDate</Declaration>
+			
+			
+			<Anchor>//api/name/getTimestampAsDate</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/toData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)toData</Declaration>
+			
+			
+			<Anchor>//api/name/toData</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/EncryptionInfoHeader/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>EncryptionInfoHeader.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="12"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

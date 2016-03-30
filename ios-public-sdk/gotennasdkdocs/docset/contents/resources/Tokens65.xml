@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTPublicKeyUserResponseMessageData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTPublicKeyUserResponseMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPublicKeyUserResponseMessageData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="65"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPublicKeyUserResponseMessageData/setPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPublicKeyUserResponseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/publicKey</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPublicKeyUserResponseMessageData/publicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPublicKeyUserResponseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/publicKey</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTPublicKeyUserResponseMessageData/publicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPublicKeyUserResponseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/publicKey</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPublicKeyUserResponseMessageData/initFromOrderedData:withSenderGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPublicKeyUserResponseMessageData.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)initFromOrderedData:(NSArray&lt;TLVSection*&gt; *)data withSenderGID:(NSNumber *)senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/initFromOrderedData:withSenderGID:</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPublicKeyUserResponseMessageData/initOutgoingOnError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPublicKeyUserResponseMessageData.m</DeclaredIn>
+			
+			<Declaration>- (id)initOutgoingOnError:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/initOutgoingOnError:</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPublicKeyUserResponseMessageData/buildTLVSections</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPublicKeyUserResponseMessageData.m</DeclaredIn>
+			
+			<Declaration>- (NSArray&lt;TLVSection*&gt; *)buildTLVSections</Declaration>
+			
+			
+			<Anchor>//api/name/buildTLVSections</Anchor>
+            <NodeRef refid="65"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

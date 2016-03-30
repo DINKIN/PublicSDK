@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTCommandBuilder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTCommandBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="22"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildSetGID:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildSetGID:(GTGid *)number onError:(void ( ^ ) ( NSError *))error</Declaration>
+			
+			
+			<Anchor>//api/name/buildSetGID:onError:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildResetGotenna</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildResetGotenna</Declaration>
+			
+			
+			<Anchor>//api/name/buildResetGotenna</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildSetPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildSetPublicKey:(NSData *)publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/buildSetPublicKey:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildSendMessageCommand:(NSData *)outgoingData toGID:(GTGid *)addresseeGID onResponse:(void ( ^ ) ( GTResponse *))onResponse onError:(void ( ^ ) ( NSError *))onError willEncrypt:(BOOL)willEncrypt</Declaration>
+			
+			
+			<Anchor>//api/name/buildSendMessageCommand:toGID:onResponse:onError:willEncrypt:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildDeleteLastMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildDeleteLastMessage</Declaration>
+			
+			
+			<Anchor>//api/name/buildDeleteLastMessage</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildGetMessageWithOnSuccess:(void ( ^ ) ( GTMessageData *))onIncomingMessage onGroupCreated:(void ( ^ ) ( GTGroupCreationMessageData *))onGroupAdded onSuccessLastMessageDelete:(void ( ^ ) ( ))lastMessageDelete</Declaration>
+			
+			
+			<Anchor>//api/name/buildGetMessageWithOnSuccess:onGroupCreated:onSuccessLastMessageDelete:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildEchoCommandOnResponse:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildEchoCommandOnResponse:(void ( ^ ) ( GTResponse *))onSuccess onError:(void ( ^ ) ( NSError *))error</Declaration>
+			
+			
+			<Anchor>//api/name/buildEchoCommandOnResponse:onError:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildDisconnectGotenna</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildDisconnectGotenna</Declaration>
+			
+			
+			<Anchor>//api/name/buildDisconnectGotenna</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildDeleteGID:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildDeleteGID:(GTGid *)number onError:(void ( ^ ) ( NSError *))error</Declaration>
+			
+			
+			<Anchor>//api/name/buildDeleteGID:onError:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildGetSystemInfoOnError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildGetSystemInfoOnError:(void ( ^ ) ( NSError *))pFunction</Declaration>
+			
+			
+			<Anchor>//api/name/buildGetSystemInfoOnError:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/setAppTokenOnResponse:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)setAppTokenOnResponse:(void ( ^ ) ( GTResponse *))onResponse onError:(void ( ^ ) ( NSError *))error</Declaration>
+			
+			
+			<Anchor>//api/name/setAppTokenOnResponse:onError:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildInitiateFirmware:totalNumOfBytesSending:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildInitiateFirmware:(int)numCommands totalNumOfBytesSending:(int)numBytes</Declaration>
+			
+			
+			<Anchor>//api/name/buildInitiateFirmware:totalNumOfBytesSending:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildWriteFirmware:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildWriteFirmware:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/buildWriteFirmware:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildAbortFirmwareUpdate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildAbortFirmwareUpdate:(GTFirmwareVersion *)version</Declaration>
+			
+			
+			<Anchor>//api/name/buildAbortFirmwareUpdate:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildFinalizeFirmwareUpdateForVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildFinalizeFirmwareUpdateForVersion:(GTFirmwareVersion *)version</Declaration>
+			
+			
+			<Anchor>//api/name/buildFinalizeFirmwareUpdateForVersion:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildStoreDateTime:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildStoreDateTime:(NSString *)emergencyMessage</Declaration>
+			
+			
+			<Anchor>//api/name/buildStoreDateTime:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildHardReset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.h</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildHardReset</Declaration>
+			
+			
+			<Anchor>//api/name/buildHardReset</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildAntennaSweep:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildAntennaSweep:(BOOL)on</Declaration>
+			
+			
+			<Anchor>//api/name/buildAntennaSweep:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildFrequencyMode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildFrequencyMode:(FrequencyMode *)mode</Declaration>
+			
+			
+			<Anchor>//api/name/buildFrequencyMode:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildHardwareTransmit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildHardwareTransmit</Declaration>
+			
+			
+			<Anchor>//api/name/buildHardwareTransmit</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildBERTestWithData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildBERTestWithData:(NSData *)berData</Declaration>
+			
+			
+			<Anchor>//api/name/buildBERTestWithData:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildGetBinaryLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildGetBinaryLog</Declaration>
+			
+			
+			<Anchor>//api/name/buildGetBinaryLog</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildDeleteBinaryLog</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildDeleteBinaryLog</Declaration>
+			
+			
+			<Anchor>//api/name/buildDeleteBinaryLog</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/buildPowerSavingTransmit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildPowerSavingTransmit:(BOOL)on</Declaration>
+			
+			
+			<Anchor>//api/name/buildPowerSavingTransmit:</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/setPacketBuilder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPacketBuilder *packetBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/packetBuilder</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/packetBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPacketBuilder *packetBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/packetBuilder</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandBuilder/packetBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTPacketBuilder *packetBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/packetBuilder</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/setDataSerializer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDataSerializer *dataSerializer</Declaration>
+			
+			
+			<Anchor>//api/name/dataSerializer</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/dataSerializer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDataSerializer *dataSerializer</Declaration>
+			
+			
+			<Anchor>//api/name/dataSerializer</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandBuilder/dataSerializer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDataSerializer *dataSerializer</Declaration>
+			
+			
+			<Anchor>//api/name/dataSerializer</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/setPublicKeyHasher:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) PublicKeyHasher *publicKeyHasher</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyHasher</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/publicKeyHasher</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) PublicKeyHasher *publicKeyHasher</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyHasher</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandBuilder/publicKeyHasher</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) PublicKeyHasher *publicKeyHasher</Declaration>
+			
+			
+			<Anchor>//api/name/publicKeyHasher</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/setPacketVerifier:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) PacketVerifier *packetVerifier</Declaration>
+			
+			
+			<Anchor>//api/name/packetVerifier</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandBuilder/packetVerifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) PacketVerifier *packetVerifier</Declaration>
+			
+			
+			<Anchor>//api/name/packetVerifier</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandBuilder/packetVerifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandBuilder.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) PacketVerifier *packetVerifier</Declaration>
+			
+			
+			<Anchor>//api/name/packetVerifier</Anchor>
+            <NodeRef refid="22"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

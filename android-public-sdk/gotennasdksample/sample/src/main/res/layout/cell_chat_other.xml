@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/cell_bottom_padding"
+    android:gravity="left"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/messageStatusImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@drawable/ic_sending_1"/>
+
+    <LinearLayout
+        android:id="@+id/cellLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cellMessageTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/blue_chat_cell_background"
+            android:minHeight="@dimen/cell_min_height"
+            android:padding="@dimen/cell_bubble_padding"
+            android:textColor="@color/white"
+            android:textSize="@dimen/cell_chat_text_size"
+            tools:text="@string/placeholder_text"/>
+
+        <TextView
+            android:id="@+id/cellInfoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/cell_info_text_size"
+            tools:text="@string/placeholder_text"/>
+
+    </LinearLayout>
+
+</LinearLayout>

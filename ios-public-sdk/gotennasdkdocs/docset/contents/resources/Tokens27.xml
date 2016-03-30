@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTCommunicationLogger.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTCommunicationLogger</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.h</DeclaredIn>
+            
+			
+			<NodeRef refid="27"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTCommunicationLogger/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.h</DeclaredIn>
+			
+			<Declaration>+ (GTCommunicationLogger *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTCommunicationLogger/messageContentTypes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.h</DeclaredIn>
+			
+			<Declaration>+ (NSDictionary *)messageContentTypes</Declaration>
+			
+			
+			<Anchor>//api/name/messageContentTypes</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTCommunicationLogger/messageTypes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.h</DeclaredIn>
+			
+			<Declaration>+ (NSDictionary *)messageTypes</Declaration>
+			
+			
+			<Anchor>//api/name/messageTypes</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommunicationLogger/log:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.h</DeclaredIn>
+			
+			<Declaration>- (void)log:(NSString *)logText</Declaration>
+			
+			
+			<Anchor>//api/name/log:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommunicationLogger/buildGoTennaCommunicationEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.h</DeclaredIn>
+			
+			<Declaration>- (id)buildGoTennaCommunicationEvent:(GTBaseMessageData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/buildGoTennaCommunicationEvent:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTCommunicationLogger/directory</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)directory</Declaration>
+			
+			
+			<Anchor>//api/name/directory</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTCommunicationLogger/filename</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommunicationLogger/handleLogNotification:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.m</DeclaredIn>
+			
+			<Declaration>- (void)handleLogNotification:(NSNotification *)notification</Declaration>
+			
+			
+			<Anchor>//api/name/handleLogNotification:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommunicationLogger/extractContentType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)extractContentType:(GTBaseMessageData *)messageData</Declaration>
+			
+			
+			<Anchor>//api/name/extractContentType:</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommunicationLogger/setMessageContentTypes:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *messageContentTypes</Declaration>
+			
+			
+			<Anchor>//api/name/messageContentTypes</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommunicationLogger/messageContentTypes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *messageContentTypes</Declaration>
+			
+			
+			<Anchor>//api/name/messageContentTypes</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommunicationLogger/messageContentTypes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommunicationLogger.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDictionary *messageContentTypes</Declaration>
+			
+			
+			<Anchor>//api/name/messageContentTypes</Anchor>
+            <NodeRef refid="27"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTBaseMessageData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTBaseMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setMessageType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *messageType</Declaration>
+			
+			
+			<Anchor>//api/name/messageType</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/messageType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *messageType</Declaration>
+			
+			
+			<Anchor>//api/name/messageType</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTBaseMessageData/messageType</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *messageType</Declaration>
+			
+			
+			<Anchor>//api/name/messageType</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setSenderGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/senderGID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/senderGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/senderGID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTBaseMessageData/senderGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/senderGID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setSenderInitials:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *senderInitials</Declaration>
+			
+			
+			<Anchor>//api/name/senderInitials</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/senderInitials</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *senderInitials</Declaration>
+			
+			
+			<Anchor>//api/name/senderInitials</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTBaseMessageData/senderInitials</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *senderInitials</Declaration>
+			
+			
+			<Anchor>//api/name/senderInitials</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setAddresseeGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *addresseeGID</Declaration>
+			
+			
+			<Anchor>//api/name/addresseeGID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/addresseeGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *addresseeGID</Declaration>
+			
+			
+			<Anchor>//api/name/addresseeGID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTBaseMessageData/addresseeGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *addresseeGID</Declaration>
+			
+			
+			<Anchor>//api/name/addresseeGID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setReceivingGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *receivingGID</Declaration>
+			
+			
+			<Anchor>//api/name/receivingGID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/receivingGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *receivingGID</Declaration>
+			
+			
+			<Anchor>//api/name/receivingGID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTBaseMessageData/receivingGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *receivingGID</Declaration>
+			
+			
+			<Anchor>//api/name/receivingGID</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setLocationMessageData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTLocationMessageData *locationMessageData</Declaration>
+			
+			
+			<Anchor>//api/name/locationMessageData</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/locationMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTLocationMessageData *locationMessageData</Declaration>
+			
+			
+			<Anchor>//api/name/locationMessageData</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTBaseMessageData/locationMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTLocationMessageData *locationMessageData</Declaration>
+			
+			
+			<Anchor>//api/name/locationMessageData</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setText:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTBaseMessageData/text</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *text</Declaration>
+			
+			
+			<Anchor>//api/name/text</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setBaseDataComponents:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *baseDataComponents</Declaration>
+			
+			
+			<Anchor>//api/name/baseDataComponents</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/baseDataComponents</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *baseDataComponents</Declaration>
+			
+			
+			<Anchor>//api/name/baseDataComponents</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTBaseMessageData/baseDataComponents</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *baseDataComponents</Declaration>
+			
+			
+			<Anchor>//api/name/baseDataComponents</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setSenderLocationData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTLocationMessageData *senderLocationData</Declaration>
+			
+			
+			<Anchor>//api/name/senderLocationData</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/senderLocationData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTLocationMessageData *senderLocationData</Declaration>
+			
+			
+			<Anchor>//api/name/senderLocationData</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTBaseMessageData/senderLocationData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTLocationMessageData *senderLocationData</Declaration>
+			
+			
+			<Anchor>//api/name/senderLocationData</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setMessageSentDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *messageSentDate</Declaration>
+			
+			
+			<Anchor>//api/name/messageSentDate</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/messageSentDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *messageSentDate</Declaration>
+			
+			
+			<Anchor>//api/name/messageSentDate</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTBaseMessageData/messageSentDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *messageSentDate</Declaration>
+			
+			
+			<Anchor>//api/name/messageSentDate</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/initOutgoingOnError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>- (id)initOutgoingOnError:(NSError **)pError</Declaration>
+			
+			
+			<Anchor>//api/name/initOutgoingOnError:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/initIncoming:withSenderGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>- (id)initIncoming:(NSArray&lt;TLVSection*&gt; *)array withSenderGID:(NSNumber *)senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/initIncoming:withSenderGID:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/getGIDNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)getGIDNumber:(id)value</Declaration>
+			
+			
+			<Anchor>//api/name/getGIDNumber:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/setAddressedGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>- (void)setAddressedGID:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/setAddressedGID:</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/buildTLVSections</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>- (NSArray&lt;TLVSection*&gt; *)buildTLVSections</Declaration>
+			
+			
+			<Anchor>//api/name/buildTLVSections</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/getTLVSections</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>- (NSArray&lt;TLVSection*&gt; *)getTLVSections</Declaration>
+			
+			
+			<Anchor>//api/name/getTLVSections</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTBaseMessageData/serializeToBytes</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTBaseMessageData.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)serializeToBytes</Declaration>
+			
+			
+			<Anchor>//api/name/serializeToBytes</Anchor>
+            <NodeRef refid="18"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

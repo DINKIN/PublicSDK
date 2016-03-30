@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PublicKeyEntry.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PublicKeyEntry</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyEntry.h</DeclaredIn>
+            
+			
+			<NodeRef refid="86"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyEntry/initWithPublicKey:userHasMyPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyEntry.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithPublicKey:(NSData *)publicKey userHasMyPublicKey:(BOOL)userHasMyPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/initWithPublicKey:userHasMyPublicKey:</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyEntry/setPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyEntry.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/publicKey</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyEntry/publicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyEntry.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/publicKey</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PublicKeyEntry/publicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyEntry.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/publicKey</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyEntry/setUserHasMyPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyEntry.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL userHasMyPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/userHasMyPublicKey</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyEntry/userHasMyPublicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyEntry.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL userHasMyPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/userHasMyPublicKey</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PublicKeyEntry/userHasMyPublicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyEntry.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL userHasMyPublicKey</Declaration>
+			
+			
+			<Anchor>//api/name/userHasMyPublicKey</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyEntry/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyEntry.m</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(NSCoder *)aCoder</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyEntry/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyEntry.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(NSCoder *)aDecoder</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="86"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

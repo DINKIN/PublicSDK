@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSString+GTFormatting.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSString(GTFormatting)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+GTFormatting.h</DeclaredIn>
+            
+			
+			<NodeRef refid="104"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/getStringFromDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+GTFormatting.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)getStringFromDate:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/getStringFromDate:</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/presentGeneratedGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+GTFormatting.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)presentGeneratedGID:(NSNumber *)gid</Declaration>
+			
+			
+			<Anchor>//api/name/presentGeneratedGID:</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/presentGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+GTFormatting.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)presentGID:(NSNumber *)gid</Declaration>
+			
+			
+			<Anchor>//api/name/presentGID:</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/phoneNumberCleaned:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+GTFormatting.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)phoneNumberCleaned:(NSString *)gidToClean</Declaration>
+			
+			
+			<Anchor>//api/name/phoneNumberCleaned:</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/pingStringWithDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+GTFormatting.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)pingStringWithDate:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/pingStringWithDate:</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/isAllDigits</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+GTFormatting.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isAllDigits</Declaration>
+			
+			
+			<Anchor>//api/name/isAllDigits</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/isValidGIDNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+GTFormatting.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isValidGIDNumber</Declaration>
+			
+			
+			<Anchor>//api/name/isValidGIDNumber</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/safeSubstringFromIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+GTFormatting.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)safeSubstringFromIndex:(NSUInteger)i</Declaration>
+			
+			
+			<Anchor>//api/name/safeSubstringFromIndex:</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSString/present10DigitGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSString+GTFormatting.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)present10DigitGID:(NSNumber *)gid</Declaration>
+			
+			
+			<Anchor>//api/name/present10DigitGID:</Anchor>
+            <NodeRef refid="104"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

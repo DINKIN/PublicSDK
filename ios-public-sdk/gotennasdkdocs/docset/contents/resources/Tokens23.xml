@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTCommandCenter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTCommandCenter</TokenIdentifier>
+			<Abstract type="html">GTCommandCenter is the lifeblood of the application,
+all commands to be sent to the goTenna must go through this class.
+This is the way in which one is to communicate with a goTenna</Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="23"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setOnIncomingMessage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTMessageData *) onIncomingMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onIncomingMessage</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/onIncomingMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTMessageData *) onIncomingMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onIncomingMessage</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandCenter/onIncomingMessage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTMessageData *) onIncomingMessage</Declaration>
+			
+			
+			<Anchor>//api/name/onIncomingMessage</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTCommandCenter/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>+ (GTCommandCenter *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendEchoCommand:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendEchoCommand:(void ( ^ ) ( GTResponse *))onResponse onError:(void ( ^ ) ( NSError *))onError</Declaration>
+			
+			
+			<Anchor>//api/name/sendEchoCommand:onError:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setgoTennaGID:withUsername:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)setgoTennaGID:(NSNumber *)number withUsername:(NSString *)username onError:(void ( ^ ) ( NSError *))onError</Declaration>
+			
+			
+			<Anchor>//api/name/setgoTennaGID:withUsername:onError:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendMessage:encrypt:toGID:fromGID:onResponse:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendMessage:(NSData *)messageData encrypt:(BOOL)encryptionEnabled toGID:(NSNumber *)destinationGID fromGID:(NSNumber *)senderGID onResponse:(void ( ^ ) ( GTResponse *))success onError:(void ( ^ ) ( NSError *))onError</Declaration>
+			
+			
+			<Anchor>//api/name/sendMessage:encrypt:toGID:fromGID:onResponse:onError:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/deleteGID:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteGID:(NSNumber *)gidToDelete onError:(void ( ^ ) ( NSError *))onError</Declaration>
+			
+			
+			<Anchor>//api/name/deleteGID:onError:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendBroadcast:toGID:onResponse:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendBroadcast:(NSData *)messageData toGID:(NSNumber *)destinationGID onResponse:(void ( ^ ) ( GTResponse *))success onError:(void ( ^ ) ( NSError *))onError</Declaration>
+			
+			
+			<Anchor>//api/name/sendBroadcast:toGID:onResponse:onError:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)createGroupWithGIDs:(NSArray *)memberGIDs encrypt:(BOOL)willEncrypt onMemberResponse:(void ( ^ ) ( GTResponse *, NSNumber *memberGID ))onMemberResponse fromGID:(NSNumber *)senderGID onError:(void ( ^ ) ( NSError *, NSNumber *))onError</Declaration>
+			
+			
+			<Anchor>//api/name/createGroupWithGIDs:encrypt:onMemberResponse:fromGID:onError:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setOnGroupCreated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)setOnGroupCreated:(void ( ^ ) ( GTGroupCreationMessageData *))externalOnGroupCreate</Declaration>
+			
+			
+			<Anchor>//api/name/setOnGroupCreated:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendGetSystemInfoOnSuccess:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetSystemInfoOnSuccess:(void ( ^ ) ( SystemInfoResponseData *))onSuccess onError:(void ( ^ ) ( NSError *))onError</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetSystemInfoOnSuccess:onError:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendSetAppTokenOnResponse:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendSetAppTokenOnResponse:(void ( ^ ) ( GTResponse *))onResponse onError:(void ( ^ ) ( NSError *))error</Declaration>
+			
+			
+			<Anchor>//api/name/sendSetAppTokenOnResponse:onError:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendDisconnectGotenna</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendDisconnectGotenna</Declaration>
+			
+			
+			<Anchor>//api/name/sendDisconnectGotenna</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/resetGotenna</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)resetGotenna</Declaration>
+			
+			
+			<Anchor>//api/name/resetGotenna</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)setPublicKey:(NSData *)publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/setPublicKey:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/queueCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)queueCommand:(GTCommand *)command</Declaration>
+			
+			
+			<Anchor>//api/name/queueCommand:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/resetQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)resetQueue</Declaration>
+			
+			
+			<Anchor>//api/name/resetQueue</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/dispatchResponse:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)dispatchResponse:(NSMutableData *)response</Declaration>
+			
+			
+			<Anchor>//api/name/dispatchResponse:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendGetMessageRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendGetMessageRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendGetMessageRequest</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/abortCurrentCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)abortCurrentCommand</Declaration>
+			
+			
+			<Anchor>//api/name/abortCurrentCommand</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/addGroupGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)addGroupGID:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/addGroupGID:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendStoreDateTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendStoreDateTime</Declaration>
+			
+			
+			<Anchor>//api/name/sendStoreDateTime</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/pauseQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)pauseQueue</Declaration>
+			
+			
+			<Anchor>//api/name/pauseQueue</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/queuePriorityCommands:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)queuePriorityCommands:(GTCommandArray *)array</Declaration>
+			
+			
+			<Anchor>//api/name/queuePriorityCommands:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/executeUpcomingQueueCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)executeUpcomingQueueCommand</Declaration>
+			
+			
+			<Anchor>//api/name/executeUpcomingQueueCommand</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendHardReset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendHardReset</Declaration>
+			
+			
+			<Anchor>//api/name/sendHardReset</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendPublicKeyRequestToGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendPublicKeyRequestToGID:(NSNumber *)destinationGID</Declaration>
+			
+			
+			<Anchor>//api/name/sendPublicKeyRequestToGID:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendPublicKeyResponseToGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.h</DeclaredIn>
+			
+			<Declaration>- (void)sendPublicKeyResponseToGID:(NSNumber *)destinationGID</Declaration>
+			
+			
+			<Anchor>//api/name/sendPublicKeyResponseToGID:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/currentQueueCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)currentQueueCommand</Declaration>
+			
+			
+			<Anchor>//api/name/currentQueueCommand</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/remainingCommands</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>- (NSArray *)remainingCommands</Declaration>
+			
+			
+			<Anchor>//api/name/remainingCommands</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/valueChangeForBERState:messageData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>- (void)valueChangeForBERState:(BOOL)BERState messageData:(NSData *)messageData</Declaration>
+			
+			
+			<Anchor>//api/name/valueChangeForBERState:messageData:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/buildGetMessageRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>- (GTCommand *)buildGetMessageRequest</Declaration>
+			
+			
+			<Anchor>//api/name/buildGetMessageRequest</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setGTGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>- (void)setGTGID:(GTGid *)gtGID</Declaration>
+			
+			
+			<Anchor>//api/name/setGTGID:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/sendDeleteLastMessageRequest</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>- (void)sendDeleteLastMessageRequest</Declaration>
+			
+			
+			<Anchor>//api/name/sendDeleteLastMessageRequest</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/queuePriorityGTCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>- (void)queuePriorityGTCommand:(GTCommand *)command</Declaration>
+			
+			
+			<Anchor>//api/name/queuePriorityGTCommand:</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setCommandQueue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandQueue *commandQueue</Declaration>
+			
+			
+			<Anchor>//api/name/commandQueue</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/commandQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandQueue *commandQueue</Declaration>
+			
+			
+			<Anchor>//api/name/commandQueue</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandCenter/commandQueue</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandQueue *commandQueue</Declaration>
+			
+			
+			<Anchor>//api/name/commandQueue</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setResponseProcessor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTResponseDispatcher *responseProcessor</Declaration>
+			
+			
+			<Anchor>//api/name/responseProcessor</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/responseProcessor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTResponseDispatcher *responseProcessor</Declaration>
+			
+			
+			<Anchor>//api/name/responseProcessor</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandCenter/responseProcessor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTResponseDispatcher *responseProcessor</Declaration>
+			
+			
+			<Anchor>//api/name/responseProcessor</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setCommandBuilder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandBuilder *commandBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/commandBuilder</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/commandBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandBuilder *commandBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/commandBuilder</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandCenter/commandBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandBuilder *commandBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/commandBuilder</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setOnIncomingGroupCreated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTGroupCreationMessageData *) onIncomingGroupCreated</Declaration>
+			
+			
+			<Anchor>//api/name/onIncomingGroupCreated</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/onIncomingGroupCreated</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTGroupCreationMessageData *) onIncomingGroupCreated</Declaration>
+			
+			
+			<Anchor>//api/name/onIncomingGroupCreated</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandCenter/onIncomingGroupCreated</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTGroupCreationMessageData *) onIncomingGroupCreated</Declaration>
+			
+			
+			<Anchor>//api/name/onIncomingGroupCreated</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setUserDataStore:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UserDataStore *userDataStore</Declaration>
+			
+			
+			<Anchor>//api/name/userDataStore</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/userDataStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UserDataStore *userDataStore</Declaration>
+			
+			
+			<Anchor>//api/name/userDataStore</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandCenter/userDataStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) UserDataStore *userDataStore</Declaration>
+			
+			
+			<Anchor>//api/name/userDataStore</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setCommandValidator:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandValidator *commandValidator</Declaration>
+			
+			
+			<Anchor>//api/name/commandValidator</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/commandValidator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandValidator *commandValidator</Declaration>
+			
+			
+			<Anchor>//api/name/commandValidator</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandCenter/commandValidator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandValidator *commandValidator</Declaration>
+			
+			
+			<Anchor>//api/name/commandValidator</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setTestBERMessageData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *testBERMessageData</Declaration>
+			
+			
+			<Anchor>//api/name/testBERMessageData</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/testBERMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *testBERMessageData</Declaration>
+			
+			
+			<Anchor>//api/name/testBERMessageData</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandCenter/testBERMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *testBERMessageData</Declaration>
+			
+			
+			<Anchor>//api/name/testBERMessageData</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/setActiveStateForBER:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL activeStateForBER</Declaration>
+			
+			
+			<Anchor>//api/name/activeStateForBER</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandCenter/activeStateForBER</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL activeStateForBER</Declaration>
+			
+			
+			<Anchor>//api/name/activeStateForBER</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandCenter/activeStateForBER</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandCenter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL activeStateForBER</Declaration>
+			
+			
+			<Anchor>//api/name/activeStateForBER</Anchor>
+            <NodeRef refid="23"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

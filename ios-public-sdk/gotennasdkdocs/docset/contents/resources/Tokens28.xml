@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTConfig</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/connectionNotRequired</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)connectionNotRequired</Declaration>
+			
+			
+			<Anchor>//api/name/connectionNotRequired</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/maxGIDlength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSInteger)maxGIDlength</Declaration>
+			
+			
+			<Anchor>//api/name/maxGIDlength</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/privateGIDByteLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSUInteger)privateGIDByteLength</Declaration>
+			
+			
+			<Anchor>//api/name/privateGIDByteLength</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/broadcastGIDByteLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSUInteger)broadcastGIDByteLength</Declaration>
+			
+			
+			<Anchor>//api/name/broadcastGIDByteLength</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/maxDataPayloadLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSInteger)maxDataPayloadLength</Declaration>
+			
+			
+			<Anchor>//api/name/maxDataPayloadLength</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/firmwareUpdateCommandTimeoutAmount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSInteger)firmwareUpdateCommandTimeoutAmount</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareUpdateCommandTimeoutAmount</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/normalUpdateCommandTimeoutAmount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSInteger)normalUpdateCommandTimeoutAmount</Declaration>
+			
+			
+			<Anchor>//api/name/normalUpdateCommandTimeoutAmount</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/retrieveCurrentVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)retrieveCurrentVersion</Declaration>
+			
+			
+			<Anchor>//api/name/retrieveCurrentVersion</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/retrieveVersionDescription</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)retrieveVersionDescription</Declaration>
+			
+			
+			<Anchor>//api/name/retrieveVersionDescription</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/finalizeFirmwareCommandTimeout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSTimeInterval)finalizeFirmwareCommandTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/finalizeFirmwareCommandTimeout</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/resetCommandTimeoutAmount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSInteger)resetCommandTimeoutAmount</Declaration>
+			
+			
+			<Anchor>//api/name/resetCommandTimeoutAmount</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/shouldLogPackets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)shouldLogPackets</Declaration>
+			
+			
+			<Anchor>//api/name/shouldLogPackets</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/packetDataPayloadLimit</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSInteger)packetDataPayloadLimit</Declaration>
+			
+			
+			<Anchor>//api/name/packetDataPayloadLimit</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/systemInfoQueryInterval</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSInteger)systemInfoQueryInterval</Declaration>
+			
+			
+			<Anchor>//api/name/systemInfoQueryInterval</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTConfig/initialConnectionScanTimeout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTConfig.h</DeclaredIn>
+			
+			<Declaration>+ (NSInteger)initialConnectionScanTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/initialConnectionScanTimeout</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

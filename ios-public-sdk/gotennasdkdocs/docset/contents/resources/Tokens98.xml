@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSData+ByteOperations.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSData(ByteOperations)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+ByteOperations.h</DeclaredIn>
+            
+			
+			<NodeRef refid="98"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSData/byteAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSData+ByteOperations.h</DeclaredIn>
+			
+			<Declaration>- (unsigned char)byteAtIndex:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/byteAtIndex:</Anchor>
+            <NodeRef refid="98"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

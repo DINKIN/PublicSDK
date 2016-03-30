@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTFirmwareWriter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTFirmwareWriter</TokenIdentifier>
+			<Abstract type="html">Writes the firmware data straight to the firmware device,
+\</Abstract>
+			<DeclaredIn>GTFirmwareWriter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="48"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/initWithVersionToWrite:progressDelegate:onFinalizeSent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithVersionToWrite:(GTFirmwareVersion *)version progressDelegate:(id&lt;GTFirmwareInstallationProgressProtocol&gt;)progressDelegate onFinalizeSent:(void ( ^ ) ( ))onFinalizeSent</Declaration>
+			
+			
+			<Anchor>//api/name/initWithVersionToWrite:progressDelegate:onFinalizeSent:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/writeFirmware</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)writeFirmware</Declaration>
+			
+			
+			<Anchor>//api/name/writeFirmware</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/abortCurrentCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)abortCurrentCommand</Declaration>
+			
+			
+			<Anchor>//api/name/abortCurrentCommand</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/resolveInProgressWrite:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.h</DeclaredIn>
+			
+			<Declaration>- (void)resolveInProgressWrite:(double)currentInstalledVersion</Declaration>
+			
+			
+			<Anchor>//api/name/resolveInProgressWrite:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setIsDownloading:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL isDownloading</Declaration>
+			
+			
+			<Anchor>//api/name/isDownloading</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/isDownloading</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL isDownloading</Declaration>
+			
+			
+			<Anchor>//api/name/isDownloading</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/isDownloading</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL isDownloading</Declaration>
+			
+			
+			<Anchor>//api/name/isDownloading</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/sendFinalizeFirmwareUpdate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>- (void)sendFinalizeFirmwareUpdate</Declaration>
+			
+			
+			<Anchor>//api/name/sendFinalizeFirmwareUpdate</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/sendDataCommands:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>- (void)sendDataCommands:(NSMutableArray *)commands</Declaration>
+			
+			
+			<Anchor>//api/name/sendDataCommands:</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setCommandCenter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *commandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/commandCenter</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/commandCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *commandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/commandCenter</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/commandCenter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommandCenter *commandCenter</Declaration>
+			
+			
+			<Anchor>//api/name/commandCenter</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setFirmwareVersionStore:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSystemInfoStore *firmwareVersionStore</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersionStore</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/firmwareVersionStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSystemInfoStore *firmwareVersionStore</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersionStore</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/firmwareVersionStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTSystemInfoStore *firmwareVersionStore</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersionStore</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setCommandBuilder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTCommandBuilder *commandBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/commandBuilder</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/commandBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTCommandBuilder *commandBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/commandBuilder</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/commandBuilder</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTCommandBuilder *commandBuilder</Declaration>
+			
+			
+			<Anchor>//api/name/commandBuilder</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setFirmwareParser:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) FirmwareFileParser *firmwareParser</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareParser</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/firmwareParser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) FirmwareFileParser *firmwareParser</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareParser</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/firmwareParser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) FirmwareFileParser *firmwareParser</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareParser</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setOutgoing:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *outgoing</Declaration>
+			
+			
+			<Anchor>//api/name/outgoing</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/outgoing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *outgoing</Declaration>
+			
+			
+			<Anchor>//api/name/outgoing</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/outgoing</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *outgoing</Declaration>
+			
+			
+			<Anchor>//api/name/outgoing</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setFirst:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *first</Declaration>
+			
+			
+			<Anchor>//api/name/first</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/first</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *first</Declaration>
+			
+			
+			<Anchor>//api/name/first</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/first</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *first</Declaration>
+			
+			
+			<Anchor>//api/name/first</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setVersionWriting:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTFirmwareVersion *versionWriting</Declaration>
+			
+			
+			<Anchor>//api/name/versionWriting</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/versionWriting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTFirmwareVersion *versionWriting</Declaration>
+			
+			
+			<Anchor>//api/name/versionWriting</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/versionWriting</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTFirmwareVersion *versionWriting</Declaration>
+			
+			
+			<Anchor>//api/name/versionWriting</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setProgressDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) id&lt;GTFirmwareInstallationProgressProtocol&gt; progressDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/progressDelegate</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/progressDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) id&lt;GTFirmwareInstallationProgressProtocol&gt; progressDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/progressDelegate</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/progressDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) id&lt;GTFirmwareInstallationProgressProtocol&gt; progressDelegate</Declaration>
+			
+			
+			<Anchor>//api/name/progressDelegate</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setInitiateFirmwareCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *initiateFirmwareCommand</Declaration>
+			
+			
+			<Anchor>//api/name/initiateFirmwareCommand</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/initiateFirmwareCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *initiateFirmwareCommand</Declaration>
+			
+			
+			<Anchor>//api/name/initiateFirmwareCommand</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/initiateFirmwareCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *initiateFirmwareCommand</Declaration>
+			
+			
+			<Anchor>//api/name/initiateFirmwareCommand</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setFinalizeCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *finalizeCommand</Declaration>
+			
+			
+			<Anchor>//api/name/finalizeCommand</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/finalizeCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *finalizeCommand</Declaration>
+			
+			
+			<Anchor>//api/name/finalizeCommand</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/finalizeCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTCommand *finalizeCommand</Declaration>
+			
+			
+			<Anchor>//api/name/finalizeCommand</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/setOnFinalizeSent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onFinalizeSent</Declaration>
+			
+			
+			<Anchor>//api/name/onFinalizeSent</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareWriter/onFinalizeSent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onFinalizeSent</Declaration>
+			
+			
+			<Anchor>//api/name/onFinalizeSent</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareWriter/onFinalizeSent</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareWriter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onFinalizeSent</Declaration>
+			
+			
+			<Anchor>//api/name/onFinalizeSent</Anchor>
+            <NodeRef refid="48"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

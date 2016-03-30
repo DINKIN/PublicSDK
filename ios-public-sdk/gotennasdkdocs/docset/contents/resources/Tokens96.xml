@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSArray+GTHelpers.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSArray(GTHelpers)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+GTHelpers.h</DeclaredIn>
+            
+			
+			<NodeRef refid="96"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSArray/safeGet:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+GTHelpers.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)safeGet:(NSUInteger)index</Declaration>
+			
+			
+			<Anchor>//api/name/safeGet:</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSArray/safeSubArrayWithRange:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSArray+GTHelpers.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)safeSubArrayWithRange:(NSRange)range</Declaration>
+			
+			
+			<Anchor>//api/name/safeSubArrayWithRange:</Anchor>
+            <NodeRef refid="96"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

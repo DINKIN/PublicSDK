@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTPacketPreparer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTPacketPreparer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacketPreparer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="58"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacketPreparer/prepare:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacketPreparer.h</DeclaredIn>
+			
+			<Declaration>- (NSMutableData *)prepare:(NSMutableData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/prepare:</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacketPreparer/addDataLinkEscapesToData:</TokenIdentifier>
+			<Abstract type="html">scans outgoing packets for DLE char, and escapes by adding another DLE char</Abstract>
+			<DeclaredIn>GTPacketPreparer.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)addDataLinkEscapesToData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/addDataLinkEscapesToData:</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacketPreparer/unescapeData:</TokenIdentifier>
+			<Abstract type="html">  increment i by one, since the double dle is 1 longer than single dle</Abstract>
+			<DeclaredIn>GTPacketPreparer.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)unescapeData:(NSMutableData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/unescapeData:</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacketPreparer/addCRC16CheckSumToData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacketPreparer.m</DeclaredIn>
+			
+			<Declaration>- (NSData *)addCRC16CheckSumToData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/addCRC16CheckSumToData:</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTPacketPreparer/wrapDataInSTXAndETX:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPacketPreparer.m</DeclaredIn>
+			
+			<Declaration>- (NSData *)wrapDataInSTXAndETX:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/wrapDataInSTXAndETX:</Anchor>
+            <NodeRef refid="58"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

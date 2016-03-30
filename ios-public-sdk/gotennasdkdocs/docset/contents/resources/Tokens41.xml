@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTEventNotifier.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTEventNotifier</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEventNotifier.h</DeclaredIn>
+            
+			
+			<NodeRef refid="41"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEventNotifier/setRssiLoggingTurnedOn:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEventNotifier.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL rssiLoggingTurnedOn</Declaration>
+			
+			
+			<Anchor>//api/name/rssiLoggingTurnedOn</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEventNotifier/rssiLoggingTurnedOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEventNotifier.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL rssiLoggingTurnedOn</Declaration>
+			
+			
+			<Anchor>//api/name/rssiLoggingTurnedOn</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEventNotifier/rssiLoggingTurnedOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEventNotifier.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL rssiLoggingTurnedOn</Declaration>
+			
+			
+			<Anchor>//api/name/rssiLoggingTurnedOn</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTEventNotifier/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEventNotifier.h</DeclaredIn>
+			
+			<Declaration>+ (GTEventNotifier *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEventNotifier/userDisconnectInitiated</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEventNotifier.h</DeclaredIn>
+			
+			<Declaration>- (void)userDisconnectInitiated</Declaration>
+			
+			
+			<Anchor>//api/name/userDisconnectInitiated</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEventNotifier/nonUserDisconnectionOccurred:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEventNotifier.h</DeclaredIn>
+			
+			<Declaration>- (void)nonUserDisconnectionOccurred:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/nonUserDisconnectionOccurred:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEventNotifier/writeError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEventNotifier.h</DeclaredIn>
+			
+			<Declaration>- (void)writeError:(NSError *)error</Declaration>
+			
+			
+			<Anchor>//api/name/writeError:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEventNotifier/RSSIReceived:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEventNotifier.h</DeclaredIn>
+			
+			<Declaration>- (void)RSSIReceived:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/RSSIReceived:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEventNotifier/logGoTennaCommunicationEvent:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEventNotifier.h</DeclaredIn>
+			
+			<Declaration>- (void)logGoTennaCommunicationEvent:(NSString *)logDetail</Declaration>
+			
+			
+			<Anchor>//api/name/logGoTennaCommunicationEvent:</Anchor>
+            <NodeRef refid="41"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

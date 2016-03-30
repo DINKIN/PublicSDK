@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDate+GTLogging.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDate(GTLogging)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+GTLogging.h</DeclaredIn>
+            
+			
+			<NodeRef refid="101"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/nowForLogs</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+GTLogging.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)nowForLogs</Declaration>
+			
+			
+			<Anchor>//api/name/nowForLogs</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateFromString:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+GTLogging.h</DeclaredIn>
+			
+			<Declaration>+ (NSDate *)dateFromString:(NSString *)dateString</Declaration>
+			
+			
+			<Anchor>//api/name/dateFromString:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSDate/dateForPrinting:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSDate+GTLogging.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)dateForPrinting:(NSDate *)date</Declaration>
+			
+			
+			<Anchor>//api/name/dateForPrinting:</Anchor>
+            <NodeRef refid="101"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SystemInfoResponseData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SystemInfoResponseData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="91"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setFirmwareVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/firmwareVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/firmwareVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setMajorRevision:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *majorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/majorRevision</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/majorRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *majorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/majorRevision</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/majorRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *majorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/majorRevision</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setMinorRevision:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *minorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/minorRevision</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/minorRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *minorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/minorRevision</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/minorRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *minorRevision</Declaration>
+			
+			
+			<Anchor>//api/name/minorRevision</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setBuildRevision:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *buildRevision</Declaration>
+			
+			
+			<Anchor>//api/name/buildRevision</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/buildRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *buildRevision</Declaration>
+			
+			
+			<Anchor>//api/name/buildRevision</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/buildRevision</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *buildRevision</Declaration>
+			
+			
+			<Anchor>//api/name/buildRevision</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setBatteryLevel:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/batteryLevel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/batteryLevel</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *batteryLevel</Declaration>
+			
+			
+			<Anchor>//api/name/batteryLevel</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setPaTemp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *paTemp</Declaration>
+			
+			
+			<Anchor>//api/name/paTemp</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/paTemp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *paTemp</Declaration>
+			
+			
+			<Anchor>//api/name/paTemp</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/paTemp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *paTemp</Declaration>
+			
+			
+			<Anchor>//api/name/paTemp</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setSiLabsTemp:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *siLabsTemp</Declaration>
+			
+			
+			<Anchor>//api/name/siLabsTemp</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/siLabsTemp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *siLabsTemp</Declaration>
+			
+			
+			<Anchor>//api/name/siLabsTemp</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/siLabsTemp</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSNumber *siLabsTemp</Declaration>
+			
+			
+			<Anchor>//api/name/siLabsTemp</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setFlashStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL flashStatus</Declaration>
+			
+			
+			<Anchor>//api/name/flashStatus</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/flashStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL flashStatus</Declaration>
+			
+			
+			<Anchor>//api/name/flashStatus</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/flashStatus</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL flashStatus</Declaration>
+			
+			
+			<Anchor>//api/name/flashStatus</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setRawData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *rawData</Declaration>
+			
+			
+			<Anchor>//api/name/rawData</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/rawData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *rawData</Declaration>
+			
+			
+			<Anchor>//api/name/rawData</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/rawData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *rawData</Declaration>
+			
+			
+			<Anchor>//api/name/rawData</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setDateCreated:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *dateCreated</Declaration>
+			
+			
+			<Anchor>//api/name/dateCreated</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/dateCreated</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *dateCreated</Declaration>
+			
+			
+			<Anchor>//api/name/dateCreated</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/dateCreated</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *dateCreated</Declaration>
+			
+			
+			<Anchor>//api/name/dateCreated</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/setGoTennaSerialNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *goTennaSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaSerialNumber</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/goTennaSerialNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *goTennaSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaSerialNumber</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/SystemInfoResponseData/goTennaSerialNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *goTennaSerialNumber</Declaration>
+			
+			
+			<Anchor>//api/name/goTennaSerialNumber</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/SystemInfoResponseData/asString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SystemInfoResponseData.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)asString</Declaration>
+			
+			
+			<Anchor>//api/name/asString</Anchor>
+            <NodeRef refid="91"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

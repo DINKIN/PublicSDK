@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTErrorResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTErrorResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTErrorResponse.h</DeclaredIn>
+            
+			
+			<NodeRef refid="40"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

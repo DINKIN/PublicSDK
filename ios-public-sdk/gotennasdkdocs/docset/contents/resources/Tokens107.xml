@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/GTFirmwareInstallationProgressProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/GTFirmwareInstallationProgressProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationProgressProtocol.h</DeclaredIn>
+            
+			
+			<NodeRef refid="107"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTFirmwareInstallationProgressProtocol/initializeComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationProgressProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)initializeComplete</Declaration>
+			
+			
+			<Anchor>//api/name/initializeComplete</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTFirmwareInstallationProgressProtocol/finalizeComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationProgressProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)finalizeComplete</Declaration>
+			
+			
+			<Anchor>//api/name/finalizeComplete</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTFirmwareInstallationProgressProtocol/newProgressAmount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationProgressProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)newProgressAmount:(float)progress</Declaration>
+			
+			
+			<Anchor>//api/name/newProgressAmount:</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTFirmwareInstallationProgressProtocol/updateComplete</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationProgressProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)updateComplete</Declaration>
+			
+			
+			<Anchor>//api/name/updateComplete</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTFirmwareInstallationProgressProtocol/updateFailed</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationProgressProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)updateFailed</Declaration>
+			
+			
+			<Anchor>//api/name/updateFailed</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/GTFirmwareInstallationProgressProtocol/updateInitialized</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareInstallationProgressProtocol.h</DeclaredIn>
+			
+			<Declaration>- (void)updateInitialized</Declaration>
+			
+			
+			<Anchor>//api/name/updateInitialized</Anchor>
+            <NodeRef refid="107"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

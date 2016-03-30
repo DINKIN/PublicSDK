@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/FirmwareBucketParser.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/FirmwareBucketParser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FirmwareBucketParser.h</DeclaredIn>
+            
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FirmwareBucketParser/determineVersionToDownload:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FirmwareBucketParser.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)determineVersionToDownload:(NSArray *)dictionary</Declaration>
+			
+			
+			<Anchor>//api/name/determineVersionToDownload:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FirmwareBucketParser/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FirmwareBucketParser.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FirmwareBucketParser/setGtDocumentsManager:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FirmwareBucketParser.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDocumentManager *gtDocumentsManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtDocumentsManager</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/FirmwareBucketParser/gtDocumentsManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FirmwareBucketParser.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDocumentManager *gtDocumentsManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtDocumentsManager</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/FirmwareBucketParser/gtDocumentsManager</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>FirmwareBucketParser.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) GTDocumentManager *gtDocumentsManager</Declaration>
+			
+			
+			<Anchor>//api/name/gtDocumentsManager</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTGroupCreationMessageData.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTGroupCreationMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+            
+			
+			<NodeRef refid="50"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGroupCreationMessageData/setGroupGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *groupGID</Declaration>
+			
+			
+			<Anchor>//api/name/groupGID</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGroupCreationMessageData/groupGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *groupGID</Declaration>
+			
+			
+			<Anchor>//api/name/groupGID</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTGroupCreationMessageData/groupGID</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSNumber *groupGID</Declaration>
+			
+			
+			<Anchor>//api/name/groupGID</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGroupCreationMessageData/setGroupAddressees:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *groupAddressees</Declaration>
+			
+			
+			<Anchor>//api/name/groupAddressees</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGroupCreationMessageData/groupAddressees</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *groupAddressees</Declaration>
+			
+			
+			<Anchor>//api/name/groupAddressees</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTGroupCreationMessageData/groupAddressees</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *groupAddressees</Declaration>
+			
+			
+			<Anchor>//api/name/groupAddressees</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGroupCreationMessageData/setSharedSecret:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *sharedSecret</Declaration>
+			
+			
+			<Anchor>//api/name/sharedSecret</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGroupCreationMessageData/sharedSecret</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *sharedSecret</Declaration>
+			
+			
+			<Anchor>//api/name/sharedSecret</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTGroupCreationMessageData/sharedSecret</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *sharedSecret</Declaration>
+			
+			
+			<Anchor>//api/name/sharedSecret</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGroupCreationMessageData/initWithGroupGID:andAddressees:andSharedSecret:onError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithGroupGID:(NSNumber *)number andAddressees:(NSArray *)addressees andSharedSecret:(NSData *)sharedSecret onError:(NSError **)error</Declaration>
+			
+			
+			<Anchor>//api/name/initWithGroupGID:andAddressees:andSharedSecret:onError:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGroupCreationMessageData/initFromOrderedData:withSenderGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.m</DeclaredIn>
+			
+			<Declaration>- (id)initFromOrderedData:(NSArray&lt;TLVSection*&gt; *)array withSenderGID:(NSNumber *)senderGID</Declaration>
+			
+			
+			<Anchor>//api/name/initFromOrderedData:withSenderGID:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTGroupCreationMessageData/buildTLVSections</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.m</DeclaredIn>
+			
+			<Declaration>- (NSArray&lt;TLVSection*&gt; *)buildTLVSections</Declaration>
+			
+			
+			<Anchor>//api/name/buildTLVSections</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTGroupCreationMessageData/createMemberListData:</TokenIdentifier>
+			<Abstract type="html">Takes an array of group member GIDs and converts it to NSData to send out.</Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.m</DeclaredIn>
+			
+			<Declaration>+ (NSData *)createMemberListData:(NSArray *)groupAddressees</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>groupAddressees</Name>
+					<Abstract type="html">The members of the group (their GIDs), not including the group creator&apos;s GID.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The bytes (NSData) to use for the value in TLVTYPEGROUPMEMBERLIST</Abstract></ReturnValue>
+			<Anchor>//api/name/createMemberListData:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTGroupCreationMessageData/createMemberInfoWithMemberGID:andMemberIndex:</TokenIdentifier>
+			<Abstract type="html">Created member info bytes (NSData) out of a member&apos;s GID and their membership index.</Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.m</DeclaredIn>
+			
+			<Declaration>+ (NSData *)createMemberInfoWithMemberGID:(long long)memberGID andMemberIndex:(int)memberIndex</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>memberGID</Name>
+					<Abstract type="html">The GID of a specific group member.</Abstract>
+				</Parameter><Parameter>
+					<Name>memberIndex</Name>
+					<Abstract type="html">The index of this member in the group.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The bytes (NSData) that represent the member info.</Abstract></ReturnValue>
+			<Anchor>//api/name/createMemberInfoWithMemberGID:andMemberIndex:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTGroupCreationMessageData/parseMemberListData:</TokenIdentifier>
+			<Abstract type="html">Takes the TLV value data from TLVTYPEGROUPMEMBERLIST and converts it into
+a list of group member GIDs.</Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.m</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)parseMemberListData:(NSData *)tlvValueData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tlvValueData</Name>
+					<Abstract type="html">The data to parse.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">An array of NSNumbers represeting the group member GIDs.</Abstract></ReturnValue>
+			<Anchor>//api/name/parseMemberListData:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTGroupCreationMessageData/parseMemberInfo:</TokenIdentifier>
+			<Abstract type="html">Extracts the gid from a chunk of member info data located inside the value of TLVTYPEGROUPMEMBERLIST</Abstract>
+			<DeclaredIn>GTGroupCreationMessageData.m</DeclaredIn>
+			
+			<Declaration>+ (NSNumber *)parseMemberInfo:(NSData *)memberInfoData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>memberInfoData</Name>
+					<Abstract type="html">The data to parse.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">The group member&apos;s GID as an NSNumber</Abstract></ReturnValue>
+			<Anchor>//api/name/parseMemberInfo:</Anchor>
+            <NodeRef refid="50"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

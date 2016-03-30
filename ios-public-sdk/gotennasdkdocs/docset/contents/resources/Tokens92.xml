@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/TLVSection.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/TLVSection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+            
+			
+			<NodeRef refid="92"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/initWithType:value:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithType:(int)type value:(NSData *)value</Declaration>
+			
+			
+			<Anchor>//api/name/initWithType:value:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TLVSection/tlvSectionsFromData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray&lt;TLVSection*&gt; *)tlvSectionsFromData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/tlvSectionsFromData:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TLVSection/createTLVFromData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>+ (TLVSection *)createTLVFromData:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/createTLVFromData:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TLVSection/createDataFromTLVWithType:value:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)createDataFromTLVWithType:(int)type value:(NSData *)value</Declaration>
+			
+			
+			<Anchor>//api/name/createDataFromTLVWithType:value:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/type</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>- (int)type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/length</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>- (int)length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/fullLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>- (int)fullLength</Declaration>
+			
+			
+			<Anchor>//api/name/fullLength</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/toBytes</TokenIdentifier>
+			<Abstract type="html">//</Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)toBytes</Declaration>
+			
+			
+			<Anchor>//api/name/toBytes</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/toString</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)toString</Declaration>
+			
+			
+			<Anchor>//api/name/toString</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/tlvSectionToData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)tlvSectionToData:(NSArray&lt;TLVSection*&gt; *)tlvSections</Declaration>
+			
+			
+			<Anchor>//api/name/tlvSectionToData:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TLVSection/createDataFromTLVWithType:length:value:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>+ (NSData *)createDataFromTLVWithType:(int)type length:(int)length value:(NSData *)value</Declaration>
+			
+			
+			<Anchor>//api/name/createDataFromTLVWithType:length:value:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TLVSection/createTLVFromData:parentJacketTLV:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>+ (TLVSection *)createTLVFromData:(NSData *)data parentJacketTLV:(TLVSection *)parentJacketTLV</Declaration>
+			
+			
+			<Anchor>//api/name/createTLVFromData:parentJacketTLV:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TLVSection/isExtenderJacketType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>+ (BOOL)isExtenderJacketType:(int)type</Declaration>
+			
+			
+			<Anchor>//api/name/isExtenderJacketType:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TLVSection/getLengthByteLengthForType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>+ (int)getLengthByteLengthForType:(int)type</Declaration>
+			
+			
+			<Anchor>//api/name/getLengthByteLengthForType:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TLVSection/getJacketTLVTypeForLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>+ (int)getJacketTLVTypeForLength:(int)length</Declaration>
+			
+			
+			<Anchor>//api/name/getJacketTLVTypeForLength:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/TLVSection/integerMinByteCount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>+ (int)integerMinByteCount:(int)integer</Declaration>
+			
+			
+			<Anchor>//api/name/integerMinByteCount:</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/setType:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/type</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TLVSection/type</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/setLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/length</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TLVSection/length</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int length</Declaration>
+			
+			
+			<Anchor>//api/name/length</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/setValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TLVSection/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/setFullLength:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int fullLength</Declaration>
+			
+			
+			<Anchor>//api/name/fullLength</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/TLVSection/fullLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int fullLength</Declaration>
+			
+			
+			<Anchor>//api/name/fullLength</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/TLVSection/fullLength</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>TLVSection.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int fullLength</Declaration>
+			
+			
+			<Anchor>//api/name/fullLength</Anchor>
+            <NodeRef refid="92"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

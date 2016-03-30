@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTEncryptionGlobalCounter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTEncryptionGlobalCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="37"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTEncryptionGlobalCounter/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/incrementEncryptionCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.h</DeclaredIn>
+			
+			<Declaration>- (void)incrementEncryptionCounter</Declaration>
+			
+			
+			<Anchor>//api/name/incrementEncryptionCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/incrementHashCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.h</DeclaredIn>
+			
+			<Declaration>- (void)incrementHashCounter</Declaration>
+			
+			
+			<Anchor>//api/name/incrementHashCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/decrementEncryptionCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.h</DeclaredIn>
+			
+			<Declaration>- (void)decrementEncryptionCounter</Declaration>
+			
+			
+			<Anchor>//api/name/decrementEncryptionCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/decrementHashCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.h</DeclaredIn>
+			
+			<Declaration>- (void)decrementHashCounter</Declaration>
+			
+			
+			<Anchor>//api/name/decrementHashCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/resetEncryptionCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.h</DeclaredIn>
+			
+			<Declaration>- (void)resetEncryptionCounter</Declaration>
+			
+			
+			<Anchor>//api/name/resetEncryptionCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/resetHashCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.h</DeclaredIn>
+			
+			<Declaration>- (void)resetHashCounter</Declaration>
+			
+			
+			<Anchor>//api/name/resetHashCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/valueEncryptionCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.h</DeclaredIn>
+			
+			<Declaration>- (int)valueEncryptionCounter</Declaration>
+			
+			
+			<Anchor>//api/name/valueEncryptionCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/valueHashCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.h</DeclaredIn>
+			
+			<Declaration>- (int)valueHashCounter</Declaration>
+			
+			
+			<Anchor>//api/name/valueHashCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/setCounter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int counter</Declaration>
+			
+			
+			<Anchor>//api/name/counter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/counter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int counter</Declaration>
+			
+			
+			<Anchor>//api/name/counter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryptionGlobalCounter/counter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int counter</Declaration>
+			
+			
+			<Anchor>//api/name/counter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/setHashCounter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int hashCounter</Declaration>
+			
+			
+			<Anchor>//api/name/hashCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTEncryptionGlobalCounter/hashCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int hashCounter</Declaration>
+			
+			
+			<Anchor>//api/name/hashCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTEncryptionGlobalCounter/hashCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTEncryptionGlobalCounter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int hashCounter</Declaration>
+			
+			
+			<Anchor>//api/name/hashCounter</Anchor>
+            <NodeRef refid="37"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

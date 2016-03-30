@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GoTennaSDKSample.iml" filepath="$PROJECT_DIR$/GoTennaSDKSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gotenna-sdk/gotenna-sdk.iml" filepath="$PROJECT_DIR$/gotenna-sdk/gotenna-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample/sample.iml" filepath="$PROJECT_DIR$/sample/sample.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTFirmwareVersion.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTFirmwareVersion</TokenIdentifier>
+			<Abstract type="html">Holds the firmware information, often returned from classes</Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+            
+			
+			<NodeRef refid="47"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTFirmwareVersion/initWithFilename:andFirmwareVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>+ (id)initWithFilename:(NSString *)filename andFirmwareVersion:(double)firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/initWithFilename:andFirmwareVersion:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/setFilename:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/filename</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareVersion/filename</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *filename</Declaration>
+			
+			
+			<Anchor>//api/name/filename</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/setFirmwareVersion:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/firmwareVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareVersion/firmwareVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double firmwareVersion</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareVersion</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/setInstalledDate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *installedDate</Declaration>
+			
+			
+			<Anchor>//api/name/installedDate</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/installedDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *installedDate</Declaration>
+			
+			
+			<Anchor>//api/name/installedDate</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTFirmwareVersion/installedDate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSDate *installedDate</Declaration>
+			
+			
+			<Anchor>//api/name/installedDate</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/featureVersionData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)featureVersionData</Declaration>
+			
+			
+			<Anchor>//api/name/featureVersionData</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/producationVersionData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)producationVersionData</Declaration>
+			
+			
+			<Anchor>//api/name/producationVersionData</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/printableVersion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)printableVersion</Declaration>
+			
+			
+			<Anchor>//api/name/printableVersion</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/encodeWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.m</DeclaredIn>
+			
+			<Declaration>- (void)encodeWithCoder:(NSCoder *)aCoder</Declaration>
+			
+			
+			<Anchor>//api/name/encodeWithCoder:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/initWithCoder:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithCoder:(NSCoder *)aDecoder</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCoder:</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/productionVersionNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.m</DeclaredIn>
+			
+			<Declaration>- (unsigned int)productionVersionNumber</Declaration>
+			
+			
+			<Anchor>//api/name/productionVersionNumber</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareVersion/featureVersionNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareVersion.m</DeclaredIn>
+			
+			<Declaration>- (unsigned int)featureVersionNumber</Declaration>
+			
+			
+			<Anchor>//api/name/featureVersionNumber</Anchor>
+            <NodeRef refid="47"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

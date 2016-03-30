@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PublicKeyHasher.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PublicKeyHasher</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.h</DeclaredIn>
+            
+			
+			<NodeRef refid="87"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyHasher/hashPublicKeyWithReceiverGID:publicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)hashPublicKeyWithReceiverGID:(NSNumber *)receiverGID publicKey:(NSData *)publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/hashPublicKeyWithReceiverGID:publicKey:</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyHasher/skipHash</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)skipHash</Declaration>
+			
+			
+			<Anchor>//api/name/skipHash</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyHasher/emptyHash</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)emptyHash</Declaration>
+			
+			
+			<Anchor>//api/name/emptyHash</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyHasher/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyHasher/hashPublicKeyPrivateWithOffset:publicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.m</DeclaredIn>
+			
+			<Declaration>- (NSData *)hashPublicKeyPrivateWithOffset:(int)offset publicKey:(NSData *)publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/hashPublicKeyPrivateWithOffset:publicKey:</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyHasher/setGidOffsetMap:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary *gidOffsetMap</Declaration>
+			
+			
+			<Anchor>//api/name/gidOffsetMap</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyHasher/gidOffsetMap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary *gidOffsetMap</Declaration>
+			
+			
+			<Anchor>//api/name/gidOffsetMap</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PublicKeyHasher/gidOffsetMap</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableDictionary *gidOffsetMap</Declaration>
+			
+			
+			<Anchor>//api/name/gidOffsetMap</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyHasher/setGlobalCounter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTEncryptionGlobalCounter *globalCounter</Declaration>
+			
+			
+			<Anchor>//api/name/globalCounter</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PublicKeyHasher/globalCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTEncryptionGlobalCounter *globalCounter</Declaration>
+			
+			
+			<Anchor>//api/name/globalCounter</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PublicKeyHasher/globalCounter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PublicKeyHasher.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTEncryptionGlobalCounter *globalCounter</Declaration>
+			
+			
+			<Anchor>//api/name/globalCounter</Anchor>
+            <NodeRef refid="87"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

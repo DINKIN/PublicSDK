@@ -1,0 +1,617 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GTBaseMessageData Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GoTennaSDK </a></h1>
+				<a id="developerHome" href="../index.html">Your Name</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GTBaseMessageData Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/addresseeGID">&nbsp;&nbsp;&nbsp;&nbsp;addresseeGID</option>
+	
+	<option value="//api/name/baseDataComponents">&nbsp;&nbsp;&nbsp;&nbsp;baseDataComponents</option>
+	
+	<option value="//api/name/locationMessageData">&nbsp;&nbsp;&nbsp;&nbsp;locationMessageData</option>
+	
+	<option value="//api/name/messageSentDate">&nbsp;&nbsp;&nbsp;&nbsp;messageSentDate</option>
+	
+	<option value="//api/name/messageType">&nbsp;&nbsp;&nbsp;&nbsp;messageType</option>
+	
+	<option value="//api/name/receivingGID">&nbsp;&nbsp;&nbsp;&nbsp;receivingGID</option>
+	
+	<option value="//api/name/senderGID">&nbsp;&nbsp;&nbsp;&nbsp;senderGID</option>
+	
+	<option value="//api/name/senderInitials">&nbsp;&nbsp;&nbsp;&nbsp;senderInitials</option>
+	
+	<option value="//api/name/senderLocationData">&nbsp;&nbsp;&nbsp;&nbsp;senderLocationData</option>
+	
+	<option value="//api/name/text">&nbsp;&nbsp;&nbsp;&nbsp;text</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/buildTLVSections">&nbsp;&nbsp;&nbsp;&nbsp;- buildTLVSections</option>
+	
+	<option value="//api/name/getGIDNumber:">&nbsp;&nbsp;&nbsp;&nbsp;- getGIDNumber:</option>
+	
+	<option value="//api/name/getTLVSections">&nbsp;&nbsp;&nbsp;&nbsp;- getTLVSections</option>
+	
+	<option value="//api/name/initIncoming:withSenderGID:">&nbsp;&nbsp;&nbsp;&nbsp;- initIncoming:withSenderGID:</option>
+	
+	<option value="//api/name/initOutgoingOnError:">&nbsp;&nbsp;&nbsp;&nbsp;- initOutgoingOnError:</option>
+	
+	<option value="//api/name/serializeToBytes">&nbsp;&nbsp;&nbsp;&nbsp;- serializeToBytes</option>
+	
+	<option value="//api/name/setAddressedGID:">&nbsp;&nbsp;&nbsp;&nbsp;- setAddressedGID:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addresseeGID">addresseeGID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/baseDataComponents">baseDataComponents</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/locationMessageData">locationMessageData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageSentDate">messageSentDate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageType">messageType</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/receivingGID">receivingGID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/senderGID">senderGID</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/senderInitials">senderInitials</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/senderLocationData">senderLocationData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/text">text</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/buildTLVSections">buildTLVSections</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getGIDNumber:">getGIDNumber:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getTLVSections">getTLVSections</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initIncoming:withSenderGID:">initIncoming:withSenderGID:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initOutgoingOnError:">initOutgoingOnError:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/serializeToBytes">serializeToBytes</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/setAddressedGID:">setAddressedGID:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GTBaseMessageData Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GTBaseMessageData Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">GTBaseMessageData.h<br />GTBaseMessageData.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messageType">&nbsp;&nbsp;messageType</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/senderGID">&nbsp;&nbsp;senderGID</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/senderInitials">&nbsp;&nbsp;senderInitials</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addresseeGID">&nbsp;&nbsp;addresseeGID</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/receivingGID">&nbsp;&nbsp;receivingGID</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/locationMessageData">&nbsp;&nbsp;locationMessageData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/text">&nbsp;&nbsp;text</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/baseDataComponents">&nbsp;&nbsp;baseDataComponents</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/senderLocationData">&nbsp;&nbsp;senderLocationData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messageSentDate">&nbsp;&nbsp;messageSentDate</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initOutgoingOnError:">&ndash;&nbsp;initOutgoingOnError:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initIncoming:withSenderGID:">&ndash;&nbsp;initIncoming:withSenderGID:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getGIDNumber:">&ndash;&nbsp;getGIDNumber:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/setAddressedGID:">&ndash;&nbsp;setAddressedGID:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/buildTLVSections">&ndash;&nbsp;buildTLVSections</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getTLVSections">&ndash;&nbsp;getTLVSections</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/serializeToBytes">&ndash;&nbsp;serializeToBytes</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addresseeGID" title="addresseeGID"></a>
+	<h3 class="subsubtitle method-title">addresseeGID</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSNumber *addresseeGID</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/baseDataComponents" title="baseDataComponents"></a>
+	<h3 class="subsubtitle method-title">baseDataComponents</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSArray *baseDataComponents</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/locationMessageData" title="locationMessageData"></a>
+	<h3 class="subsubtitle method-title">locationMessageData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTLocationMessageData *locationMessageData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messageSentDate" title="messageSentDate"></a>
+	<h3 class="subsubtitle method-title">messageSentDate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSDate *messageSentDate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messageType" title="messageType"></a>
+	<h3 class="subsubtitle method-title">messageType</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *messageType</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/receivingGID" title="receivingGID"></a>
+	<h3 class="subsubtitle method-title">receivingGID</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSNumber *receivingGID</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/senderGID" title="senderGID"></a>
+	<h3 class="subsubtitle method-title">senderGID</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSNumber *senderGID</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/senderInitials" title="senderInitials"></a>
+	<h3 class="subsubtitle method-title">senderInitials</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSString *senderInitials</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/senderLocationData" title="senderLocationData"></a>
+	<h3 class="subsubtitle method-title">senderLocationData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) GTLocationMessageData *senderLocationData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/text" title="text"></a>
+	<h3 class="subsubtitle method-title">text</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *text</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/buildTLVSections" title="buildTLVSections"></a>
+	<h3 class="subsubtitle method-title">buildTLVSections</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray&lt;TLVSection*&gt; *)buildTLVSections</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getGIDNumber:" title="getGIDNumber:"></a>
+	<h3 class="subsubtitle method-title">getGIDNumber:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSNumber *)getGIDNumber:(id)<em>value</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getTLVSections" title="getTLVSections"></a>
+	<h3 class="subsubtitle method-title">getTLVSections</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSArray&lt;TLVSection*&gt; *)getTLVSections</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initIncoming:withSenderGID:" title="initIncoming:withSenderGID:"></a>
+	<h3 class="subsubtitle method-title">initIncoming:withSenderGID:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initIncoming:(NSArray&lt;TLVSection*&gt; *)<em>array</em> withSenderGID:(NSNumber *)<em>senderGID</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initOutgoingOnError:" title="initOutgoingOnError:"></a>
+	<h3 class="subsubtitle method-title">initOutgoingOnError:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initOutgoingOnError:(NSError **)<em>pError</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/serializeToBytes" title="serializeToBytes"></a>
+	<h3 class="subsubtitle method-title">serializeToBytes</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (NSData *)serializeToBytes</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/setAddressedGID:" title="setAddressedGID:"></a>
+	<h3 class="subsubtitle method-title">setAddressedGID:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)setAddressedGID:(NSNumber *)<em>number</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

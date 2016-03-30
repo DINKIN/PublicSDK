@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UICKeyChainStore.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UICKeyChainStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+            
+			
+			<NodeRef refid="93"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/setService:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *service</Declaration>
+			
+			
+			<Anchor>//api/name/service</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/service</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *service</Declaration>
+			
+			
+			<Anchor>//api/name/service</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UICKeyChainStore/service</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *service</Declaration>
+			
+			
+			<Anchor>//api/name/service</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/setAccessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/accessGroup</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/accessGroup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/accessGroup</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/UICKeyChainStore/accessGroup</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/accessGroup</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/defaultService</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)defaultService</Declaration>
+			
+			
+			<Anchor>//api/name/defaultService</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/setDefaultService:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (void)setDefaultService:(NSString *)defaultService</Declaration>
+			
+			
+			<Anchor>//api/name/setDefaultService:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/keyChainStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (UICKeyChainStore *)keyChainStore</Declaration>
+			
+			
+			<Anchor>//api/name/keyChainStore</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/keyChainStoreWithService:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (UICKeyChainStore *)keyChainStoreWithService:(NSString *)service</Declaration>
+			
+			
+			<Anchor>//api/name/keyChainStoreWithService:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/keyChainStoreWithService:accessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (UICKeyChainStore *)keyChainStoreWithService:(NSString *)service accessGroup:(NSString *)accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/keyChainStoreWithService:accessGroup:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/initWithService:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithService:(NSString *)service</Declaration>
+			
+			
+			<Anchor>//api/name/initWithService:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/initWithService:accessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithService:(NSString *)service accessGroup:(NSString *)accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/initWithService:accessGroup:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/stringForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/stringForKey:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/stringForKey:service:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringForKey:(NSString *)key service:(NSString *)service</Declaration>
+			
+			
+			<Anchor>//api/name/stringForKey:service:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/stringForKey:service:accessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringForKey:(NSString *)key service:(NSString *)service accessGroup:(NSString *)accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/stringForKey:service:accessGroup:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/setString:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setString:(NSString *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setString:forKey:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/setString:forKey:service:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setString:(NSString *)value forKey:(NSString *)key service:(NSString *)service</Declaration>
+			
+			
+			<Anchor>//api/name/setString:forKey:service:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/setString:forKey:service:accessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setString:(NSString *)value forKey:(NSString *)key service:(NSString *)service accessGroup:(NSString *)accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/setString:forKey:service:accessGroup:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/dataForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)dataForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/dataForKey:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/dataForKey:service:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)dataForKey:(NSString *)key service:(NSString *)service</Declaration>
+			
+			
+			<Anchor>//api/name/dataForKey:service:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/dataForKey:service:accessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (NSData *)dataForKey:(NSString *)key service:(NSString *)service accessGroup:(NSString *)accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/dataForKey:service:accessGroup:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/setData:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setData:(NSData *)data forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setData:forKey:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/setData:forKey:service:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setData:(NSData *)data forKey:(NSString *)key service:(NSString *)service</Declaration>
+			
+			
+			<Anchor>//api/name/setData:forKey:service:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/setData:forKey:service:accessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setData:(NSData *)data forKey:(NSString *)key service:(NSString *)service accessGroup:(NSString *)accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/setData:forKey:service:accessGroup:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/setString:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (void)setString:(NSString *)string forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setString:forKey:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/stringForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)stringForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/stringForKey:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/setData:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (void)setData:(NSData *)data forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setData:forKey:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/dataForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)dataForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/dataForKey:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/removeItemForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)removeItemForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/removeItemForKey:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/removeItemForKey:service:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)removeItemForKey:(NSString *)key service:(NSString *)service</Declaration>
+			
+			
+			<Anchor>//api/name/removeItemForKey:service:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/removeItemForKey:service:accessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)removeItemForKey:(NSString *)key service:(NSString *)service accessGroup:(NSString *)accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/removeItemForKey:service:accessGroup:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/removeAllItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)removeAllItems</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllItems</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/removeAllItemsForService:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)removeAllItemsForService:(NSString *)service</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllItemsForService:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/removeAllItemsForService:accessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)removeAllItemsForService:(NSString *)service accessGroup:(NSString *)accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllItemsForService:accessGroup:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/removeItemForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (void)removeItemForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/removeItemForKey:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/removeAllItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (void)removeAllItems</Declaration>
+			
+			
+			<Anchor>//api/name/removeAllItems</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/synchronize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (void)synchronize</Declaration>
+			
+			
+			<Anchor>//api/name/synchronize</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/objectForKeyedSubscript:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)objectForKeyedSubscript:(NSString&lt;NSCopying&gt; *)key</Declaration>
+			
+			
+			<Anchor>//api/name/objectForKeyedSubscript:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/setObject:forKeyedSubscript:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.h</DeclaredIn>
+			
+			<Declaration>- (void)setObject:(NSString *)obj forKeyedSubscript:(NSString&lt;NSCopying&gt; *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setObject:forKeyedSubscript:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UICKeyChainStore/itemsForService:accessGroup:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.m</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)itemsForService:(NSString *)service accessGroup:(NSString *)accessGroup</Declaration>
+			
+			
+			<Anchor>//api/name/itemsForService:accessGroup:</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UICKeyChainStore/description</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UICKeyChainStore.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)description</Declaration>
+			
+			
+			<Anchor>//api/name/description</Anchor>
+            <NodeRef refid="93"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTCommand.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTCommand</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+            
+			
+			<NodeRef refid="20"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setPackets:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *packets</Declaration>
+			
+			
+			<Anchor>//api/name/packets</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/packets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *packets</Declaration>
+			
+			
+			<Anchor>//api/name/packets</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/packets</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *packets</Declaration>
+			
+			
+			<Anchor>//api/name/packets</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setResponseReceived:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL responseReceived</Declaration>
+			
+			
+			<Anchor>//api/name/responseReceived</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/responseReceived</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL responseReceived</Declaration>
+			
+			
+			<Anchor>//api/name/responseReceived</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/responseReceived</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL responseReceived</Declaration>
+			
+			
+			<Anchor>//api/name/responseReceived</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setIsPausable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL isPausable</Declaration>
+			
+			
+			<Anchor>//api/name/isPausable</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/isPausable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL isPausable</Declaration>
+			
+			
+			<Anchor>//api/name/isPausable</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/isPausable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL isPausable</Declaration>
+			
+			
+			<Anchor>//api/name/isPausable</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setProcessResponse:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTResponse *) processResponse</Declaration>
+			
+			
+			<Anchor>//api/name/processResponse</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/processResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTResponse *) processResponse</Declaration>
+			
+			
+			<Anchor>//api/name/processResponse</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/processResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( GTResponse *) processResponse</Declaration>
+			
+			
+			<Anchor>//api/name/processResponse</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setOnError:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSError *) onError</Declaration>
+			
+			
+			<Anchor>//api/name/onError</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/onError</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSError *) onError</Declaration>
+			
+			
+			<Anchor>//api/name/onError</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/onError</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( NSError *) onError</Declaration>
+			
+			
+			<Anchor>//api/name/onError</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setCommandCode:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) char *commandCode</Declaration>
+			
+			
+			<Anchor>//api/name/commandCode</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/commandCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) char *commandCode</Declaration>
+			
+			
+			<Anchor>//api/name/commandCode</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/commandCode</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) char *commandCode</Declaration>
+			
+			
+			<Anchor>//api/name/commandCode</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setRawData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *rawData</Declaration>
+			
+			
+			<Anchor>//api/name/rawData</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/rawData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *rawData</Declaration>
+			
+			
+			<Anchor>//api/name/rawData</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/rawData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *rawData</Declaration>
+			
+			
+			<Anchor>//api/name/rawData</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setMessageHeaderData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *messageHeaderData</Declaration>
+			
+			
+			<Anchor>//api/name/messageHeaderData</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/messageHeaderData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *messageHeaderData</Declaration>
+			
+			
+			<Anchor>//api/name/messageHeaderData</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/messageHeaderData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *messageHeaderData</Declaration>
+			
+			
+			<Anchor>//api/name/messageHeaderData</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setPubKeyHash:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *pubKeyHash</Declaration>
+			
+			
+			<Anchor>//api/name/pubKeyHash</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/pubKeyHash</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *pubKeyHash</Declaration>
+			
+			
+			<Anchor>//api/name/pubKeyHash</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/pubKeyHash</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *pubKeyHash</Declaration>
+			
+			
+			<Anchor>//api/name/pubKeyHash</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setMessageData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *messageData</Declaration>
+			
+			
+			<Anchor>//api/name/messageData</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/messageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *messageData</Declaration>
+			
+			
+			<Anchor>//api/name/messageData</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/messageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *messageData</Declaration>
+			
+			
+			<Anchor>//api/name/messageData</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setPositiveResponse:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) char *positiveResponse</Declaration>
+			
+			
+			<Anchor>//api/name/positiveResponse</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/positiveResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) char *positiveResponse</Declaration>
+			
+			
+			<Anchor>//api/name/positiveResponse</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/positiveResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) char *positiveResponse</Declaration>
+			
+			
+			<Anchor>//api/name/positiveResponse</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setNegativeResponse:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) char *negativeResponse</Declaration>
+			
+			
+			<Anchor>//api/name/negativeResponse</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/negativeResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) char *negativeResponse</Declaration>
+			
+			
+			<Anchor>//api/name/negativeResponse</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/negativeResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) char *negativeResponse</Declaration>
+			
+			
+			<Anchor>//api/name/negativeResponse</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setLog:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *log</Declaration>
+			
+			
+			<Anchor>//api/name/log</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/log</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *log</Declaration>
+			
+			
+			<Anchor>//api/name/log</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/log</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *log</Declaration>
+			
+			
+			<Anchor>//api/name/log</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setName:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/name</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setSendAttempts:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int sendAttempts</Declaration>
+			
+			
+			<Anchor>//api/name/sendAttempts</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/sendAttempts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int sendAttempts</Declaration>
+			
+			
+			<Anchor>//api/name/sendAttempts</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/sendAttempts</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int sendAttempts</Declaration>
+			
+			
+			<Anchor>//api/name/sendAttempts</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setTimesToAttempt:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int timesToAttempt</Declaration>
+			
+			
+			<Anchor>//api/name/timesToAttempt</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/timesToAttempt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int timesToAttempt</Declaration>
+			
+			
+			<Anchor>//api/name/timesToAttempt</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/timesToAttempt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int timesToAttempt</Declaration>
+			
+			
+			<Anchor>//api/name/timesToAttempt</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setCommandTimeoutAmount:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval commandTimeoutAmount</Declaration>
+			
+			
+			<Anchor>//api/name/commandTimeoutAmount</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/commandTimeoutAmount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval commandTimeoutAmount</Declaration>
+			
+			
+			<Anchor>//api/name/commandTimeoutAmount</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/commandTimeoutAmount</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSTimeInterval commandTimeoutAmount</Declaration>
+			
+			
+			<Anchor>//api/name/commandTimeoutAmount</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setSeqNumber:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int seqNumber</Declaration>
+			
+			
+			<Anchor>//api/name/seqNumber</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/seqNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int seqNumber</Declaration>
+			
+			
+			<Anchor>//api/name/seqNumber</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/seqNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int seqNumber</Declaration>
+			
+			
+			<Anchor>//api/name/seqNumber</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setPriority:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTCommandPriority priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/priority</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTCommandPriority priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/priority</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTCommandPriority priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setPriorityPrintable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *priorityPrintable</Declaration>
+			
+			
+			<Anchor>//api/name/priorityPrintable</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/priorityPrintable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *priorityPrintable</Declaration>
+			
+			
+			<Anchor>//api/name/priorityPrintable</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/priorityPrintable</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *priorityPrintable</Declaration>
+			
+			
+			<Anchor>//api/name/priorityPrintable</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/shouldRetry</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)shouldRetry</Declaration>
+			
+			
+			<Anchor>//api/name/shouldRetry</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/prepareForNextAttempt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>- (void)prepareForNextAttempt</Declaration>
+			
+			
+			<Anchor>//api/name/prepareForNextAttempt</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/initiateWriteTimeoutOnTimeout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>- (void)initiateWriteTimeoutOnTimeout:(void ( ^ ) ( ))onTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/initiateWriteTimeoutOnTimeout:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/invalidateTimeout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.h</DeclaredIn>
+			
+			<Declaration>- (void)invalidateTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/invalidateTimeout</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.m</DeclaredIn>
+			
+			<Declaration>- (id)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/checkCommandStatus:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.m</DeclaredIn>
+			
+			<Declaration>- (void)checkCommandStatus:(id)checkCommandStatus</Declaration>
+			
+			
+			<Anchor>//api/name/checkCommandStatus:</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setCommandWriteTimeout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *commandWriteTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/commandWriteTimeout</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/commandWriteTimeout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *commandWriteTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/commandWriteTimeout</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/commandWriteTimeout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *commandWriteTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/commandWriteTimeout</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/setOnTimeout:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/onTimeout</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommand/onTimeout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/onTimeout</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommand/onTimeout</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommand.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) void ( ^ ) ( ) onTimeout</Declaration>
+			
+			
+			<Anchor>//api/name/onTimeout</Anchor>
+            <NodeRef refid="20"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/Lockbox.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/Lockbox</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+            
+			
+			<NodeRef refid="84"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setKeyPrefix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic, readonly) NSString *keyPrefix</Declaration>
+			
+			
+			<Anchor>//api/name/keyPrefix</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/keyPrefix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic, readonly) NSString *keyPrefix</Declaration>
+			
+			
+			<Anchor>//api/name/keyPrefix</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/Lockbox/keyPrefix</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>@property (strong, nonatomic, readonly) NSString *keyPrefix</Declaration>
+			
+			
+			<Anchor>//api/name/keyPrefix</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/initWithKeyPrefix:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithKeyPrefix:(NSString *)keyPrefix</Declaration>
+			
+			
+			<Anchor>//api/name/initWithKeyPrefix:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setString:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setString:(NSString *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setString:forKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setString:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setString:(NSString *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setString:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/stringForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (NSString *)stringForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/stringForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setArray:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setArray:(NSArray *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setArray:forKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setArray:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setArray:(NSArray *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setArray:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/arrayForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)arrayForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/arrayForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setSet:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setSet:(NSSet *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setSet:forKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setSet:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setSet:(NSSet *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setSet:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (NSSet *)setForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setDictionary:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setDictionary:(NSDictionary *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setDictionary:forKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setDictionary:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setDictionary:(NSDictionary *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setDictionary:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/dictionaryForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)dictionaryForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setDate:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setDate:(NSDate *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setDate:forKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setDate:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)setDate:(NSDate *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setDate:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/dateForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>- (NSDate *)dateForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/dateForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setString:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setString:(NSString *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setString:forKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setString:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setString:(NSString *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setString:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/stringForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)stringForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/stringForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setArray:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setArray:(NSArray *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setArray:forKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setArray:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setArray:(NSArray *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setArray:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/arrayForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (NSArray *)arrayForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/arrayForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setSet:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setSet:(NSSet *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setSet:forKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setSet:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setSet:(NSSet *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setSet:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (NSSet *)setForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setDictionary:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setDictionary:(NSDictionary *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setDictionary:forKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setDictionary:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setDictionary:(NSDictionary *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setDictionary:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/dictionaryForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (NSDictionary *)dictionaryForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/dictionaryForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setDate:forKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setDate:(NSDate *)value forKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setDate:forKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/setDate:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (BOOL)setDate:(NSDate *)value forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setDate:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/dateForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.h</DeclaredIn>
+			
+			<Declaration>+ (NSDate *)dateForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/dateForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/Lockbox/initialize</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.m</DeclaredIn>
+			
+			<Declaration>+ (void)initialize</Declaration>
+			
+			
+			<Anchor>//api/name/initialize</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/_service</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.m</DeclaredIn>
+			
+			<Declaration>- (NSMutableDictionary *)_service</Declaration>
+			
+			
+			<Anchor>//api/name/_service</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/_query</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.m</DeclaredIn>
+			
+			<Declaration>- (NSMutableDictionary *)_query</Declaration>
+			
+			
+			<Anchor>//api/name/_query</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/_hierarchicalKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)_hierarchicalKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/_hierarchicalKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/setObject:forKey:accessibility:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.m</DeclaredIn>
+			
+			<Declaration>- (BOOL)setObject:(NSString *)obj forKey:(NSString *)key accessibility:(CFTypeRef)accessibility</Declaration>
+			
+			
+			<Anchor>//api/name/setObject:forKey:accessibility:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/Lockbox/objectForKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>Lockbox.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)objectForKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/objectForKey:</Anchor>
+            <NodeRef refid="84"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

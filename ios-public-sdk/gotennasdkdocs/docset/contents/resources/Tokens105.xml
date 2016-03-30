@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/BluetoothPairingProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/BluetoothPairingProtocol</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+            
+			
+			<NodeRef refid="105"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BluetoothPairingProtocol/didConnectToPeripheral</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (void)didConnectToPeripheral</Declaration>
+			
+			
+			<Anchor>//api/name/didConnectToPeripheral</Anchor>
+            <NodeRef refid="105"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BluetoothPairingProtocol/bluetoothConnectionNotAvailable:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (void)bluetoothConnectionNotAvailable:(CBCentralManagerState)state</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothConnectionNotAvailable:</Anchor>
+            <NodeRef refid="105"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BluetoothPairingProtocol/canNotConnectToPeripheral</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (void)canNotConnectToPeripheral</Declaration>
+			
+			
+			<Anchor>//api/name/canNotConnectToPeripheral</Anchor>
+            <NodeRef refid="105"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BluetoothPairingProtocol/bluetoothPoweredOn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (void)bluetoothPoweredOn</Declaration>
+			
+			
+			<Anchor>//api/name/bluetoothPoweredOn</Anchor>
+            <NodeRef refid="105"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/BluetoothPairingProtocol/nonUserDisconnectionOccurred</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTPairingManager.h</DeclaredIn>
+			
+			<Declaration>- (void)nonUserDisconnectionOccurred</Declaration>
+			
+			
+			<Anchor>//api/name/nonUserDisconnectionOccurred</Anchor>
+            <NodeRef refid="105"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

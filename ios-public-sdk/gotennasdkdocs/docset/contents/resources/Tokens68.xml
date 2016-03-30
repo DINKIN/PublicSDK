@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTResponseDataWrapper.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTResponseDataWrapper</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDataWrapper.h</DeclaredIn>
+            
+			
+			<NodeRef refid="68"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTResponseDataWrapper/setCleanedData:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDataWrapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *cleanedData</Declaration>
+			
+			
+			<Anchor>//api/name/cleanedData</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTResponseDataWrapper/cleanedData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDataWrapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *cleanedData</Declaration>
+			
+			
+			<Anchor>//api/name/cleanedData</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTResponseDataWrapper/cleanedData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDataWrapper.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSData *cleanedData</Declaration>
+			
+			
+			<Anchor>//api/name/cleanedData</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTResponseDataWrapper/initWithChunks:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDataWrapper.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithChunks:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/initWithChunks:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTResponseDataWrapper/extractSequenceNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDataWrapper.h</DeclaredIn>
+			
+			<Declaration>- (NSNumber *)extractSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/extractSequenceNumber</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTResponseDataWrapper/extractChecksum:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDataWrapper.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)extractChecksum:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/extractChecksum:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTResponseDataWrapper/responseTypeIs:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDataWrapper.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)responseTypeIs:(char *)response</Declaration>
+			
+			
+			<Anchor>//api/name/responseTypeIs:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTResponseDataWrapper/extractMessageData</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDataWrapper.h</DeclaredIn>
+			
+			<Declaration>- (NSData *)extractMessageData</Declaration>
+			
+			
+			<Anchor>//api/name/extractMessageData</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTResponseDataWrapper/cleanDataOfEscapeCharacter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTResponseDataWrapper.m</DeclaredIn>
+			
+			<Declaration>- (NSData *)cleanDataOfEscapeCharacter:(NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/cleanDataOfEscapeCharacter:</Anchor>
+            <NodeRef refid="68"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

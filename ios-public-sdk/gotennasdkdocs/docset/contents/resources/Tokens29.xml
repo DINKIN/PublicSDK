@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTDataRateLimiter.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTDataRateLimiter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.h</DeclaredIn>
+            
+			
+			<NodeRef refid="29"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/startCountdown</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.h</DeclaredIn>
+			
+			<Declaration>- (void)startCountdown</Declaration>
+			
+			
+			<Anchor>//api/name/startCountdown</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/checkWillExceedDataRateLimit:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)checkWillExceedDataRateLimit:(GTCommand *)nextCommand</Declaration>
+			
+			
+			<Anchor>//api/name/checkWillExceedDataRateLimit:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/update:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>- (void)update:(NSTimer *)timer</Declaration>
+			
+			
+			<Anchor>//api/name/update:</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/countdownIsFinished</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>- (void)countdownIsFinished</Declaration>
+			
+			
+			<Anchor>//api/name/countdownIsFinished</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/setCurrentDataQuota:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int currentDataQuota</Declaration>
+			
+			
+			<Anchor>//api/name/currentDataQuota</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/currentDataQuota</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int currentDataQuota</Declaration>
+			
+			
+			<Anchor>//api/name/currentDataQuota</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTDataRateLimiter/currentDataQuota</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int currentDataQuota</Declaration>
+			
+			
+			<Anchor>//api/name/currentDataQuota</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/setCounter:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int counter</Declaration>
+			
+			
+			<Anchor>//api/name/counter</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/counter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int counter</Declaration>
+			
+			
+			<Anchor>//api/name/counter</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTDataRateLimiter/counter</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) int counter</Declaration>
+			
+			
+			<Anchor>//api/name/counter</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/setTimer:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *timer</Declaration>
+			
+			
+			<Anchor>//api/name/timer</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTDataRateLimiter/timer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *timer</Declaration>
+			
+			
+			<Anchor>//api/name/timer</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTDataRateLimiter/timer</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTDataRateLimiter.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSTimer *timer</Declaration>
+			
+			
+			<Anchor>//api/name/timer</Anchor>
+            <NodeRef refid="29"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

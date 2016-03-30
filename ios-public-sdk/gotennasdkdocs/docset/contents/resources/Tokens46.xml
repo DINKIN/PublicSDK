@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTFirmwareRetrieverFactory.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTFirmwareRetrieverFactory</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverFactory.h</DeclaredIn>
+            
+			
+			<NodeRef refid="46"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/GTFirmwareRetrieverFactory/firmwareRetrieverAmazon</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTFirmwareRetrieverFactory.h</DeclaredIn>
+			
+			<Declaration>+ (id&lt;GTFirmwareRetrieveProtocol&gt;)firmwareRetrieverAmazon</Declaration>
+			
+			
+			<Anchor>//api/name/firmwareRetrieverAmazon</Anchor>
+            <NodeRef refid="46"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

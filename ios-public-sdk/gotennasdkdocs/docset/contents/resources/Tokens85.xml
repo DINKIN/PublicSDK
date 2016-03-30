@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/PacketVerifier.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/PacketVerifier</TokenIdentifier>
+			<Abstract type="html">Checks to see if we have recorded a packet with the same ID already.
+If we have, it will tell us so we can reject the packet.</Abstract>
+			<DeclaredIn>PacketVerifier.h</DeclaredIn>
+            
+			
+			<NodeRef refid="85"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/PacketVerifier/shared</TokenIdentifier>
+			<Abstract type="html">Singleton Instance Method.</Abstract>
+			<DeclaredIn>PacketVerifier.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PacketVerifier/addVerifiedPacketId:</TokenIdentifier>
+			<Abstract type="html">Records a packetId so we can prevent replay attacks or re-pulling the same message again.</Abstract>
+			<DeclaredIn>PacketVerifier.h</DeclaredIn>
+			
+			<Declaration>- (void)addVerifiedPacketId:(NSString *)packetId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>packetId</Name>
+					<Abstract type="html">The packetId we want to record.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addVerifiedPacketId:</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PacketVerifier/isDuplicatePacketId:</TokenIdentifier>
+			<Abstract type="html">Checks to see if we have already recorded the packet id on an incoming packet.</Abstract>
+			<DeclaredIn>PacketVerifier.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isDuplicatePacketId:(NSString *)packetId</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>packetId</Name>
+					<Abstract type="html">The id of the packet we want to check.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">YES if we have already recorded this packetId.</Abstract></ReturnValue>
+			<Anchor>//api/name/isDuplicatePacketId:</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PacketVerifier/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PacketVerifier.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PacketVerifier/clearVerifiedPacketsIfNecessary</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PacketVerifier.m</DeclaredIn>
+			
+			<Declaration>- (void)clearVerifiedPacketsIfNecessary</Declaration>
+			
+			
+			<Anchor>//api/name/clearVerifiedPacketsIfNecessary</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PacketVerifier/setVerifiedPacketIds:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PacketVerifier.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableOrderedSet *verifiedPacketIds</Declaration>
+			
+			
+			<Anchor>//api/name/verifiedPacketIds</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/PacketVerifier/verifiedPacketIds</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PacketVerifier.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableOrderedSet *verifiedPacketIds</Declaration>
+			
+			
+			<Anchor>//api/name/verifiedPacketIds</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/PacketVerifier/verifiedPacketIds</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>PacketVerifier.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableOrderedSet *verifiedPacketIds</Declaration>
+			
+			
+			<Anchor>//api/name/verifiedPacketIds</Anchor>
+            <NodeRef refid="85"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

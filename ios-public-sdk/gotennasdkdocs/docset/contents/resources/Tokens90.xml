@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/SequenceNumberGenerator.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/SequenceNumberGenerator</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SequenceNumberGenerator.h</DeclaredIn>
+            
+			
+			<NodeRef refid="90"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SequenceNumberGenerator/newSequenceNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SequenceNumberGenerator.h</DeclaredIn>
+			
+			<Declaration>+ (int)newSequenceNumber</Declaration>
+			
+			
+			<Anchor>//api/name/newSequenceNumber</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/SequenceNumberGenerator/newLogNumber</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>SequenceNumberGenerator.h</DeclaredIn>
+			
+			<Declaration>+ (int)newLogNumber</Declaration>
+			
+			
+			<Anchor>//api/name/newLogNumber</Anchor>
+            <NodeRef refid="90"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

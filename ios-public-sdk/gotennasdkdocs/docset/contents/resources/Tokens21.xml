@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GTCommandArray.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GTCommandArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.h</DeclaredIn>
+            
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandArray/setPriority:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTCommandPriority priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandArray/priority</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTCommandPriority priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandArray/priority</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) GTCommandPriority priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandArray/addGTCommand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.h</DeclaredIn>
+			
+			<Declaration>- (void)addGTCommand:(GTCommand *)command</Declaration>
+			
+			
+			<Anchor>//api/name/addGTCommand:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandArray/addGTCommandsFromArray:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.h</DeclaredIn>
+			
+			<Declaration>- (void)addGTCommandsFromArray:(NSArray *)commands</Declaration>
+			
+			
+			<Anchor>//api/name/addGTCommandsFromArray:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandArray/each:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.h</DeclaredIn>
+			
+			<Declaration>- (void)each:(void ( ^ ) ( id object ))block</Declaration>
+			
+			
+			<Anchor>//api/name/each:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandArray/toArray</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.h</DeclaredIn>
+			
+			<Declaration>- (NSArray *)toArray</Declaration>
+			
+			
+			<Anchor>//api/name/toArray</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandArray/init</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.m</DeclaredIn>
+			
+			<Declaration>- (instancetype)init</Declaration>
+			
+			
+			<Anchor>//api/name/init</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandArray/setCommands:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *commands</Declaration>
+			
+			
+			<Anchor>//api/name/commands</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GTCommandArray/commands</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *commands</Declaration>
+			
+			
+			<Anchor>//api/name/commands</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GTCommandArray/commands</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GTCommandArray.m</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSMutableArray *commands</Declaration>
+			
+			
+			<Anchor>//api/name/commands</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

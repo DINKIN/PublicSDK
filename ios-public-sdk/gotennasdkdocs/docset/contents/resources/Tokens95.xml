@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/UserDataStore.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/UserDataStore</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+            
+			
+			<NodeRef refid="95"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/UserDataStore/shared</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>+ (UserDataStore *)shared</Declaration>
+			
+			
+			<Anchor>//api/name/shared</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/saveUser:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)saveUser:(User *)user</Declaration>
+			
+			
+			<Anchor>//api/name/saveUser:</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/deleteUser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteUser</Declaration>
+			
+			
+			<Anchor>//api/name/deleteUser</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/currentUser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (User *)currentUser</Declaration>
+			
+			
+			<Anchor>//api/name/currentUser</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/userIsLoggedIn</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)userIsLoggedIn</Declaration>
+			
+			
+			<Anchor>//api/name/userIsLoggedIn</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/userIsUpdatingFirmware</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)userIsUpdatingFirmware</Declaration>
+			
+			
+			<Anchor>//api/name/userIsUpdatingFirmware</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/isMyGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)isMyGID:(NSNumber *)gid</Declaration>
+			
+			
+			<Anchor>//api/name/isMyGID:</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/userHasOnboarded</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)userHasOnboarded</Declaration>
+			
+			
+			<Anchor>//api/name/userHasOnboarded</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/addGroupGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (void)addGroupGID:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/addGroupGID:</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/deleteGroupGID:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteGroupGID:(NSNumber *)number</Declaration>
+			
+			
+			<Anchor>//api/name/deleteGroupGID:</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/registerUserWithName:andGid:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (User *)registerUserWithName:(NSString *)username andGid:(NSNumber *)gid</Declaration>
+			
+			
+			<Anchor>//api/name/registerUserWithName:andGid:</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/hasValidUser</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.h</DeclaredIn>
+			
+			<Declaration>- (BOOL)hasValidUser</Declaration>
+			
+			
+			<Anchor>//api/name/hasValidUser</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/updateLastConnectionTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.m</DeclaredIn>
+			
+			<Declaration>- (void)updateLastConnectionTime</Declaration>
+			
+			
+			<Anchor>//api/name/updateLastConnectionTime</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/updateLastConnectedTime</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.m</DeclaredIn>
+			
+			<Declaration>- (void)updateLastConnectedTime</Declaration>
+			
+			
+			<Anchor>//api/name/updateLastConnectedTime</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/UserDataStore/archivePath</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>UserDataStore.m</DeclaredIn>
+			
+			<Declaration>- (NSString *)archivePath</Declaration>
+			
+			
+			<Anchor>//api/name/archivePath</Anchor>
+            <NodeRef refid="95"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

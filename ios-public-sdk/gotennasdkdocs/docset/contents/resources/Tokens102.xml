@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSMutableArray+GTHelpers.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSMutableArray(GTHelpers)</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSMutableArray+GTHelpers.h</DeclaredIn>
+            
+			
+			<NodeRef refid="102"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSMutableArray/safeRemove:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSMutableArray+GTHelpers.h</DeclaredIn>
+			
+			<Declaration>- (void)safeRemove:(id)object</Declaration>
+			
+			
+			<Anchor>//api/name/safeRemove:</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NSMutableArray/safeShift</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>NSMutableArray+GTHelpers.h</DeclaredIn>
+			
+			<Declaration>- (id)safeShift</Declaration>
+			
+			
+			<Anchor>//api/name/safeShift</Anchor>
+            <NodeRef refid="102"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

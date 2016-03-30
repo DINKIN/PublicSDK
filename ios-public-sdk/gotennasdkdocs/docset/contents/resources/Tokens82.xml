@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/GoTennaKeyPair.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/GoTennaKeyPair</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTennaKeyPair.h</DeclaredIn>
+            
+			
+			<NodeRef refid="82"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GoTennaKeyPair/setPrivateKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTennaKeyPair.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSData *privateKey</Declaration>
+			
+			
+			<Anchor>//api/name/privateKey</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GoTennaKeyPair/privateKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTennaKeyPair.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSData *privateKey</Declaration>
+			
+			
+			<Anchor>//api/name/privateKey</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GoTennaKeyPair/privateKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTennaKeyPair.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSData *privateKey</Declaration>
+			
+			
+			<Anchor>//api/name/privateKey</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GoTennaKeyPair/setPublicKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTennaKeyPair.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSData *publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/publicKey</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GoTennaKeyPair/publicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTennaKeyPair.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSData *publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/publicKey</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/GoTennaKeyPair/publicKey</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTennaKeyPair.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong, readonly) NSData *publicKey</Declaration>
+			
+			
+			<Anchor>//api/name/publicKey</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/GoTennaKeyPair/initWithPublicKey:andPrivateKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>GoTennaKeyPair.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithPublicKey:(NSData *)data andPrivateKey:(NSData *)key</Declaration>
+			
+			
+			<Anchor>//api/name/initWithPublicKey:andPrivateKey:</Anchor>
+            <NodeRef refid="82"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

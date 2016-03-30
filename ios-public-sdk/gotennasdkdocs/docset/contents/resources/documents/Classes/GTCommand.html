@@ -1,0 +1,866 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>GTCommand Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">GoTennaSDK </a></h1>
+				<a id="developerHome" href="../index.html">Your Name</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">GTCommand Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/commandCode">&nbsp;&nbsp;&nbsp;&nbsp;commandCode</option>
+	
+	<option value="//api/name/commandTimeoutAmount">&nbsp;&nbsp;&nbsp;&nbsp;commandTimeoutAmount</option>
+	
+	<option value="//api/name/commandWriteTimeout">&nbsp;&nbsp;&nbsp;&nbsp;commandWriteTimeout</option>
+	
+	<option value="//api/name/isPausable">&nbsp;&nbsp;&nbsp;&nbsp;isPausable</option>
+	
+	<option value="//api/name/log">&nbsp;&nbsp;&nbsp;&nbsp;log</option>
+	
+	<option value="//api/name/messageData">&nbsp;&nbsp;&nbsp;&nbsp;messageData</option>
+	
+	<option value="//api/name/messageHeaderData">&nbsp;&nbsp;&nbsp;&nbsp;messageHeaderData</option>
+	
+	<option value="//api/name/name">&nbsp;&nbsp;&nbsp;&nbsp;name</option>
+	
+	<option value="//api/name/negativeResponse">&nbsp;&nbsp;&nbsp;&nbsp;negativeResponse</option>
+	
+	<option value="//api/name/onError">&nbsp;&nbsp;&nbsp;&nbsp;onError</option>
+	
+	<option value="//api/name/onTimeout">&nbsp;&nbsp;&nbsp;&nbsp;onTimeout</option>
+	
+	<option value="//api/name/packets">&nbsp;&nbsp;&nbsp;&nbsp;packets</option>
+	
+	<option value="//api/name/positiveResponse">&nbsp;&nbsp;&nbsp;&nbsp;positiveResponse</option>
+	
+	<option value="//api/name/priority">&nbsp;&nbsp;&nbsp;&nbsp;priority</option>
+	
+	<option value="//api/name/priorityPrintable">&nbsp;&nbsp;&nbsp;&nbsp;priorityPrintable</option>
+	
+	<option value="//api/name/processResponse">&nbsp;&nbsp;&nbsp;&nbsp;processResponse</option>
+	
+	<option value="//api/name/pubKeyHash">&nbsp;&nbsp;&nbsp;&nbsp;pubKeyHash</option>
+	
+	<option value="//api/name/rawData">&nbsp;&nbsp;&nbsp;&nbsp;rawData</option>
+	
+	<option value="//api/name/responseReceived">&nbsp;&nbsp;&nbsp;&nbsp;responseReceived</option>
+	
+	<option value="//api/name/sendAttempts">&nbsp;&nbsp;&nbsp;&nbsp;sendAttempts</option>
+	
+	<option value="//api/name/seqNumber">&nbsp;&nbsp;&nbsp;&nbsp;seqNumber</option>
+	
+	<option value="//api/name/timesToAttempt">&nbsp;&nbsp;&nbsp;&nbsp;timesToAttempt</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/checkCommandStatus:">&nbsp;&nbsp;&nbsp;&nbsp;- checkCommandStatus:</option>
+	
+	<option value="//api/name/init">&nbsp;&nbsp;&nbsp;&nbsp;- init</option>
+	
+	<option value="//api/name/initiateWriteTimeoutOnTimeout:">&nbsp;&nbsp;&nbsp;&nbsp;- initiateWriteTimeoutOnTimeout:</option>
+	
+	<option value="//api/name/invalidateTimeout">&nbsp;&nbsp;&nbsp;&nbsp;- invalidateTimeout</option>
+	
+	<option value="//api/name/prepareForNextAttempt">&nbsp;&nbsp;&nbsp;&nbsp;- prepareForNextAttempt</option>
+	
+	<option value="//api/name/shouldRetry">&nbsp;&nbsp;&nbsp;&nbsp;- shouldRetry</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#task_Extension Methods">Extension Methods</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/commandCode">commandCode</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/commandTimeoutAmount">commandTimeoutAmount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/commandWriteTimeout">commandWriteTimeout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/isPausable">isPausable</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/log">log</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageData">messageData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/messageHeaderData">messageHeaderData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/name">name</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/negativeResponse">negativeResponse</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onError">onError</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/onTimeout">onTimeout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/packets">packets</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/positiveResponse">positiveResponse</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/priority">priority</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/priorityPrintable">priorityPrintable</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/processResponse">processResponse</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/pubKeyHash">pubKeyHash</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/rawData">rawData</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/responseReceived">responseReceived</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sendAttempts">sendAttempts</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/seqNumber">seqNumber</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/timesToAttempt">timesToAttempt</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/checkCommandStatus:">checkCommandStatus:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/init">init</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initiateWriteTimeoutOnTimeout:">initiateWriteTimeoutOnTimeout:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/invalidateTimeout">invalidateTimeout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/prepareForNextAttempt">prepareForNextAttempt</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/shouldRetry">shouldRetry</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="GTCommand Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">GTCommand Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">GTCommand.h<br />GTCommand.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/packets">&nbsp;&nbsp;packets</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/responseReceived">&nbsp;&nbsp;responseReceived</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/isPausable">&nbsp;&nbsp;isPausable</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/processResponse">&nbsp;&nbsp;processResponse</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onError">&nbsp;&nbsp;onError</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/commandCode">&nbsp;&nbsp;commandCode</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/rawData">&nbsp;&nbsp;rawData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messageHeaderData">&nbsp;&nbsp;messageHeaderData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/pubKeyHash">&nbsp;&nbsp;pubKeyHash</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/messageData">&nbsp;&nbsp;messageData</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/positiveResponse">&nbsp;&nbsp;positiveResponse</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/negativeResponse">&nbsp;&nbsp;negativeResponse</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/log">&nbsp;&nbsp;log</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/name">&nbsp;&nbsp;name</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sendAttempts">&nbsp;&nbsp;sendAttempts</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/timesToAttempt">&nbsp;&nbsp;timesToAttempt</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/commandTimeoutAmount">&nbsp;&nbsp;commandTimeoutAmount</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/seqNumber">&nbsp;&nbsp;seqNumber</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/priority">&nbsp;&nbsp;priority</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/priorityPrintable">&nbsp;&nbsp;priorityPrintable</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/shouldRetry">&ndash;&nbsp;shouldRetry</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/prepareForNextAttempt">&ndash;&nbsp;prepareForNextAttempt</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initiateWriteTimeoutOnTimeout:">&ndash;&nbsp;initiateWriteTimeoutOnTimeout:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/invalidateTimeout">&ndash;&nbsp;invalidateTimeout</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/init">&ndash;&nbsp;init</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/checkCommandStatus:">&ndash;&nbsp;checkCommandStatus:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						<a title="Extension Methods" name="task_Extension Methods"></a>
+						<h3 class="subsubtitle task-title">Extension Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/commandWriteTimeout">&nbsp;&nbsp;commandWriteTimeout</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/onTimeout">&nbsp;&nbsp;onTimeout</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/commandCode" title="commandCode"></a>
+	<h3 class="subsubtitle method-title">commandCode</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) char *commandCode</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/commandTimeoutAmount" title="commandTimeoutAmount"></a>
+	<h3 class="subsubtitle method-title">commandTimeoutAmount</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) NSTimeInterval commandTimeoutAmount</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/commandWriteTimeout" title="commandWriteTimeout"></a>
+	<h3 class="subsubtitle method-title">commandWriteTimeout</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSTimer *commandWriteTimeout</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/isPausable" title="isPausable"></a>
+	<h3 class="subsubtitle method-title">isPausable</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL isPausable</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/log" title="log"></a>
+	<h3 class="subsubtitle method-title">log</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *log</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messageData" title="messageData"></a>
+	<h3 class="subsubtitle method-title">messageData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSData *messageData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/messageHeaderData" title="messageHeaderData"></a>
+	<h3 class="subsubtitle method-title">messageHeaderData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSData *messageHeaderData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/name" title="name"></a>
+	<h3 class="subsubtitle method-title">name</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) NSString *name</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/negativeResponse" title="negativeResponse"></a>
+	<h3 class="subsubtitle method-title">negativeResponse</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) char *negativeResponse</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onError" title="onError"></a>
+	<h3 class="subsubtitle method-title">onError</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) void ( ^ ) ( NSError *) onError</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/onTimeout" title="onTimeout"></a>
+	<h3 class="subsubtitle method-title">onTimeout</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) void ( ^ ) ( ) onTimeout</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/packets" title="packets"></a>
+	<h3 class="subsubtitle method-title">packets</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSArray *packets</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/positiveResponse" title="positiveResponse"></a>
+	<h3 class="subsubtitle method-title">positiveResponse</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) char *positiveResponse</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/priority" title="priority"></a>
+	<h3 class="subsubtitle method-title">priority</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) GTCommandPriority priority</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/priorityPrintable" title="priorityPrintable"></a>
+	<h3 class="subsubtitle method-title">priorityPrintable</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSString *priorityPrintable</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/processResponse" title="processResponse"></a>
+	<h3 class="subsubtitle method-title">processResponse</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, copy) void ( ^ ) ( GTResponse *) processResponse</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/pubKeyHash" title="pubKeyHash"></a>
+	<h3 class="subsubtitle method-title">pubKeyHash</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSData *pubKeyHash</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/rawData" title="rawData"></a>
+	<h3 class="subsubtitle method-title">rawData</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSData *rawData</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/responseReceived" title="responseReceived"></a>
+	<h3 class="subsubtitle method-title">responseReceived</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL responseReceived</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sendAttempts" title="sendAttempts"></a>
+	<h3 class="subsubtitle method-title">sendAttempts</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) int sendAttempts</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/seqNumber" title="seqNumber"></a>
+	<h3 class="subsubtitle method-title">seqNumber</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) int seqNumber</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/timesToAttempt" title="timesToAttempt"></a>
+	<h3 class="subsubtitle method-title">timesToAttempt</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic) int timesToAttempt</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/checkCommandStatus:" title="checkCommandStatus:"></a>
+	<h3 class="subsubtitle method-title">checkCommandStatus:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)checkCommandStatus:(id)<em>checkCommandStatus</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/init" title="init"></a>
+	<h3 class="subsubtitle method-title">init</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)init</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initiateWriteTimeoutOnTimeout:" title="initiateWriteTimeoutOnTimeout:"></a>
+	<h3 class="subsubtitle method-title">initiateWriteTimeoutOnTimeout:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)initiateWriteTimeoutOnTimeout:(void ( ^ ) ( ))<em>onTimeout</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/invalidateTimeout" title="invalidateTimeout"></a>
+	<h3 class="subsubtitle method-title">invalidateTimeout</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)invalidateTimeout</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/prepareForNextAttempt" title="prepareForNextAttempt"></a>
+	<h3 class="subsubtitle method-title">prepareForNextAttempt</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)prepareForNextAttempt</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/shouldRetry" title="shouldRetry"></a>
+	<h3 class="subsubtitle method-title">shouldRetry</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (BOOL)shouldRetry</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
