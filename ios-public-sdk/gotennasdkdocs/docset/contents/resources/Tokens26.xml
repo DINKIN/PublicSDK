@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/GTCommandValidator</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Used by the GTCommandCenter to verify command data and GIDs</Abstract>
 			<DeclaredIn>GTCommandValidator.h</DeclaredIn>
             
 			

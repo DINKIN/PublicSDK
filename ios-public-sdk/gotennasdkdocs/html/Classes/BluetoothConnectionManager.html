@@ -26,6 +26,8 @@
 					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
+	<option value="overview">Overview</option>
+	
 	
 	
 	
@@ -100,6 +102,8 @@
 		<nav id="tocContainer" class="isShowingTOC">
 			<ul id="toc" role="tree">
 				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
 
 
 
@@ -207,6 +211,14 @@
 					
                     
                     
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Use this class for further information and control over connection to the goTenna, though <a href="../Classes/GTPairingManager.html"><code>GTPairingManager</code></a> is the best option for connecting to a goTenna</p>
+					</div>
+					
+					
 					
 					
 					
@@ -407,10 +419,35 @@
 	<h3 class="subsubtitle method-title">connectionNotRequired</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Sets the connection to be not required for certain bluetooth operations. NOTE: By default is NO and should generally remain as NO.</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL connectionNotRequired</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -429,10 +466,35 @@
 	<h3 class="subsubtitle method-title">pairingDelegate</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Pairing delegate that returns bluetooth state changes as they happen</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>@property (weak, nonatomic) id&lt;BluetoothPairingProtocol&gt; pairingDelegate</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -470,10 +532,40 @@
 	<h3 class="subsubtitle method-title">shared</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>This class is a singleton. Use this method to get the global instance.</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>+ (BluetoothConnectionManager *)shared</code></div>
 
     
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A shared instance</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 					</div>
@@ -569,10 +661,35 @@
 	<h3 class="subsubtitle method-title">clearScannedDevice</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Clears the saved device that was scanned</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (void)clearScannedDevice</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -580,10 +697,40 @@
 	<h3 class="subsubtitle method-title">isConnected</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Checks if connected to a goTenna</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (BOOL)isConnected</code></div>
 
     
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Evaluation of connected state with goTenna</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -591,10 +738,40 @@
 	<h3 class="subsubtitle method-title">isScannedDeviceSaved</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Checks if scanned device is saved</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (BOOL)isScannedDeviceSaved</code></div>
 
     
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Scanned device saved evaulation</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -602,10 +779,40 @@
 	<h3 class="subsubtitle method-title">isScanning</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Checks if <a href="#//api/name/scanning">scanning</a> is currently happening</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (BOOL)isScanning</code></div>
 
     
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Will tell you if search/scan for devices is taking place</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -613,10 +820,35 @@
 	<h3 class="subsubtitle method-title">resetCentralManager</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Reset the central managing bluetooth object. NOTE: There is generally no reason to call this</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (void)resetCentralManager</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -635,10 +867,35 @@
 	<h3 class="subsubtitle method-title">scanAndConnect</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Scan for a device</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (void)scanAndConnect</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -646,10 +903,35 @@
 	<h3 class="subsubtitle method-title">stopScan</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Stop <a href="#//api/name/scanning">scanning</a> for a device</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (void)stopScan</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -657,10 +939,35 @@
 	<h3 class="subsubtitle method-title">userDisconnect</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Sends disconnect message if goTenna is connected, will not send message if not connected already</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (void)userDisconnect</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">BluetoothConnectionManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 					</div>
@@ -678,7 +985,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-04-06)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						

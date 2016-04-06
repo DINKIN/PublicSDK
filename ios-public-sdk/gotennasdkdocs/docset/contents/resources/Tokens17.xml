@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/GIDManager</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Used for the presentation of, and determining of, GIDs</Abstract>
 			<DeclaredIn>GIDManager.h</DeclaredIn>
             
 			
@@ -14,72 +14,75 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GIDManager/shoutGID</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Call this to retrieve the universal shout GID</Abstract>
 			<DeclaredIn>GIDManager.h</DeclaredIn>
 			
 			<Declaration>+ (NSNumber *)shoutGID</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">the shout GID as an NSNumber</Abstract></ReturnValue>
 			<Anchor>//api/name/shoutGID</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GIDManager/emergencyGID</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Call this to retrieve the universal emergency GID</Abstract>
 			<DeclaredIn>GIDManager.h</DeclaredIn>
 			
 			<Declaration>+ (NSNumber *)emergencyGID</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">the emergency GID as an NSNumber</Abstract></ReturnValue>
 			<Anchor>//api/name/emergencyGID</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/GIDManager/senderIsGoTennaHQ:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
-			<DeclaredIn>GIDManager.h</DeclaredIn>
-			
-			<Declaration>+ (BOOL)senderIsGoTennaHQ:(NSNumber *)number</Declaration>
-			
-			
-			<Anchor>//api/name/senderIsGoTennaHQ:</Anchor>
-            <NodeRef refid="17"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GIDManager/gidTypeForGID:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Call this to determine what GTGIDType the GID is</Abstract>
 			<DeclaredIn>GIDManager.h</DeclaredIn>
 			
 			<Declaration>+ (GTGIDType)gidTypeForGID:(NSNumber *)number</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>number</Name>
+					<Abstract type="html">GID as NSNumber to be evaluated</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">GTGIDType of the GID</Abstract></ReturnValue>
 			<Anchor>//api/name/gidTypeForGID:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/personalGIDFromDate:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Call this to return back a randomly generated GID seeded from the date passed in</Abstract>
 			<DeclaredIn>GIDManager.h</DeclaredIn>
 			
 			<Declaration>- (NSNumber *)personalGIDFromDate:(NSDate *)date</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>date</Name>
+					<Abstract type="html">uses whichever date passed in as a seed</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">randomly generated GID</Abstract></ReturnValue>
 			<Anchor>//api/name/personalGIDFromDate:</Anchor>
             <NodeRef refid="17"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GIDManager/groupGIDFromDate:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Call this to return back a randomly generated group GID seeded from the date passed in</Abstract>
 			<DeclaredIn>GIDManager.h</DeclaredIn>
 			
 			<Declaration>- (NSNumber *)groupGIDFromDate:(NSDate *)date</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>date</Name>
+					<Abstract type="html">uses whichever date passed in as a seed</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">randomly generated group GID</Abstract></ReturnValue>
 			<Anchor>//api/name/groupGIDFromDate:</Anchor>
             <NodeRef refid="17"/>
 		</Token>

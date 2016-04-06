@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/BluetoothConnectionManager</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Use this class for further information and control over connection to the goTenna, though GTPairingManager is the best option for connecting to a goTenna</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
             
 			
@@ -14,7 +14,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/setPairingDelegate:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Pairing delegate that returns bluetooth state changes as they happen</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>@property (weak, nonatomic) id&lt;BluetoothPairingProtocol&gt; pairingDelegate</Declaration>
@@ -26,7 +26,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/pairingDelegate</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Pairing delegate that returns bluetooth state changes as they happen</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>@property (weak, nonatomic) id&lt;BluetoothPairingProtocol&gt; pairingDelegate</Declaration>
@@ -38,7 +38,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/BluetoothConnectionManager/pairingDelegate</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Pairing delegate that returns bluetooth state changes as they happen</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>@property (weak, nonatomic) id&lt;BluetoothPairingProtocol&gt; pairingDelegate</Declaration>
@@ -50,7 +50,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/setConnectionNotRequired:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Sets the connection to be not required for certain bluetooth operations. NOTE: By default is NO and should generally remain as NO.</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) BOOL connectionNotRequired</Declaration>
@@ -62,7 +62,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/connectionNotRequired</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Sets the connection to be not required for certain bluetooth operations. NOTE: By default is NO and should generally remain as NO.</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) BOOL connectionNotRequired</Declaration>
@@ -74,7 +74,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/BluetoothConnectionManager/connectionNotRequired</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Sets the connection to be not required for certain bluetooth operations. NOTE: By default is NO and should generally remain as NO.</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) BOOL connectionNotRequired</Declaration>
@@ -86,19 +86,19 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/BluetoothConnectionManager/shared</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">This class is a singleton. Use this method to get the global instance.</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>+ (BluetoothConnectionManager *)shared</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">A shared instance</Abstract></ReturnValue>
 			<Anchor>//api/name/shared</Anchor>
             <NodeRef refid="7"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/scanAndConnect</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Scan for a device</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>- (void)scanAndConnect</Declaration>
@@ -110,7 +110,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/stopScan</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Stop scanning for a device</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>- (void)stopScan</Declaration>
@@ -122,7 +122,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/resetCentralManager</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Reset the central managing bluetooth object. NOTE: There is generally no reason to call this</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>- (void)resetCentralManager</Declaration>
@@ -134,7 +134,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/userDisconnect</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Sends disconnect message if goTenna is connected, will not send message if not connected already</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>- (void)userDisconnect</Declaration>
@@ -146,7 +146,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/clearScannedDevice</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Clears the saved device that was scanned</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>- (void)clearScannedDevice</Declaration>
@@ -158,36 +158,36 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/isScannedDeviceSaved</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Checks if scanned device is saved</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>- (BOOL)isScannedDeviceSaved</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">Scanned device saved evaulation</Abstract></ReturnValue>
 			<Anchor>//api/name/isScannedDeviceSaved</Anchor>
             <NodeRef refid="7"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/isConnected</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Checks if connected to a goTenna</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>- (BOOL)isConnected</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">Evaluation of connected state with goTenna</Abstract></ReturnValue>
 			<Anchor>//api/name/isConnected</Anchor>
             <NodeRef refid="7"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/BluetoothConnectionManager/isScanning</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Checks if scanning is currently happening</Abstract>
 			<DeclaredIn>BluetoothConnectionManager.h</DeclaredIn>
 			
 			<Declaration>- (BOOL)isScanning</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">Will tell you if search/scan for devices is taking place</Abstract></ReturnValue>
 			<Anchor>//api/name/isScanning</Anchor>
             <NodeRef refid="7"/>
 		</Token>

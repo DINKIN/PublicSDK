@@ -14,8 +14,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTSendCommand/initWithOutgoingData:SenderGID:recipientGID:willEncrypt:</TokenIdentifier>
-			<Abstract type="html">The GTSendCommand handles the send message commands for the CommandBuilder.
-It inherits from GTCommand</Abstract>
+			<Abstract type="html">Command to be sent to the goTenna that is specifically used for messages. Inherits from GTCommand</Abstract>
 			<DeclaredIn>GTSendCommand.h</DeclaredIn>
 			
 			<Declaration>- (instancetype)initWithOutgoingData:(NSData *)outgoingData SenderGID:(NSNumber *)senderGID recipientGID:(NSNumber *)recipientGID willEncrypt:(BOOL)willEncrypt</Declaration>

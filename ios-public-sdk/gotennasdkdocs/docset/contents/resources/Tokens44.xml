@@ -14,11 +14,16 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/checkAndInstallFirmwareWithFirmwareProgressDelegate:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Retrieves version of firmware and installs that firmware by passing in an object that conforms to GTFirmwareInstallationProgressProtocol</Abstract>
 			<DeclaredIn>GTFirmwareInstallationManager.h</DeclaredIn>
 			
 			<Declaration>- (void)checkAndInstallFirmwareWithFirmwareProgressDelegate:(id&lt;GTFirmwareInstallationProgressProtocol&gt;)delegate</Declaration>
-			
+			<Parameters>
+				<Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">object that conforms to GTFirmwareInstallationProgressProtocol</Abstract>
+				</Parameter>
+			</Parameters>
 			
 			<Anchor>//api/name/checkAndInstallFirmwareWithFirmwareProgressDelegate:</Anchor>
             <NodeRef refid="44"/>
@@ -26,12 +31,12 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareInstallationManager/isCurrentlyDownloading</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Returns whether or not the GTFirmwareInstallationManager is currently downloading firmware</Abstract>
 			<DeclaredIn>GTFirmwareInstallationManager.h</DeclaredIn>
 			
 			<Declaration>- (BOOL)isCurrentlyDownloading</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">BOOL</Abstract></ReturnValue>
 			<Anchor>//api/name/isCurrentlyDownloading</Anchor>
             <NodeRef refid="44"/>
 		</Token>

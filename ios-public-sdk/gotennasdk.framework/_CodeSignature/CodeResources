@@ -390,7 +390,7 @@
 		</data>
 		<key>Headers/BluetoothConnectionManager.h</key>
 		<data>
-		38S61OBcgmN+lNUPi2sStmLZu4Q=
+		isko1HZGLtTGeJIAOaHt/HOi1mc=
 		</data>
 		<key>Headers/BluetoothTlvConstants.h</key>
 		<data>
@@ -418,11 +418,11 @@
 		</data>
 		<key>Headers/FirmwareBucketParser.h</key>
 		<data>
-		foEe+/md7EixQZZb+hM3Z1DYPt4=
+		Nk9U/SUmDA8iQs9nWS8WmwjkgIY=
 		</data>
 		<key>Headers/FirmwareFileParser.h</key>
 		<data>
-		pFF1yM1NgavBlbvq/WeAB/8pmEY=
+		7oXSGGvhTrgJcgrxj5B6zl/7z/0=
 		</data>
 		<key>Headers/FrequencyMode.h</key>
 		<data>
@@ -430,7 +430,7 @@
 		</data>
 		<key>Headers/GIDManager.h</key>
 		<data>
-		Z5KG9aHC2O1MMmcjNY5OyfC/yXE=
+		rUlTpfElOe4yy5ig2ziRok83C68=
 		</data>
 		<key>Headers/GTBaseMessageData.h</key>
 		<data>
@@ -442,7 +442,7 @@
 		</data>
 		<key>Headers/GTCommand.h</key>
 		<data>
-		a5Qbrcq3B1wuIA7ipPUDtcRmrcE=
+		V/i5uSuQJedRLI7QnYJZHb8/uow=
 		</data>
 		<key>Headers/GTCommandArray.h</key>
 		<data>
@@ -454,7 +454,7 @@
 		</data>
 		<key>Headers/GTCommandCenter.h</key>
 		<data>
-		tAf3q+mQGmV2NbmR47L6VbrO7tk=
+		FouLQLP1x65l4/te5J4PbY7dVg8=
 		</data>
 		<key>Headers/GTCommandCodeConstants.h</key>
 		<data>
@@ -462,11 +462,11 @@
 		</data>
 		<key>Headers/GTCommandQueue.h</key>
 		<data>
-		zUzon1kIPQk4fmfHHOQkDTvOq+I=
+		qwy2NnkXo1cxsuSaX80r3T34Tqo=
 		</data>
 		<key>Headers/GTCommandValidator.h</key>
 		<data>
-		rkD8vvquxU5QO2NHTFis5Ca56rM=
+		pST4xGDCCknWt3obOG/89seC8i0=
 		</data>
 		<key>Headers/GTCommunicationLogger.h</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>Headers/GTDataSerializer.h</key>
 		<data>
-		ugFG8bVPf1oOGp3LLfagDqrcK+Y=
+		18hl2BR+1ttkWdYbanFeaSEU/cw=
 		</data>
 		<key>Headers/GTDataTypes.h</key>
 		<data>
@@ -494,7 +494,7 @@
 		</data>
 		<key>Headers/GTDecryptionErrorManager.h</key>
 		<data>
-		uerf11N6PpTh21TX4hhKscq6hgo=
+		92ZT406KU/eDERdV+mhWRU6s/IA=
 		</data>
 		<key>Headers/GTDigestHMACGeneratorProtocol.h</key>
 		<data>
@@ -538,11 +538,11 @@
 		</data>
 		<key>Headers/GTFirmwareDownloadTaskManager.h</key>
 		<data>
-		8qECpXCV/gXZr0PhFytdwj6H0gM=
+		dw23nne3AAKlcUSCxjBV+z6MLAw=
 		</data>
 		<key>Headers/GTFirmwareInstallationManager.h</key>
 		<data>
-		d/XdBCUk/cnaAdYPZbpOUI33HQU=
+		Jd6WP9AimTPv4rz1xPTIRG20wW8=
 		</data>
 		<key>Headers/GTFirmwareInstallationProgressProtocol.h</key>
 		<data>
@@ -558,7 +558,7 @@
 		</data>
 		<key>Headers/GTFirmwareRetrieverFactory.h</key>
 		<data>
-		HHPbgGYEir4Lfq/LCALVFcnBkX8=
+		9xypr0iP9nm6QCSJRCgOkUpWcOw=
 		</data>
 		<key>Headers/GTFirmwareVersion.h</key>
 		<data>
@@ -622,7 +622,7 @@
 		</data>
 		<key>Headers/GTPairingManager.h</key>
 		<data>
-		pIArU8uVBRhTO7WgAcOb1L8fE0w=
+		xi5zxbnxrNyqhtEZ34j13SHVjEo=
 		</data>
 		<key>Headers/GTPeripheralManager.h</key>
 		<data>
@@ -666,7 +666,7 @@
 		</data>
 		<key>Headers/GTSendCommand.h</key>
 		<data>
-		Js9b/PTSpAkng4JFcdfDuuhCrIM=
+		RUib+HxEBGPMq9jJNDSkdSN98hc=
 		</data>
 		<key>Headers/GTStoreDateTime.h</key>
 		<data>
@@ -674,7 +674,7 @@
 		</data>
 		<key>Headers/GTSystemInfo.h</key>
 		<data>
-		uVmkfTevDVa4XWUTDxcrjhwRV0Y=
+		/cr/hFpsoX2Av+KYI2xrzEWf8LY=
 		</data>
 		<key>Headers/GTSystemInfoStore.h</key>
 		<data>
@@ -1214,7 +1214,7 @@
 		</data>
 		<key>Headers/BluetoothConnectionManager.h</key>
 		<data>
-		38S61OBcgmN+lNUPi2sStmLZu4Q=
+		isko1HZGLtTGeJIAOaHt/HOi1mc=
 		</data>
 		<key>Headers/BluetoothTlvConstants.h</key>
 		<data>
@@ -1242,11 +1242,11 @@
 		</data>
 		<key>Headers/FirmwareBucketParser.h</key>
 		<data>
-		foEe+/md7EixQZZb+hM3Z1DYPt4=
+		Nk9U/SUmDA8iQs9nWS8WmwjkgIY=
 		</data>
 		<key>Headers/FirmwareFileParser.h</key>
 		<data>
-		pFF1yM1NgavBlbvq/WeAB/8pmEY=
+		7oXSGGvhTrgJcgrxj5B6zl/7z/0=
 		</data>
 		<key>Headers/FrequencyMode.h</key>
 		<data>
@@ -1254,7 +1254,7 @@
 		</data>
 		<key>Headers/GIDManager.h</key>
 		<data>
-		Z5KG9aHC2O1MMmcjNY5OyfC/yXE=
+		rUlTpfElOe4yy5ig2ziRok83C68=
 		</data>
 		<key>Headers/GTBaseMessageData.h</key>
 		<data>
@@ -1266,7 +1266,7 @@
 		</data>
 		<key>Headers/GTCommand.h</key>
 		<data>
-		a5Qbrcq3B1wuIA7ipPUDtcRmrcE=
+		V/i5uSuQJedRLI7QnYJZHb8/uow=
 		</data>
 		<key>Headers/GTCommandArray.h</key>
 		<data>
@@ -1278,7 +1278,7 @@
 		</data>
 		<key>Headers/GTCommandCenter.h</key>
 		<data>
-		tAf3q+mQGmV2NbmR47L6VbrO7tk=
+		FouLQLP1x65l4/te5J4PbY7dVg8=
 		</data>
 		<key>Headers/GTCommandCodeConstants.h</key>
 		<data>
@@ -1286,11 +1286,11 @@
 		</data>
 		<key>Headers/GTCommandQueue.h</key>
 		<data>
-		zUzon1kIPQk4fmfHHOQkDTvOq+I=
+		qwy2NnkXo1cxsuSaX80r3T34Tqo=
 		</data>
 		<key>Headers/GTCommandValidator.h</key>
 		<data>
-		rkD8vvquxU5QO2NHTFis5Ca56rM=
+		pST4xGDCCknWt3obOG/89seC8i0=
 		</data>
 		<key>Headers/GTCommunicationLogger.h</key>
 		<data>
@@ -1306,7 +1306,7 @@
 		</data>
 		<key>Headers/GTDataSerializer.h</key>
 		<data>
-		ugFG8bVPf1oOGp3LLfagDqrcK+Y=
+		18hl2BR+1ttkWdYbanFeaSEU/cw=
 		</data>
 		<key>Headers/GTDataTypes.h</key>
 		<data>
@@ -1318,7 +1318,7 @@
 		</data>
 		<key>Headers/GTDecryptionErrorManager.h</key>
 		<data>
-		uerf11N6PpTh21TX4hhKscq6hgo=
+		92ZT406KU/eDERdV+mhWRU6s/IA=
 		</data>
 		<key>Headers/GTDigestHMACGeneratorProtocol.h</key>
 		<data>
@@ -1362,11 +1362,11 @@
 		</data>
 		<key>Headers/GTFirmwareDownloadTaskManager.h</key>
 		<data>
-		8qECpXCV/gXZr0PhFytdwj6H0gM=
+		dw23nne3AAKlcUSCxjBV+z6MLAw=
 		</data>
 		<key>Headers/GTFirmwareInstallationManager.h</key>
 		<data>
-		d/XdBCUk/cnaAdYPZbpOUI33HQU=
+		Jd6WP9AimTPv4rz1xPTIRG20wW8=
 		</data>
 		<key>Headers/GTFirmwareInstallationProgressProtocol.h</key>
 		<data>
@@ -1382,7 +1382,7 @@
 		</data>
 		<key>Headers/GTFirmwareRetrieverFactory.h</key>
 		<data>
-		HHPbgGYEir4Lfq/LCALVFcnBkX8=
+		9xypr0iP9nm6QCSJRCgOkUpWcOw=
 		</data>
 		<key>Headers/GTFirmwareVersion.h</key>
 		<data>
@@ -1446,7 +1446,7 @@
 		</data>
 		<key>Headers/GTPairingManager.h</key>
 		<data>
-		pIArU8uVBRhTO7WgAcOb1L8fE0w=
+		xi5zxbnxrNyqhtEZ34j13SHVjEo=
 		</data>
 		<key>Headers/GTPeripheralManager.h</key>
 		<data>
@@ -1490,7 +1490,7 @@
 		</data>
 		<key>Headers/GTSendCommand.h</key>
 		<data>
-		Js9b/PTSpAkng4JFcdfDuuhCrIM=
+		RUib+HxEBGPMq9jJNDSkdSN98hc=
 		</data>
 		<key>Headers/GTStoreDateTime.h</key>
 		<data>
@@ -1498,7 +1498,7 @@
 		</data>
 		<key>Headers/GTSystemInfo.h</key>
 		<data>
-		uVmkfTevDVa4XWUTDxcrjhwRV0Y=
+		/cr/hFpsoX2Av+KYI2xrzEWf8LY=
 		</data>
 		<key>Headers/GTSystemInfoStore.h</key>
 		<data>

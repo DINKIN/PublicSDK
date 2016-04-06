@@ -14,12 +14,17 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/FirmwareBucketParser/determineVersionToDownload:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Determines which version of the firmware to download when passing in a dictionary of versions</Abstract>
 			<DeclaredIn>FirmwareBucketParser.h</DeclaredIn>
 			
 			<Declaration>- (NSString *)determineVersionToDownload:(NSArray *)dictionary</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>dictionary</Name>
+					<Abstract type="html">NSDictionary</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSString denoting the firmware version</Abstract></ReturnValue>
 			<Anchor>//api/name/determineVersionToDownload:</Anchor>
             <NodeRef refid="14"/>
 		</Token>

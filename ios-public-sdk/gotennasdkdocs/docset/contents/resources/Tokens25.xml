@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/GTCommandQueue</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Holds queued GTCommand objects to be executed</Abstract>
 			<DeclaredIn>GTCommandQueue.h</DeclaredIn>
             
 			

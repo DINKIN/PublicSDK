@@ -17,8 +17,23 @@
 
 @property (nonatomic, strong) NSMutableSet *decryptionErrorItems;
 
+/**
+ *  Returns a shared instance
+ *
+ *  @return shared instance to be used
+ */
 + (instancetype)shared;
+
+/**
+ *  Add `GTDecryptionErrorItem` objects to be later decrypted. NOTE: automatically added by the `GTDataSerializer`
+ *
+ *  @param decryptionErrorItem decryption error item holds references to the information about the message previously attempted
+ */
 - (void)addDecryptionErrorItem:(GTDecryptionErrorItem *)decryptionErrorItem;
+
+/**
+ *  Attempts to decrypt stored `GTDecryptionErrorItem` objects
+ */
 - (void)attemptToDecryptMessagesAgain;
 
 @end

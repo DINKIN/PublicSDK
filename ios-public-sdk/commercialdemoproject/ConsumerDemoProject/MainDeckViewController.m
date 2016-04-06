@@ -245,7 +245,7 @@ void showTextFieldAlert(id instance, NSString* title, NSString* body, NSString* 
     NSString *title1 = [NSString stringWithFormat:@"%@ - %@",person1.name,person1.gid];
     UIAlertAction *setFirstGID = [UIAlertAction actionWithTitle:title1 style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
         
-        [[GTCommandCenter shared] setgoTennaGID:person1.gid withUsername:person1.name onError:onError];
+        [[GTCommandCenter shared] setgoTennaGID:person1.gid withUsername:nil onError:onError];
         _recipient = person2;
     }];
     [sheet addAction:setFirstGID];

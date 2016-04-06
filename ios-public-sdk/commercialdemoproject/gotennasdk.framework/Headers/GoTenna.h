@@ -15,7 +15,7 @@
  */
 
 // commands
-+ (void)setApplicationToken:(NSString *)number;
++ (void)setApplicationToken:(NSString *)appTokenString;
 
 // queries
 + (NSData *)applicationToken;

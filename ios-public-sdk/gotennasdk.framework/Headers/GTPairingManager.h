@@ -22,30 +22,58 @@
 - (void)nonUserDisconnectionOccurred;
 @end
 
+/// Main class to use when connecting to a goTenna
 @interface GTPairingManager : NSObject <BluetoothPairingProtocol>
+
+/**
+ *  Set another class as delegate to receive updates on the connected state of the goTenna
+ */
 @property(nonatomic) id<GTPairingHandlerProtocol> pairingHandler;
+
+/**
+ *  Set to yes if you should keep trying to rescan after failing or disconnecting
+ */
 @property(nonatomic) BOOL shouldReconnect;
 
-// Shared singleton instance
-// This class is a singleton. Use this method to get the global instance.
+/**
+ *  This class is a singleton. Use this method to get the global instance.
+ *
+ *  @return A shared instance
+ */
 + (GTPairingManager *)shared;
 
-// Disconnect
-// Call this to disconnect a connected goTenna
+/**
+ *  Call this to disconnect a connected goTenna
+ */
 - (void)initiateDisconnect;
 
-// Connect
-// Call this to connect to your goTenna
-// NOTE: before calling this, ensure to set the pairingHandler delegate to get callbacks on when the state changes to
-// connected or any other possible states
+/**
+ *  Call this to connect to your goTenna. NOTE: before calling this, ensure to set the pairingHandler delegate to get callbacks on when the state changes to connected or any other possible states
+ */
 - (void)initiateScanningConnect;
+
+/**
+ *  Stop scanning for a device
+ */
 - (void)stopScanningConnect;
+
+/**
+ *  Remove any internal scanned saved device
+ */
 - (void)clearSavedScannedDevice;
 
-// ConnectState
-// Use this method to get the current connection status of your goTenna
+/**
+ *  Use this method to get the current connection status of your goTenna
+ *
+ *  @return Connection states enum
+ */
 - (GTConnectionState)connectingState;
 
+/**
+ *  Determines whether a scanned device is saved
+ *
+ *  @return Evaluation of whether saved device is present or not
+ */
 - (BOOL)isScannedDeviceSaved;
 
 @end

@@ -26,11 +26,19 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareDownloadTaskManager/retrieveAndStoreFirmwareUsingRetriever:onCompletion:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Call this and pass in an object that conforms to the GTFirmwareRetrieveProtocol to retrieve and store firmware with a completion block</Abstract>
 			<DeclaredIn>GTFirmwareDownloadTaskManager.h</DeclaredIn>
 			
 			<Declaration>- (void)retrieveAndStoreFirmwareUsingRetriever:(id&lt;GTFirmwareRetrieveProtocol&gt;)retriever onCompletion:(RetrievalCompletion)retrievalCompletion</Declaration>
-			
+			<Parameters>
+				<Parameter>
+					<Name>retriever</Name>
+					<Abstract type="html">object that conforms to GTFirmwareRetrieveProtocol</Abstract>
+				</Parameter><Parameter>
+					<Name>retrievalCompletion</Name>
+					<Abstract type="html">completion block</Abstract>
+				</Parameter>
+			</Parameters>
 			
 			<Anchor>//api/name/retrieveAndStoreFirmwareUsingRetriever:onCompletion:</Anchor>
             <NodeRef refid="43"/>
@@ -38,11 +46,16 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareDownloadTaskManager/downloadLastRetrievedFirmwareWithProgressDelegate:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Call this and pass in an object that conforms to the GTFirmwareRetrieveProtocol to download the last retrieved firmware</Abstract>
 			<DeclaredIn>GTFirmwareDownloadTaskManager.h</DeclaredIn>
 			
 			<Declaration>- (void)downloadLastRetrievedFirmwareWithProgressDelegate:(id&lt;GTFirmwareInstallationProgressProtocol&gt;)progressDelegate</Declaration>
-			
+			<Parameters>
+				<Parameter>
+					<Name>progressDelegate</Name>
+					<Abstract type="html">object that conforms to GTFirmwareInstallationProgressProtocol</Abstract>
+				</Parameter>
+			</Parameters>
 			
 			<Anchor>//api/name/downloadLastRetrievedFirmwareWithProgressDelegate:</Anchor>
             <NodeRef refid="43"/>
@@ -50,12 +63,12 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTFirmwareDownloadTaskManager/isInstallingFirmware</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Call this to check whether the GTFirmwareDownloadTaskManager is installing firmware</Abstract>
 			<DeclaredIn>GTFirmwareDownloadTaskManager.h</DeclaredIn>
 			
 			<Declaration>- (BOOL)isInstallingFirmware</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">BOOL</Abstract></ReturnValue>
 			<Anchor>//api/name/isInstallingFirmware</Anchor>
             <NodeRef refid="43"/>
 		</Token>

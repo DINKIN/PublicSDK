@@ -11,8 +11,8 @@
 @interface GTSendCommand : GTCommand
 
 
-/** The `GTSendCommand` handles the send message commands for the CommandBuilder.
- * It inherits from GTCommand
+/**
+ *  Command to be sent to the goTenna that is specifically used for messages. Inherits from `GTCommand`
  */
 
 - (instancetype)initWithOutgoingData:(NSData*)outgoingData SenderGID:(NSNumber*)senderGID recipientGID:(NSNumber*)recipientGID willEncrypt:(BOOL)willEncrypt;

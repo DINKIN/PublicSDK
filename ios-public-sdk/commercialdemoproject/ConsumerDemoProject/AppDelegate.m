@@ -17,6 +17,50 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSError *error;
+    
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration];
+    NSURL *url = [NSURL URLWithString:@"http://dev2.apppartner.com/goTenna/scripts/SdkTokenValidator.php"];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url
+                                                           cachePolicy:NSURLRequestReturnCacheDataDontLoad
+                                                       timeoutInterval:60.0];
+    
+    [request addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+    [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
+    
+    [request setHTTPMethod:@"POST"];
+    NSDictionary *mapData = @{@"sdk_token":@"i6i61v4k4hehip3q6q06bu6gas91asa5"};
+    
+    NSData *postData = [NSJSONSerialization dataWithJSONObject:mapData options:0 error:&error];
+    [request setHTTPBody:postData];
+    
+    NSLog(@"MAP DATA: %@",mapData);
+    
+    NSURLSessionDataTask *postDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        
+        NSError *err = nil;
+        
+        NSHTTPURLResponse *res = (NSHTTPURLResponse*)response;
+        
+        NSLog(@"POST REQUEST => %@\n",response);
+        
+        if (res.statusCode == 200 && error == nil) {
+            
+            NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&err];
+            NSNumber *validToken = [jsonDictionary objectForKey:@"isValidToken"];
+            
+            NSLog(@"JSON DICT: %@",jsonDictionary);
+            NSLog(@"IS VERIFIED APP ID TOKEN??? %@",[validToken boolValue] ? @"YES" : @"NO");
+            
+            //[weakSelf setIsVerified:validToken.boolValue];
+        }
+    }];
+    
+    [postDataTask resume];
+
+    
     return YES;
 }
 

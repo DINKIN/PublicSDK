@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/GTDataSerializer</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Serialization of data. NOTE: this is used internally, and automatically functions for messaging processess</Abstract>
 			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
             
 			
@@ -14,60 +14,95 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GTDataSerializer/deserializeGroupMessageDataObj:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Used for unpacking data for a group communication scenario, extraction includes encryption shared secret and group GID. NOTE: handled internally by the GTDataSerializer</Abstract>
 			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
 			
 			<Declaration>+ (GTGroupCreationMessageData *)deserializeGroupMessageDataObj:(GTMessageData *)data</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">message data object, if related to group activities will be unpacked</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">returns non-nil object if data coming in was relevant</Abstract></ReturnValue>
 			<Anchor>//api/name/deserializeGroupMessageDataObj:</Anchor>
             <NodeRef refid="30"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GTDataSerializer/deserializeSystemInfo:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Called to unpack a response from the goTenna, holding system information</Abstract>
 			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
 			
 			<Declaration>+ (SystemInfoResponseData *)deserializeSystemInfo:(GTResponse *)response</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">goTenna information filled response object</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">system info object that holds information about the goTenna</Abstract></ReturnValue>
 			<Anchor>//api/name/deserializeSystemInfo:</Anchor>
             <NodeRef refid="30"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GTDataSerializer/deserializeMessage:forCommand:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Called when building a response object to be used for retrieve information after a command message is received</Abstract>
 			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
 			
 			<Declaration>+ (GTResponse *)deserializeMessage:(NSData *)data forCommand:(GTCommand *)command</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract type="html">message data serialized</Abstract>
+				</Parameter><Parameter>
+					<Name>command</Name>
+					<Abstract type="html">command object relating to the message data</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">response object holding information for the</Abstract></ReturnValue>
 			<Anchor>//api/name/deserializeMessage:forCommand:</Anchor>
             <NodeRef refid="30"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GTDataSerializer/appTokenData</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Returns the app token data that was passed in for use of the SDK</Abstract>
 			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
 			
 			<Declaration>+ (NSData *)appTokenData</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">app token as data</Abstract></ReturnValue>
 			<Anchor>//api/name/appTokenData</Anchor>
             <NodeRef refid="30"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GTDataSerializer/parseAndHandleGetMessageResponse:onIncoming:onGroupCreated:onSuccessLastMessageDelete:isDecryptionErrorRetry:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Parses all relevant content for an incoming message</Abstract>
 			<DeclaredIn>GTDataSerializer.h</DeclaredIn>
 			
 			<Declaration>+ (BOOL)parseAndHandleGetMessageResponse:(GTResponse *)response onIncoming:(void ( ^ ) ( GTMessageData *))onIncomingMessage onGroupCreated:(void ( ^ ) ( GTGroupCreationMessageData *))onGroupAdded onSuccessLastMessageDelete:(void ( ^ ) ( ))lastMessageDelete isDecryptionErrorRetry:(BOOL)isDecryptionErrorRetry</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>response</Name>
+					<Abstract type="html">response object used for the incoming message</Abstract>
+				</Parameter><Parameter>
+					<Name>onIncomingMessage</Name>
+					<Abstract type="html">registered onIncoming response block for the message</Abstract>
+				</Parameter><Parameter>
+					<Name>onGroupAdded</Name>
+					<Abstract type="html">registered onGroupAdded response block for the message</Abstract>
+				</Parameter><Parameter>
+					<Name>lastMessageDelete</Name>
+					<Abstract type="html">lastMessageDelete block used within the GTCommandBuilder</Abstract>
+				</Parameter><Parameter>
+					<Name>isDecryptionErrorRetry</Name>
+					<Abstract type="html">whether this is to be retried for a decryption error</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">returns back whether success was possible with this parsing</Abstract></ReturnValue>
 			<Anchor>//api/name/parseAndHandleGetMessageResponse:onIncoming:onGroupCreated:onSuccessLastMessageDelete:isDecryptionErrorRetry:</Anchor>
             <NodeRef refid="30"/>
 		</Token>

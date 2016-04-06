@@ -9,6 +9,10 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  Used by the `GTCommandCenter` to verify command data and GIDs
+ */
+
 @interface GTCommandValidator : NSObject
 
 - (BOOL)validateSendMessage:(NSData *)data destinationGID:(NSNumber *)GID onError:(void (^)(NSError *))error;

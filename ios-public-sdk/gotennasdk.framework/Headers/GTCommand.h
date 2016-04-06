@@ -13,6 +13,10 @@ typedef enum : NSUInteger {
     GTCommandPriorityRequired,
 } GTCommandPriority;
 
+/**
+ *  Command to be sent to the goTenna, containing appropriate data for the goTenna. NOTE: This is handled by the `GTCommandBuilder` which in turn is handled by the `GTCommandCenter`
+ */
+
 @interface GTCommand : NSObject
 @property(nonatomic, strong) NSArray *packets;
 @property(nonatomic) BOOL responseReceived;

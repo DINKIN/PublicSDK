@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/GTPairingManager</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Main class to use when connecting to a goTenna</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
             
 			
@@ -14,7 +14,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/setPairingHandler:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Set another class as delegate to receive updates on the connected state of the goTenna</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) id&lt;GTPairingHandlerProtocol&gt; pairingHandler</Declaration>
@@ -26,7 +26,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/pairingHandler</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Set another class as delegate to receive updates on the connected state of the goTenna</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) id&lt;GTPairingHandlerProtocol&gt; pairingHandler</Declaration>
@@ -38,7 +38,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/GTPairingManager/pairingHandler</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Set another class as delegate to receive updates on the connected state of the goTenna</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) id&lt;GTPairingHandlerProtocol&gt; pairingHandler</Declaration>
@@ -50,7 +50,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/setShouldReconnect:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Set to yes if you should keep trying to rescan after failing or disconnecting</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) BOOL shouldReconnect</Declaration>
@@ -62,7 +62,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/shouldReconnect</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Set to yes if you should keep trying to rescan after failing or disconnecting</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) BOOL shouldReconnect</Declaration>
@@ -74,7 +74,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/GTPairingManager/shouldReconnect</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Set to yes if you should keep trying to rescan after failing or disconnecting</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) BOOL shouldReconnect</Declaration>
@@ -86,19 +86,19 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GTPairingManager/shared</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">This class is a singleton. Use this method to get the global instance.</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>+ (GTPairingManager *)shared</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">A shared instance</Abstract></ReturnValue>
 			<Anchor>//api/name/shared</Anchor>
             <NodeRef refid="60"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/initiateDisconnect</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Call this to disconnect a connected goTenna</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>- (void)initiateDisconnect</Declaration>
@@ -110,7 +110,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/initiateScanningConnect</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Call this to connect to your goTenna. NOTE: before calling this, ensure to set the pairingHandler delegate to get callbacks on when the state changes to connected or any other possible states</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>- (void)initiateScanningConnect</Declaration>
@@ -122,7 +122,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/stopScanningConnect</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Stop scanning for a device</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>- (void)stopScanningConnect</Declaration>
@@ -134,7 +134,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/clearSavedScannedDevice</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Remove any internal scanned saved device</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>- (void)clearSavedScannedDevice</Declaration>
@@ -146,24 +146,24 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/connectingState</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Use this method to get the current connection status of your goTenna</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>- (GTConnectionState)connectingState</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">Connection states enum</Abstract></ReturnValue>
 			<Anchor>//api/name/connectingState</Anchor>
             <NodeRef refid="60"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTPairingManager/isScannedDeviceSaved</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Determines whether a scanned device is saved</Abstract>
 			<DeclaredIn>GTPairingManager.h</DeclaredIn>
 			
 			<Declaration>- (BOOL)isScannedDeviceSaved</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">Evaluation of whether saved device is present or not</Abstract></ReturnValue>
 			<Anchor>//api/name/isScannedDeviceSaved</Anchor>
             <NodeRef refid="60"/>
 		</Token>

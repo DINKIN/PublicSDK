@@ -18,7 +18,7 @@
 for any goTenna operations to function thereafter</Abstract>
 			<DeclaredIn>GoTenna.h</DeclaredIn>
 			
-			<Declaration>+ (void)setApplicationToken:(NSString *)number</Declaration>
+			<Declaration>+ (void)setApplicationToken:(NSString *)appTokenString</Declaration>
 			
 			
 			<Anchor>//api/name/setApplicationToken:</Anchor>

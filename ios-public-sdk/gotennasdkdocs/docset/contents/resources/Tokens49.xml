@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/GTGid</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Handles GID values allowing for conversion to different formats</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
             
 			
@@ -14,7 +14,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTGid/setBaseNumber:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Readonly baseNumber value</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong, readonly) NSNumber *baseNumber</Declaration>
@@ -26,7 +26,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTGid/baseNumber</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Readonly baseNumber value</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong, readonly) NSNumber *baseNumber</Declaration>
@@ -38,7 +38,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/GTGid/baseNumber</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Readonly baseNumber value</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic, strong, readonly) NSNumber *baseNumber</Declaration>
@@ -50,7 +50,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTGid/setType:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Current GID type</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) GTGIDType type</Declaration>
@@ -62,7 +62,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTGid/type</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Current GID type</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) GTGIDType type</Declaration>
@@ -74,7 +74,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instp/GTGid/type</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Current GID type</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>@property (nonatomic) GTGIDType type</Declaration>
@@ -86,84 +86,99 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GTGid/initWithBase:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">initialization method for GTGID</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>+ (GTGid *)initWithBase:(NSNumber *)number</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>number</Name>
+					<Abstract type="html">GID value</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">GTGID instance</Abstract></ReturnValue>
 			<Anchor>//api/name/initWithBase:</Anchor>
             <NodeRef refid="49"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GTGid/initfromData:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">initialization method for GTGID</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>+ (GTGid *)initfromData:(NSData *)data</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>number</Name>
+					<Abstract type="html">GID data</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">GTGID instance</Abstract></ReturnValue>
 			<Anchor>//api/name/initfromData:</Anchor>
             <NodeRef refid="49"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTGid/built</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">String value of the GID</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>- (NSString *)built</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">string value representation of GID</Abstract></ReturnValue>
 			<Anchor>//api/name/built</Anchor>
             <NodeRef refid="49"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTGid/asData</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Data representation of GID</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>- (NSData *)asData</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">gid as NSData</Abstract></ReturnValue>
 			<Anchor>//api/name/asData</Anchor>
             <NodeRef refid="49"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTGid/asDataWithType</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Data representation of GID with type and token data</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>- (NSData *)asDataWithType</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">gid as NSData along with type and token data inside</Abstract></ReturnValue>
 			<Anchor>//api/name/asDataWithType</Anchor>
             <NodeRef refid="49"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTGid/asDataWithTypeUsingMembershipByte:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Data with type using membership byte</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>- (NSData *)asDataWithTypeUsingMembershipByte:(NSData *)membershipByte</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>membershipByte</Name>
+					<Abstract type="html">membership byte used internally for the most part</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">gid as NSData along with type and token data inside, along with membership info if relevant</Abstract></ReturnValue>
 			<Anchor>//api/name/asDataWithTypeUsingMembershipByte:</Anchor>
             <NodeRef refid="49"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTGid/GIDDataByteLength</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Byte length for GIDData</Abstract>
 			<DeclaredIn>GTGid.h</DeclaredIn>
 			
 			<Declaration>- (NSUInteger)GIDDataByteLength</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">byte length</Abstract></ReturnValue>
 			<Anchor>//api/name/GIDDataByteLength</Anchor>
             <NodeRef refid="49"/>
 		</Token>

@@ -26,6 +26,8 @@
 					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
+	<option value="overview">Overview</option>
+	
 	
 	
 	
@@ -100,6 +102,8 @@
 		<nav id="tocContainer" class="isShowingTOC">
 			<ul id="toc" role="tree">
 				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
 
 
 
@@ -207,6 +211,14 @@
 					
                     
                     
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Main class to use when connecting to a goTenna</p>
+					</div>
+					
+					
 					
 					
 					
@@ -429,10 +441,35 @@
 	<h3 class="subsubtitle method-title">pairingHandler</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Set another class as delegate to receive updates on the connected state of the goTenna</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>@property (nonatomic) id&lt;GTPairingHandlerProtocol&gt; pairingHandler</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTPairingManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -440,10 +477,35 @@
 	<h3 class="subsubtitle method-title">shouldReconnect</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Set to yes if you should keep trying to rescan after failing or disconnecting</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL shouldReconnect</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTPairingManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -470,10 +532,40 @@
 	<h3 class="subsubtitle method-title">shared</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>This class is a singleton. Use this method to get the global instance.</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>+ (GTPairingManager *)shared</code></div>
 
     
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>A shared instance</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTPairingManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 					</div>
@@ -533,10 +625,35 @@
 	<h3 class="subsubtitle method-title">clearSavedScannedDevice</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Remove any internal scanned saved device</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (void)clearSavedScannedDevice</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTPairingManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -544,10 +661,40 @@
 	<h3 class="subsubtitle method-title">connectingState</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Use this method to get the current connection status of your goTenna</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (GTConnectionState)connectingState</code></div>
 
     
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Connection states enum</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTPairingManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -566,10 +713,35 @@
 	<h3 class="subsubtitle method-title">initiateDisconnect</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Call this to disconnect a connected goTenna</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (void)initiateDisconnect</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTPairingManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -577,10 +749,35 @@
 	<h3 class="subsubtitle method-title">initiateScanningConnect</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Call this to connect to your goTenna. NOTE: before calling this, ensure to set the <a href="#//api/name/pairingHandler">pairingHandler</a> delegate to get callbacks on when the state changes to connected or any other possible states</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (void)initiateScanningConnect</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTPairingManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -588,10 +785,40 @@
 	<h3 class="subsubtitle method-title">isScannedDeviceSaved</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Determines whether a scanned device is saved</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (BOOL)isScannedDeviceSaved</code></div>
 
     
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Evaluation of whether saved device is present or not</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTPairingManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -621,10 +848,35 @@
 	<h3 class="subsubtitle method-title">stopScanningConnect</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Stop scanning for a device</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>- (void)stopScanningConnect</code></div>
 
     
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTPairingManager.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -653,7 +905,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-04-06)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						

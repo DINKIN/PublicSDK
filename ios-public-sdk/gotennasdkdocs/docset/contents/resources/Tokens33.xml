@@ -51,23 +51,28 @@ when we receive a new public key from another user.</Abstract>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/GTDecryptionErrorManager/shared</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Returns a shared instance</Abstract>
 			<DeclaredIn>GTDecryptionErrorManager.h</DeclaredIn>
 			
 			<Declaration>+ (instancetype)shared</Declaration>
 			
-			
+			<ReturnValue><Abstract type="html">shared instance to be used</Abstract></ReturnValue>
 			<Anchor>//api/name/shared</Anchor>
             <NodeRef refid="33"/>
 		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorManager/addDecryptionErrorItem:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Add GTDecryptionErrorItem objects to be later decrypted. NOTE: automatically added by the GTDataSerializer</Abstract>
 			<DeclaredIn>GTDecryptionErrorManager.h</DeclaredIn>
 			
 			<Declaration>- (void)addDecryptionErrorItem:(GTDecryptionErrorItem *)decryptionErrorItem</Declaration>
-			
+			<Parameters>
+				<Parameter>
+					<Name>decryptionErrorItem</Name>
+					<Abstract type="html">decryption error item holds references to the information about the message previously attempted</Abstract>
+				</Parameter>
+			</Parameters>
 			
 			<Anchor>//api/name/addDecryptionErrorItem:</Anchor>
             <NodeRef refid="33"/>
@@ -75,7 +80,7 @@ when we receive a new public key from another user.</Abstract>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/GTDecryptionErrorManager/attemptToDecryptMessagesAgain</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Attempts to decrypt stored GTDecryptionErrorItem objects</Abstract>
 			<DeclaredIn>GTDecryptionErrorManager.h</DeclaredIn>
 			
 			<Declaration>- (void)attemptToDecryptMessagesAgain</Declaration>

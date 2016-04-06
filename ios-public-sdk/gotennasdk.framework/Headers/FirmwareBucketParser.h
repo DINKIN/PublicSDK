@@ -7,5 +7,14 @@
 
 
 @interface FirmwareBucketParser : NSObject
+
+/**
+ *  Determines which version of the firmware to download when passing in a dictionary of versions
+ *
+ *  @param dictionary NSDictionary
+ *
+ *  @return NSString denoting the firmware version
+ */
 - (NSString *)determineVersionToDownload:(NSArray *)dictionary;
+
 @end

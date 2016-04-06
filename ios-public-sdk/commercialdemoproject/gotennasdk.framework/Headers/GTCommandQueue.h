@@ -11,18 +11,19 @@
 @class GTCommand;
 @class GTCommandArray;
 
+
+/**
+ *  Holds queued `GTCommand` objects to be executed
+ */
 @interface GTCommandQueue : NSObject
 @property(nonatomic, strong) GTCommand *currentCommand;
 
 - (void)queueGTCommand:(GTCommand *)command;
 - (void)queueGTCommands:(GTCommandArray *)incomingCommands;
-//- (void)queueGTCommand:(GTCommand *)command;
 - (void)nudgeToNextCommand;
 - (void)empty;
 - (NSArray *)remainingCommands;
-//- (void)queuePriorityGTCommand:(GTCommand *)command;
 - (void)pauseQueue;
-//- (void)queuePriorityGTCommands:(GTCommandArray *)incomingCommands;
 
 - (void)executeUpcomingCommand;
 

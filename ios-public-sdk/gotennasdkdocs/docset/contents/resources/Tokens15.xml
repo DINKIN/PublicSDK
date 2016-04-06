@@ -14,12 +14,17 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/FirmwareFileParser/parseFileToDataForVersion:</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Parses file using passed in file name and returns data using the contents of that filepath</Abstract>
 			<DeclaredIn>FirmwareFileParser.h</DeclaredIn>
 			
 			<Declaration>- (NSData *)parseFileToDataForVersion:(GTFirmwareVersion *)filename</Declaration>
-			
-			
+			<Parameters>
+				<Parameter>
+					<Name>filename</Name>
+					<Abstract type="html">NSString</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">NSData</Abstract></ReturnValue>
 			<Anchor>//api/name/parseFileToDataForVersion:</Anchor>
             <NodeRef refid="15"/>
 		</Token>

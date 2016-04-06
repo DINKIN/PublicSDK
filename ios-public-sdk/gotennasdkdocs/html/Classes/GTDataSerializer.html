@@ -26,6 +26,8 @@
 					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
+	<option value="overview">Overview</option>
+	
 	
 	
 	
@@ -60,6 +62,8 @@
 		<nav id="tocContainer" class="isShowingTOC">
 			<ul id="toc" role="tree">
 				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
 
 
 
@@ -120,6 +124,14 @@
 					
                     
                     
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>Serialization of data. NOTE: this is used internally, and automatically functions for messaging processess</p>
+					</div>
+					
+					
 					
 					
 					
@@ -182,10 +194,40 @@
 	<h3 class="subsubtitle method-title">appTokenData</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Returns the app token data that was passed in for use of the SDK</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>+ (NSData *)appTokenData</code></div>
 
     
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>app token as data</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTDataSerializer.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -193,10 +235,50 @@
 	<h3 class="subsubtitle method-title">deserializeGroupMessageDataObj:</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Used for unpacking data for a group communication scenario, extraction includes encryption shared secret and group GID. NOTE: handled internally by the <code>GTDataSerializer</code></p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>+ (GTGroupCreationMessageData *)deserializeGroupMessageDataObj:(GTMessageData *)<em>data</em></code></div>
 
     
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>message data object, if related to group activities will be unpacked</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>returns non-nil object if data coming in was relevant</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTDataSerializer.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -204,10 +286,55 @@
 	<h3 class="subsubtitle method-title">deserializeMessage:forCommand:</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Called when building a response object to be used for retrieve information after a command message is received</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>+ (GTResponse *)deserializeMessage:(NSData *)<em>data</em> forCommand:(GTCommand *)<em>command</em></code></div>
 
     
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>data</em></dt>
+			<dd><p>message data serialized</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>command</em></dt>
+			<dd><p>command object relating to the message data</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>response object holding information for the</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTDataSerializer.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -215,10 +342,50 @@
 	<h3 class="subsubtitle method-title">deserializeSystemInfo:</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Called to unpack a response from the goTenna, holding system information</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>+ (SystemInfoResponseData *)deserializeSystemInfo:(GTResponse *)<em>response</em></code></div>
 
     
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>response</em></dt>
+			<dd><p>goTenna information filled response object</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>system info object that holds information about the goTenna</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTDataSerializer.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 						<div class="section-method">
@@ -226,10 +393,70 @@
 	<h3 class="subsubtitle method-title">parseAndHandleGetMessageResponse:onIncoming:onGroupCreated:onSuccessLastMessageDelete:isDecryptionErrorRetry:</h3>
 	
 	
+	
+	<div class="method-subsection brief-description">
+		<p>Parses all relevant content for an incoming message</p>
+	</div>		
+	
+    
 
 	<div class="method-subsection method-declaration"><code>+ (BOOL)parseAndHandleGetMessageResponse:(GTResponse *)<em>response</em> onIncoming:(void ( ^ ) ( GTMessageData *))<em>onIncomingMessage</em> onGroupCreated:(void ( ^ ) ( GTGroupCreationMessageData *))<em>onGroupAdded</em> onSuccessLastMessageDelete:(void ( ^ ) ( ))<em>lastMessageDelete</em> isDecryptionErrorRetry:(BOOL)<em>isDecryptionErrorRetry</em></code></div>
 
     
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>response</em></dt>
+			<dd><p>response object used for the incoming message</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>onIncomingMessage</em></dt>
+			<dd><p>registered <code>onIncoming</code> response block for the message</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>onGroupAdded</em></dt>
+			<dd><p>registered <code>onGroupAdded</code> response block for the message</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>lastMessageDelete</em></dt>
+			<dd><p><code>lastMessageDelete</code> block used within the <a href="../Classes/GTCommandBuilder.html"><code>GTCommandBuilder</code></a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>isDecryptionErrorRetry</em></dt>
+			<dd><p>whether this is to be retried for a decryption error</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>returns back whether success was possible with this parsing</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">GTDataSerializer.h</code><br />
+	</div>				
+	
+	
 </div>
 						
 					</div>
@@ -249,7 +476,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-03-23)</span><br />
+						<p><span class="copyright">&copy; 2016 Your Name. All rights reserved. (Last updated: 2016-04-06)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						

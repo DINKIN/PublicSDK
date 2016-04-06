@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/GTCommand</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Command to be sent to the goTenna, containing appropriate data for the goTenna. NOTE: This is handled by the GTCommandBuilder which in turn is handled by the GTCommandCenter</Abstract>
 			<DeclaredIn>GTCommand.h</DeclaredIn>
             
 			

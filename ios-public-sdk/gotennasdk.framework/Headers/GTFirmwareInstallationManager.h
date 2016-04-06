@@ -17,6 +17,19 @@
 @class FirmwareInstallationHud;
 
 @interface GTFirmwareInstallationManager : NSObject
+
+/**
+ *  Retrieves version of firmware and installs that firmware by passing in an object that conforms to GTFirmwareInstallationProgressProtocol
+ *
+ *  @param delegate object that conforms to GTFirmwareInstallationProgressProtocol
+ */
 - (void)checkAndInstallFirmwareWithFirmwareProgressDelegate:(id <GTFirmwareInstallationProgressProtocol>)delegate;
+
+/**
+ *  Returns whether or not the GTFirmwareInstallationManager is currently downloading firmware
+ *
+ *  @return BOOL
+ */
 - (BOOL)isCurrentlyDownloading;
+
 @end

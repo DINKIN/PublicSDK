@@ -9,5 +9,13 @@
 
 
 @interface FirmwareFileParser : NSObject
+
+/**
+ *  Parses file using passed in file name and returns data using the contents of that filepath
+ *
+ *  @param filename NSString
+ *
+ *  @return NSData
+ */
 - (NSData *)parseFileToDataForVersion:(GTFirmwareVersion *)filename;
 @end

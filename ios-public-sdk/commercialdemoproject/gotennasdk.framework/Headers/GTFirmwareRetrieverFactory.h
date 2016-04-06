@@ -11,5 +11,11 @@
 
 @interface GTFirmwareRetrieverFactory : NSObject
 
+/**
+*  Create instance of firmware retriever using Amazon Web Services
+*
+*  @return Object that conforms to the GTFirmwareRetrieveProtocol
+*/
 + (id<GTFirmwareRetrieveProtocol>)firmwareRetrieverAmazon;
+
 @end
