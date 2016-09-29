@@ -23,6 +23,7 @@ import com.gotenna.sdk.bluetooth.GTConnectionManager;
 import com.gotenna.sdk.bluetooth.GTConnectionManager.GTConnectionListener;
 import com.gotenna.sdk.bluetooth.GTConnectionManager.GTConnectionState;
 import com.gotenna.sdk.sample.BuildConfig;
+import com.gotenna.sdk.sample.MyApp;
 import com.gotenna.sdk.sample.R;
 import com.gotenna.sdk.sample.managers.PermissionsManager;
 
@@ -72,6 +73,11 @@ public class PairingActivity extends AppCompatActivity implements GTConnectionLi
 
         SharedPreferences prefs = getSharedPreferences(BuildConfig.APPLICATION_ID, Context.MODE_PRIVATE);
         willRememberGotenna = prefs.getBoolean(WILL_REMEMBER_GOTENNA_KEY, true);
+
+        if (!MyApp.tokenIsValid())
+        {
+            finish();
+        }
     }
 
     @Override

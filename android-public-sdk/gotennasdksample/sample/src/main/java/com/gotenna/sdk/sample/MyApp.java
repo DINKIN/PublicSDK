@@ -3,6 +3,7 @@ package com.gotenna.sdk.sample;
 import android.app.Application;
 import android.content.Context;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.gotenna.sdk.GoTenna;
 import com.gotenna.sdk.exceptions.GTInvalidAppTokenException;
@@ -20,8 +21,9 @@ public class MyApp extends Application
     // ================================================================================
 
     private static final String LOG_TAG = "MyApp";
-    private static final String GOTENNA_APP_TOKEN = "i6i61v4k4hehip3q6q06bu6gas91asa5";
+    private static final String GOTENNA_APP_TOKEN =  "";// TODO: Insert your token
     private static Context applicationContext;
+    private static boolean tokenIsValid = true;
 
     // ================================================================================
     // Lifecycle Methods
@@ -43,6 +45,8 @@ public class MyApp extends Application
         {
             // Normally, this will never happen
             Log.w(LOG_TAG, e);
+            tokenIsValid = false;
+            Toast.makeText(getApplicationContext(), "Your goTenna App Token was Invalid.", Toast.LENGTH_LONG).show();
         }
     }
 
@@ -53,5 +57,10 @@ public class MyApp extends Application
     public static Context getAppContext()
     {
         return applicationContext;
+    }
+
+    public static boolean tokenIsValid()
+    {
+        return tokenIsValid;
     }
 }
