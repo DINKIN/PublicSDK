@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <GoTennaSDK/GoTennaSDK.h>
 
 @interface AppDelegate ()
 
@@ -16,50 +17,25 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
     
-    NSError *error;
+    NSString *tokenString = @"";
     
-    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-    NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration];
-    NSURL *url = [NSURL URLWithString:@"http://dev2.apppartner.com/goTenna/scripts/SdkTokenValidator.php"];
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url
-                                                           cachePolicy:NSURLRequestReturnCacheDataDontLoad
-                                                       timeoutInterval:60.0];
-    
-    [request addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
-    [request addValue:@"application/json" forHTTPHeaderField:@"Accept"];
-    
-    [request setHTTPMethod:@"POST"];
-    NSDictionary *mapData = @{@"sdk_token":@"i6i61v4k4hehip3q6q06bu6gas91asa5"};
-    
-    NSData *postData = [NSJSONSerialization dataWithJSONObject:mapData options:0 error:&error];
-    [request setHTTPBody:postData];
-    
-    NSLog(@"MAP DATA: %@",mapData);
-    
-    NSURLSessionDataTask *postDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+    if ([tokenString isEqualToString:@""]) {
         
-        NSError *err = nil;
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Application token must be set" message:@"Please set your application token before use" preferredStyle:UIAlertControllerStyleAlert];
         
-        NSHTTPURLResponse *res = (NSHTTPURLResponse*)response;
+        UIAlertAction *action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleCancel handler:nil];
         
-        NSLog(@"POST REQUEST => %@\n",response);
-        
-        if (res.statusCode == 200 && error == nil) {
-            
-            NSDictionary *jsonDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:&err];
-            NSNumber *validToken = [jsonDictionary objectForKey:@"isValidToken"];
-            
-            NSLog(@"JSON DICT: %@",jsonDictionary);
-            NSLog(@"IS VERIFIED APP ID TOKEN??? %@",[validToken boolValue] ? @"YES" : @"NO");
-            
-            //[weakSelf setIsVerified:validToken.boolValue];
-        }
-    }];
-    
-    [postDataTask resume];
-
+        [alert addAction:action];
+        UIWindow *alertWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        alertWindow.rootViewController = [[UIViewController alloc] init];
+        alertWindow.windowLevel = UIWindowLevelAlert + 1;
+        [alertWindow makeKeyAndVisible];
+        [alertWindow.rootViewController presentViewController:alert animated:YES completion:nil];
+    }
+    else {
+        [GoTenna setApplicationToken:tokenString];
+    }
     
     return YES;
 }

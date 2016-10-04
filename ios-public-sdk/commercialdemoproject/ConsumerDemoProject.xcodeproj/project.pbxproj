@@ -16,18 +16,18 @@
 		6C872DA21CA25A8300EEC3B2 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C872D9C1CA25A8300EEC3B2 /* GroupViewController.m */; };
 		6C872DA41CA25A8300EEC3B2 /* MainDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C872DA01CA25A8300EEC3B2 /* MainDeckViewController.m */; };
 		6C872DA61CA25B2200EEC3B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C872DA51CA25B2200EEC3B2 /* Main.storyboard */; };
-		6CF329431CB5C74E00FEE2BE /* GoTennaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF329411CB5C71900FEE2BE /* GoTennaSDK.framework */; };
-		6CF329441CB5C74E00FEE2BE /* GoTennaSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF329411CB5C71900FEE2BE /* GoTennaSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C969FCF1DA46DFB0048233B /* GoTennaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C969FCD1DA46DF00048233B /* GoTennaSDK.framework */; };
+		6C969FD01DA46DFB0048233B /* GoTennaSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C969FCD1DA46DF00048233B /* GoTennaSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6C872DAB1CA25B7700EEC3B2 /* Embed Frameworks */ = {
+		6CCCC01E1D9DF52E00384CF3 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6CF329441CB5C74E00FEE2BE /* GoTennaSDK.framework in Embed Frameworks */,
+				6C969FD01DA46DFB0048233B /* GoTennaSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 		6C872D9F1CA25A8300EEC3B2 /* MainDeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDeckViewController.h; sourceTree = "<group>"; };
 		6C872DA01CA25A8300EEC3B2 /* MainDeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainDeckViewController.m; sourceTree = "<group>"; };
 		6C872DA51CA25B2200EEC3B2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		6CF329411CB5C71900FEE2BE /* GoTennaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoTennaSDK.framework; sourceTree = "<group>"; };
+		6C969FCD1DA46DF00048233B /* GoTennaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoTennaSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CF329431CB5C74E00FEE2BE /* GoTennaSDK.framework in Frameworks */,
+				6C969FCF1DA46DFB0048233B /* GoTennaSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 		6C872D761CA25A7400EEC3B2 = {
 			isa = PBXGroup;
 			children = (
-				6CF329411CB5C71900FEE2BE /* GoTennaSDK.framework */,
+				6C969FCD1DA46DF00048233B /* GoTennaSDK.framework */,
 				6C872D811CA25A7400EEC3B2 /* ConsumerDemoProject */,
 				6C872D801CA25A7400EEC3B2 /* Products */,
 			);
@@ -123,7 +123,7 @@
 				6C872D7B1CA25A7400EEC3B2 /* Sources */,
 				6C872D7C1CA25A7400EEC3B2 /* Frameworks */,
 				6C872D7D1CA25A7400EEC3B2 /* Resources */,
-				6C872DAB1CA25B7700EEC3B2 /* Embed Frameworks */,
+				6CCCC01E1D9DF52E00384CF3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -145,6 +145,7 @@
 				TargetAttributes = {
 					6C872D7E1CA25A7400EEC3B2 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V865U9FFCP;
 					};
 				};
 			};
@@ -291,15 +292,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ConsumerDemoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = joshmakinda.ConsumerDemoProject;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotenna.GoTenna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -307,15 +314,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = ConsumerDemoProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = joshmakinda.ConsumerDemoProject;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gotenna.GoTenna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

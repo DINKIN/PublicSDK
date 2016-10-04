@@ -47,10 +47,7 @@
             break;
         case Connected: {
             
-            NSLog(@"CONNECTED");
-            
-            [GoTenna setApplicationToken:@"rnd0scu0v0s73mjsqd36t7o67qj7mgfg"];
-            
+            NSLog(@"CONNECTED");            
             if (self.rememberGoTennaDevice == NO) {
                 
                 if ([[GTPairingManager shared] isScannedDeviceSaved]) {
