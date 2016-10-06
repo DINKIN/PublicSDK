@@ -16,8 +16,8 @@
 		6C872DA21CA25A8300EEC3B2 /* GroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C872D9C1CA25A8300EEC3B2 /* GroupViewController.m */; };
 		6C872DA41CA25A8300EEC3B2 /* MainDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C872DA01CA25A8300EEC3B2 /* MainDeckViewController.m */; };
 		6C872DA61CA25B2200EEC3B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C872DA51CA25B2200EEC3B2 /* Main.storyboard */; };
-		6C969FCF1DA46DFB0048233B /* GoTennaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C969FCD1DA46DF00048233B /* GoTennaSDK.framework */; };
-		6C969FD01DA46DFB0048233B /* GoTennaSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C969FCD1DA46DF00048233B /* GoTennaSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C906EAA1DA71C00003F8624 /* GoTennaSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C906EA81DA71BF9003F8624 /* GoTennaSDK.framework */; };
+		6C906EAB1DA71C00003F8624 /* GoTennaSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C906EA81DA71BF9003F8624 /* GoTennaSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +27,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6C969FD01DA46DFB0048233B /* GoTennaSDK.framework in Embed Frameworks */,
+				6C906EAB1DA71C00003F8624 /* GoTennaSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,7 +51,7 @@
 		6C872D9F1CA25A8300EEC3B2 /* MainDeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDeckViewController.h; sourceTree = "<group>"; };
 		6C872DA01CA25A8300EEC3B2 /* MainDeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainDeckViewController.m; sourceTree = "<group>"; };
 		6C872DA51CA25B2200EEC3B2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		6C969FCD1DA46DF00048233B /* GoTennaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoTennaSDK.framework; sourceTree = "<group>"; };
+		6C906EA81DA71BF9003F8624 /* GoTennaSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoTennaSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C969FCF1DA46DFB0048233B /* GoTennaSDK.framework in Frameworks */,
+				6C906EAA1DA71C00003F8624 /* GoTennaSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,7 +69,7 @@
 		6C872D761CA25A7400EEC3B2 = {
 			isa = PBXGroup;
 			children = (
-				6C969FCD1DA46DF00048233B /* GoTennaSDK.framework */,
+				6C906EA81DA71BF9003F8624 /* GoTennaSDK.framework */,
 				6C872D811CA25A7400EEC3B2 /* ConsumerDemoProject */,
 				6C872D801CA25A7400EEC3B2 /* Products */,
 			);

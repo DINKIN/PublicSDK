@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    NSString *tokenString = @"";
+    NSString *tokenString = @"rnd0scu0v0s73mjsqd36t7o67qj7mgfg";
     
     if ([tokenString isEqualToString:@""]) {
         

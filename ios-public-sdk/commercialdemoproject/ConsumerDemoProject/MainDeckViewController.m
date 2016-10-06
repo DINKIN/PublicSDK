@@ -219,7 +219,7 @@ void showTextFieldAlert(id instance, NSString* title, NSString* body, NSString* 
     
     [[GTCommandCenter shared] sendGetSystemInfoOnSuccess:^(SystemInfoResponseData *systemInfoResponseData) {
         
-        NSString *systemInfoContent = [NSString stringWithFormat:@"Firmware Version: %@\nMajor Revision: %@\nGoTenna Serial Number: %@\nBattery Level: %@",@(systemInfoResponseData.firmwareVersion),systemInfoResponseData.majorRevision,systemInfoResponseData.goTennaSerialNumber,systemInfoResponseData.batteryLevel];
+        NSString *systemInfoContent = [NSString stringWithFormat:@"Firmware Version: %@\nMajor Revision: %@\nGoTenna Serial Number: %@\nBattery Level: %.2f",@(systemInfoResponseData.firmwareVersion),systemInfoResponseData.majorRevision,systemInfoResponseData.goTennaSerialNumber,systemInfoResponseData.batteryLevelPercentage.floatValue];
         
         showAlert(self, @"System Info", systemInfoContent, @"OK");
         
@@ -231,8 +231,8 @@ void showTextFieldAlert(id instance, NSString* title, NSString* body, NSString* 
 
 - (IBAction)setGID:(id)sender {
     
-    Person *person1 = [[Person alloc] initWithName:@"Orny" gid:@9193134741];
-    Person *person2 = [[Person alloc] initWithName:@"Xiao" gid:@9302346436];
+    Person *person1 = [[Person alloc] initWithName:@"Alice" gid:@123456789];
+    Person *person2 = [[Person alloc] initWithName:@"Bob" gid:@987654321];
     
     void(^onError)(NSError*) = ^(NSError *error) {
         showAlert(self, @"GID SET ERROR", @"GID not set", @"OK");
@@ -288,7 +288,6 @@ void showTextFieldAlert(id instance, NSString* title, NSString* body, NSString* 
                                       onError:onError];
     }];
     [sheet addAction:sendTo];
-    
     [self presentViewController:sheet animated:YES completion:nil];
 }
 
@@ -307,7 +306,7 @@ void showTextFieldAlert(id instance, NSString* title, NSString* body, NSString* 
 }
 
 - (IBAction)sendDisconnect:(id)sender {
-    [[GTCommandCenter shared] sendDisconnectGotenna];
+    [[GTPairingManager shared] initiateDisconnect];
 }
 
 - (IBAction)updateFirmware:(id)sender {
@@ -367,9 +366,9 @@ void showTextFieldAlert(id instance, NSString* title, NSString* body, NSString* 
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    Person *person1 = [[Person alloc] initWithName:@"Orny" gid:@9193134741];
-    Person *person2 = [[Person alloc] initWithName:@"Xiao" gid:@9302346436];
-    Person *person3 = [[Person alloc] initWithName:@"Yuri" gid:@9381039393];
+    Person *person1 = [[Person alloc] initWithName:@"Alice" gid:@123456789];
+    Person *person2 = [[Person alloc] initWithName:@"Bob" gid:@987654321];
+    Person *person3 = [[Person alloc] initWithName:@"Carol" gid:@1123581321];
     
     NSNumber *senderGID = [UserDataStore shared].currentUser.gId;
     
