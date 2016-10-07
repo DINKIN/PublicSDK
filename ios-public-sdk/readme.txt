@@ -28,8 +28,7 @@ goTenna uses an App Token to differentiate between different apps on the network
 
 Before you can use the sdk, you must setup your application token. This must be done before you use any other methods from the SDK, and is ideally done inside a custom Application class, or the very first launched Activity in your app. You must set your application token before attempting to pair with a goTenna. Pairing occurs via the GTConnectionManager. See class documentation and the example app for reference on how to interact with the GTConnectionManager.
 
-The default developer App Token for is: i6i61v4k4hehip3q6q06bu6gas91asa5
-This default App Token can be used for development only. Contact support@gotenna.com for a unique App Token before shipping an application.
+Previously we supplied a default developer App Token, however that Token will be terminated and all developers will be required to request a unique App Token from http://www.gotenna.com/pages/sdk
  
 CONNECTING/DISCONNECTING
  
